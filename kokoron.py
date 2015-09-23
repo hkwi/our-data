@@ -34,7 +34,7 @@ for row in csv.reader(codecs.open("kokoron.csv", encoding="UTF-8")):
 					"type":"Feature",
 					"geometry": {
 						"type": "Point",
-						"coordinates": [r["geometry"]["location"]["lat"], r["geometry"]["location"]["lng"]],
+						"coordinates": [r["geometry"]["location"]["lng"], r["geometry"]["location"]["lat"]],
 					},
 					"properties":{
 						"name": name,
@@ -52,5 +52,5 @@ for row in csv.reader(codecs.open("kokoron.csv", encoding="UTF-8")):
 		logging.error(name)
 
 os.environ["PYTHONIOENCODING"] = "UTF-8"
-json.dump(rows, sys.stdout,
+json.dump({"type":"FeatureCollection","features": rows}, sys.stdout,
 	indent=2, ensure_ascii=False, sort_keys=True)
