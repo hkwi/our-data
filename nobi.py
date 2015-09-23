@@ -41,5 +41,5 @@ for row in csv.DictReader(codecs.open("nobi.csv", encoding="UTF-8")):
 		logging.error(name)
 
 os.environ["PYTHONIOENCODING"] = "UTF-8"
-json.dump(rows, sys.stdout,
+json.dump({"type":"FeatureCollection","features": rows}, sys.stdout,
 	indent=2, ensure_ascii=False, sort_keys=True)
