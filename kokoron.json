@@ -1,0 +1,3447 @@
+[
+  {
+    "geometry": {
+      "coordinates": [
+        34.6992155,
+        135.2181359
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "651-0073",
+        "short_name": "651-0073",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫県立美術館",
+      "phone": "078-262-0901"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7085223,
+        135.213414
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "657-0837",
+        "short_name": "657-0837",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "横尾忠則現代美術館",
+      "phone": "078-855-5607(総合案内)"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8413587,
+        134.6968641
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "670-0012",
+        "short_name": "670-0012",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫県立歴史博物館",
+      "phone": "079-288-9011"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8862437,
+        135.1990097
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-1546",
+        "short_name": "669-1546",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫県立人と自然の博物館",
+      "phone": "079-559-2001"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7254139,
+        134.8776615
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "675-0142",
+        "short_name": "675-0142",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫県立考古博物館",
+      "phone": "079-437-5589"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.6336888,
+        134.8260734
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-6123",
+        "short_name": "669-6123",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫県立円山川公苑美術館",
+      "phone": "0796-28-3085"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9837829,
+        135.1311601
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-2135",
+        "short_name": "669-2135",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫陶芸美術館",
+      "phone": "079-597-3961"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6984118,
+        135.2153347
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "651-0073",
+        "short_name": "651-0073",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "人と防災未来センター",
+      "phone": "078-262-5050(観覧案内・予約)"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9419483,
+        134.9411816
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-0212",
+        "short_name": "679-0212",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫県立播磨中央公園 四季の庭",
+      "phone": "0795-48-5289"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.634212,
+        135.033714
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "Japan",
+        "short_name": "JP",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      "name": "舞子公園　舞子海上プロムナード",
+      "phone": "078-785-5090"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.5628976,
+        135.0097664
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "656-2306",
+        "short_name": "656-2306",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "兵庫県立淡路夢舞台温室",
+      "phone": "0799-74-1200"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6616119,
+        135.1298294
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "654-0009",
+        "short_name": "654-0009",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "武井報效会百耕資料館",
+      "phone": "078-733-2381"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7101866,
+        135.2616533
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "658-0041",
+        "short_name": "658-0041",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "白鶴酒造資料館",
+      "phone": "078-822-8907"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7224625,
+        135.2926027
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "658-0021",
+        "short_name": "658-0021",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "神戸深江生活文化史料館",
+      "phone": "078-453-4980"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7190878,
+        135.2892879
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "658-0022",
+        "short_name": "658-0022",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "神戸大学海事博物館",
+      "phone": "078-431-3564"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7086326,
+        135.2679349
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "658-0026",
+        "short_name": "658-0026",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "菊正宗酒造記念館",
+      "phone": "078-854-1029"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7108133,
+        135.2442701
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "658-0044",
+        "short_name": "658-0044",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "甲南漬史料館",
+      "phone": "078-842-2508"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.703252,
+        135.233069
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "657-0852",
+        "short_name": "657-0852",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "沢の鶴史料館",
+      "phone": "078-882-7788"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7020138,
+        135.2365586
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "657-0863",
+        "short_name": "657-0863",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "灘浜サイエンススクエア",
+      "phone": "078-882-8136"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6808232,
+        135.1761703
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "650-0015",
+        "short_name": "650-0015",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "湊川神社 宝物殿",
+      "phone": "078-371-0001"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7069014,
+        135.1975314
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "650-0004",
+        "short_name": "650-0004",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "竹中大工道具館",
+      "phone": "078-242-0216"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6651943,
+        135.2169482
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "650-0046",
+        "short_name": "650-0046",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "UCCコーヒー博物館",
+      "phone": "078-302-8880"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6886415,
+        135.1937475
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "650-0034",
+        "short_name": "650-0034",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "KOBEとんぼ玉ミュージアム",
+      "phone": "078-393-8500"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7012991,
+        135.1914779
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "650-0002",
+        "short_name": "650-0002",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "神戸北野美術館",
+      "phone": "078-251-0581"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7987662,
+        135.2509395
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "651-1401",
+        "short_name": "651-1401",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "有馬切手文化博物館",
+      "phone": "078-904-0024"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6471391,
+        135.1149271
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "654-0071",
+        "short_name": "654-0071",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "須磨寺 宝物館",
+      "phone": "078-731-0416"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6316241,
+        135.0326717
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "655-0047",
+        "short_name": "655-0047",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "橋の科学館",
+      "phone": "078-784-3339"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6301543,
+        135.0343989
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "655-0047",
+        "short_name": "655-0047",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "孫文記念館 （移情閣）",
+      "phone": "078-783-7172"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7338062,
+        135.0117091
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "651-2205",
+        "short_name": "651-2205",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "長福寺考古資料館",
+      "phone": "078-994-0150"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7242812,
+        135.2561032
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "658-0048",
+        "short_name": "658-0048",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "香雪美術館",
+      "phone": "078-841-0652"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.688027,
+        135.270184
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "650-0032",
+        "short_name": "650-0032",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "神戸ファッション美術館",
+      "phone": "078-858-0050"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7102451,
+        135.2142395
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "657-0838",
+        "short_name": "657-0838",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "神戸市王子動物園 動物科学資料館",
+      "phone": "078-861-5624"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7408434,
+        135.178097
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "651-1242",
+        "short_name": "651-1242",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "神戸市立森林植物園",
+      "phone": "078-591-0253"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6859745,
+        135.1871749
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "650-0024",
+        "short_name": "650-0024",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "神戸華僑歴史博物館",
+      "phone": "078-331-3855"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7700223,
+        135.4398925
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "661-0951",
+        "short_name": "661-0951",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "尼崎市立田能資料館",
+      "phone": "06-6492-1777"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7147643,
+        135.4209041
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "660-0825",
+        "short_name": "660-0825",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "尼崎市立文化財収蔵庫",
+      "phone": "06-6489-9801"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7164051,
+        135.4134421
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "660-0863",
+        "short_name": "660-0863",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "尼崎信用金庫　世界の貯金箱博物館",
+      "phone": "06-6413-1163"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7206891,
+        135.4201322
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "660-0881",
+        "short_name": "660-0881",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "尼崎市総合文化センター 美術ホール",
+      "phone": "06-6487-0806"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7167003,
+        135.4134424
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "660-0864",
+        "short_name": "660-0864",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "尼信会館",
+      "phone": "06-6413-1121"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7467959,
+        135.4318967
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "661-0977",
+        "short_name": "661-0977",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "近松記念館",
+      "phone": "06-6491-7555"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7120166,
+        135.3279318
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0934",
+        "short_name": "662-0934",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "西宮市貝類館",
+      "phone": "0798-33-4888"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.732156,
+        135.324614
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0952",
+        "short_name": "662-0952",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "西宮市大谷記念美術館",
+      "phone": "0798-33-0164"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7308578,
+        135.3299996
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0944",
+        "short_name": "662-0944",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "西宮市立郷土資料館",
+      "phone": "0798-33-1298"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8304247,
+        135.2983528
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-1147",
+        "short_name": "669-1147",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "西宮市立郷土資料館分館　名塩和紙学習館",
+      "phone": "0797-61-0880"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7669145,
+        135.3573949
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0813",
+        "short_name": "662-0813",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "頴川美術館",
+      "phone": "0798-51-3915"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7352046,
+        135.328605
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0962",
+        "short_name": "662-0962",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "辰馬考古資料館",
+      "phone": "0798-34-0130"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.72805960000001,
+        135.3380048
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0926",
+        "short_name": "662-0926",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "白鹿記念酒造博物館",
+      "phone": "0798-33-0008"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7305315,
+        135.3387439
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0926",
+        "short_name": "662-0926",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "白鷹禄水苑 （暮らしの展示室、白鷹集古館）",
+      "phone": "0798-39-0235"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7302007,
+        135.3447456
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0921",
+        "short_name": "662-0921",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "日本盛　酒蔵通り煉瓦館",
+      "phone": "0798-32-2525"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7624866,
+        135.3092031
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0081",
+        "short_name": "662-0081",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "黒川古文化研究所",
+      "phone": "0798-71-1205"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7567692,
+        135.3095066
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "662-0088",
+        "short_name": "662-0088",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "堀江オルゴール博物館",
+      "phone": "0798-70-0656"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7219324,
+        135.3102565
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "659-0052",
+        "short_name": "659-0052",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "芦屋市立美術博物館",
+      "phone": "0797-38-5432"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7221662,
+        135.3112344
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "659-0052",
+        "short_name": "659-0052",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "芦屋市谷崎潤一郎記念館",
+      "phone": "0797-23-5852"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7727903,
+        135.2850537
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "659-0003",
+        "short_name": "659-0003",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "エンバ中国近代美術館",
+      "phone": "0797-38-0021"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7349497,
+        135.3005647
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "659-0084",
+        "short_name": "659-0084",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "俵美術館",
+      "phone": "0797-23-2878"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7393751,
+        135.2965792
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "659-0082",
+        "short_name": "659-0082",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "滴翠美術館",
+      "phone": "0797-22-2228"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7850175,
+        135.401575
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "664-0898",
+        "short_name": "664-0898",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "伊丹市立博物館",
+      "phone": "072-783-0582"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.782581,
+        135.417298
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "664-0895",
+        "short_name": "664-0895",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "伊丹市立美術館",
+      "phone": "072-772-7447"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7827567,
+        135.4330053
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "664-0839",
+        "short_name": "664-0839",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "伊丹市立こども文化科学館",
+      "phone": "072-784-1222"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7825758,
+        135.4173538
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "664-0895",
+        "short_name": "664-0895",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "柿衞文庫",
+      "phone": "072-782-0244"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8072395,
+        135.3642727
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "665-0827",
+        "short_name": "665-0827",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "宝塚市立小浜宿資料館",
+      "phone": "0797-81-3655"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8071319,
+        135.348383
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "665-0844",
+        "short_name": "665-0844",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "宝塚市立手塚治虫記念館",
+      "phone": "0797-81-2970"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8096412,
+        135.3620069
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "665-0831",
+        "short_name": "665-0831",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "宝塚市立歴史民俗資料館　旧和田家住宅",
+      "phone": "0797-86-2752"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9178673,
+        135.2936486
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-1211",
+        "short_name": "669-1211",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "宝塚市立歴史民俗資料館　旧東家住宅",
+      "phone": "0797-91-0314"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8077392,
+        135.350121
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "665-0844",
+        "short_name": "665-0844",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "宝塚文化創造館 「すみれ♪ミュージアム」",
+      "phone": "0797-87-1136"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8197063,
+        135.4055042
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "666-0026",
+        "short_name": "666-0026",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "川西市文化財資料館",
+      "phone": "072-757-8624"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8980409,
+        135.4091791
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "666-0107",
+        "short_name": "666-0107",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "川西市郷土館",
+      "phone": "072-794-3354"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9091278,
+        135.4029597
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "666-0151",
+        "short_name": "666-0151",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "川西市歴史民俗資料館",
+      "phone": "072-740-1244(市教委)"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8810493,
+        135.4202471
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "666-0113",
+        "short_name": "666-0113",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "大阪青山歴史文学博物館",
+      "phone": "072-790-3535"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9133569,
+        135.2241746
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-1313",
+        "short_name": "669-1313",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "三田市有馬富士自然学習センター",
+      "phone": "079-569-7727"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8947473,
+        135.229524
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-1513",
+        "short_name": "669-1513",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "三田市三輪明神窯史跡園",
+      "phone": "079-563-8211"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.886589,
+        135.2227105
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-1532",
+        "short_name": "669-1532",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "三田ふるさと学習館",
+      "phone": "079-563-5587"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8866762,
+        135.222925
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-1532",
+        "short_name": "669-1532",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "三田市旧九鬼家住宅資料館",
+      "phone": "079-563-5587(三田ふるさと学習館)"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9415053,
+        135.3418015
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "666-0225",
+        "short_name": "666-0225",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "猪名川町立ふるさと館",
+      "phone": "072-768-0389"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8954325,
+        135.350743
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "666-0256",
+        "short_name": "666-0256",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "多田銀銅山　悠久の館",
+      "phone": "072-766-4800"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.649395,
+        135.001478
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "673-0877",
+        "short_name": "673-0877",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "明石市立天文科学館",
+      "phone": "078-919-5000"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.6516184,
+        134.9953705
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "673-0846",
+        "short_name": "673-0846",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "明石市立文化博物館",
+      "phone": "078-918-5400"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7610381,
+        134.83047
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "675-0039",
+        "short_name": "675-0039",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "あかりの鹿児資料館",
+      "phone": "079-421-2191"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7525382,
+        134.8331029
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "675-0031",
+        "short_name": "675-0031",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "鶴林寺宝物館",
+      "phone": "079-454-7053"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7763273,
+        134.77599
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "676-0082",
+        "short_name": "676-0082",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "高砂市歴史民俗資料室",
+      "phone": "079-448-8255"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7487983,
+        134.9214521
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "675-1114",
+        "short_name": "675-1114",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "稲美町立郷土資料館",
+      "phone": "079-492-3770"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7269718,
+        134.8762752
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "675-0142",
+        "short_name": "675-0142",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "播磨町郷土資料館",
+      "phone": "079-435-5000"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.999947,
+        134.998822
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "677-0039",
+        "short_name": "677-0039",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "にしわき経緯度地球科学館「テラ・ドーム」",
+      "phone": "0795-23-2772"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9905335,
+        134.9706391
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "677-0015",
+        "short_name": "677-0015",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "西脇市郷土資料館",
+      "phone": "0795-23-5992"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.0020747,
+        134.9979274
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "677-0039",
+        "short_name": "677-0039",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "西脇市岡之山美術館",
+      "phone": "0795-23-6223"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9762248,
+        134.9495199
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "677-0054",
+        "short_name": "677-0054",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "西脇市立緑風台古窯陶芸館",
+      "phone": "0795-22-3000"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        36.7288745,
+        137.2070102
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "930-2211",
+        "short_name": "930-2211",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "豪農の館　コヤノ美術館（西脇館）",
+      "phone": "06-6358-4930(本館)"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7985176,
+        134.987142
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "673-0432",
+        "short_name": "673-0432",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "三木市立堀光美術館",
+      "phone": "0794-82-9945"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7992815,
+        134.9880425
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "673-0432",
+        "short_name": "673-0432",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "三木市立金物資料館",
+      "phone": "0794-83-1780"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.84292,
+        134.9326265
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "675-1375",
+        "short_name": "675-1375",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "小野市立好古館",
+      "phone": "0794-63-3390"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        30.9527306,
+        114.3070808
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "430315",
+        "short_name": "430315",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "五百羅漢（羅漢寺）",
+      "phone": "0790-43-0580"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9367949,
+        134.9445578
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-0212",
+        "short_name": "679-0212",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "加古川流域滝野歴史民俗資料館",
+      "phone": "0795-48-3422"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.2818719,
+        138.6399045
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "418-0111",
+        "short_name": "418-0111",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "石の博物館　松内ミネラルコレクション",
+      "phone": "0795-32-3626"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.0757448,
+        134.9159208
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-1105",
+        "short_name": "679-1105",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "那珂ふれあい館",
+      "phone": "0795-32-0685"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.1885514,
+        134.9304313
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-1322",
+        "short_name": "679-1322",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "多可町立杉原紙研究所",
+      "phone": "0795-36-0080"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.1888933,
+        134.9307078
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-1322",
+        "short_name": "679-1322",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "多可町和紙博物館　寿岳文庫",
+      "phone": "0795-36-0080"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.839899,
+        134.696992
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "670-0012",
+        "short_name": "670-0012",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "姫路市立美術館 （常設展のみ対象）",
+      "phone": "079-222-2288"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.82274,
+        134.6759918
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "670-0971",
+        "short_name": "670-0971",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "姫路市立水族館",
+      "phone": "079-297-0321"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8417552,
+        134.6876694
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "670-0021",
+        "short_name": "670-0021",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "姫路文学館 （常設展のみ対象）",
+      "phone": "079-293-8228"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8805576,
+        134.6664481
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-2201",
+        "short_name": "671-2201",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "姫路市書写の里・美術工芸館",
+      "phone": "079-267-0301"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8218899,
+        134.6741286
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "670-0971",
+        "short_name": "670-0971",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "姫路市平和資料館",
+      "phone": "079-291-2525"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8385393,
+        134.6624214
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "670-0061",
+        "short_name": "670-0061",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "圓山記念日本工藝美術館",
+      "phone": "079-292-3433"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7634746,
+        134.6925861
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "672-8024",
+        "short_name": "672-8024",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "大阪ガス　姫路ガスエネルギー館",
+      "phone": "079-246-1908"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8192452,
+        134.6757389
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "670-0972",
+        "short_name": "670-0972",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "姫路市立手柄山温室植物園",
+      "phone": "079-296-4300"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8527556,
+        134.628659
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-2222",
+        "short_name": "671-2222",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "姫路市宿泊型児童館 「星の子館」 （宿泊対象外）",
+      "phone": "079-267-3050"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9576941,
+        134.7646959
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-2204",
+        "short_name": "679-2204",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "福崎町立柳田国男・松岡家記念館",
+      "phone": "0790-22-1000"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9580138,
+        134.7647273
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-2204",
+        "short_name": "679-2204",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "福崎町立神崎郡歴史民俗資料館",
+      "phone": "0790-22-5699"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8055428,
+        134.4650502
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "678-0053",
+        "short_name": "678-0053",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "相生市立歴史民俗資料館",
+      "phone": "0791-23-2961"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7473546,
+        134.3904544
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "678-0235",
+        "short_name": "678-0235",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "赤穂市立歴史博物館",
+      "phone": "0791-43-4600"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7307109,
+        134.4068712
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "678-0215",
+        "short_name": "678-0215",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "赤穂市立美術工芸館（田淵記念館）",
+      "phone": "0791-42-0520"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7499027,
+        134.3822817
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "678-0239",
+        "short_name": "678-0239",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "赤穂市立民俗資料館",
+      "phone": "0791-42-1361"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.0088397,
+        134.5573785
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-2532",
+        "short_name": "671-2532",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "播州山崎花菖蒲園",
+      "phone": "0790-62-7727"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.2139697,
+        134.4176622
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-3233",
+        "short_name": "671-3233",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "たたらの里学習館",
+      "phone": "0790-76-3833"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.18436519999999,
+        134.6285316
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-4113",
+        "short_name": "671-4113",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "宍粟市歴史資料館",
+      "phone": "0790-74-8855"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.0027901,
+        134.5396908
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-2576",
+        "short_name": "671-2576",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "山崎歴史民俗資料館",
+      "phone": "0790-74-8855(宍粟市歴史資料館)"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8665025,
+        134.545796
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-4178",
+        "short_name": "679-4178",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "うすくち龍野醤油資料館",
+      "phone": "0791-63-2900"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8677453,
+        134.543694
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-4179",
+        "short_name": "679-4179",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "霞城館・矢野勘治記念館",
+      "phone": "0791-63-0907"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8684973,
+        134.546245
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-4179",
+        "short_name": "679-4179",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "たつの市立龍野歴史文化資料館",
+      "phone": "0791-65-9000"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8916805,
+        134.5665957
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-4101",
+        "short_name": "679-4101",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "揖保乃糸資料館　そうめんの里",
+      "phone": "079-324-0595"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7673546,
+        134.5052381
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-1332",
+        "short_name": "671-1332",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "たつの市立室津海駅館",
+      "phone": "079-324-0650"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.7662369,
+        134.5058656
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-1332",
+        "short_name": "671-1332",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "たつの市立室津民俗館",
+      "phone": "0791-75-5450"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9263243,
+        134.5476464
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-4311",
+        "short_name": "679-4311",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "たつの市立埋蔵文化財センター",
+      "phone": "079-277-5100"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8347733,
+        134.5812026
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "671-1561",
+        "short_name": "671-1561",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "太子町立歴史資料館",
+      "phone": "0791-52-3737"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.8761144,
+        134.3626008
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "678-1231",
+        "short_name": "678-1231",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "上郡町郷土資料館",
+      "phone": "0790-83-2635"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.0479866,
+        134.3702759
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-5331",
+        "short_name": "679-5331",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "佐用町立平福郷土館",
+      "phone": "0790-86-1616"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.9779452,
+        134.324388
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-5523",
+        "short_name": "679-5523",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "上月歴史資料館",
+      "phone": "0796-32-2575"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.625223,
+        134.810675
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-6101",
+        "short_name": "669-6101",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "豊岡市立城崎文芸館",
+      "phone": "0796-47-2020"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.46141100000001,
+        134.7321877
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-5346",
+        "short_name": "669-5346",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "植村直己冒険館",
+      "phone": "0796-42-6111"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4697279,
+        134.7675104
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-5305",
+        "short_name": "669-5305",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "但馬国府・国分寺館",
+      "phone": "0796-52-5456"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4617488,
+        134.8728981
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0214",
+        "short_name": "668-0214",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "豊岡市立美術館－伊藤清永記念館－",
+      "phone": "0796-52-6556"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4636933,
+        134.8753281
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0232",
+        "short_name": "668-0232",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "豊岡市立出石史料館",
+      "phone": "0796-52-2353"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4621661,
+        134.876932
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0215",
+        "short_name": "668-0215",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "豊岡市立出石明治館",
+      "phone": "0796-52-3416"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4906059,
+        134.8704724
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0203",
+        "short_name": "668-0203",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "豊岡市立いずし古代学習館",
+      "phone": "0796-52-7100"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.492587,
+        134.994686
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0345",
+        "short_name": "668-0345",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "日本・モンゴル民族博物館",
+      "phone": "0796-56-1000"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.5514835,
+        134.8553671
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0814",
+        "short_name": "668-0814",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "豊岡市立コウノトリ文化館",
+      "phone": "0796-23-7750"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4619159,
+        134.8715535
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0234",
+        "short_name": "668-0234",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "出石永楽館",
+      "phone": "0796-52-5300"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.5889842,
+        134.8035218
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "668-0801",
+        "short_name": "668-0801",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "玄武洞ミュージアム",
+      "phone": "0796-23-3821"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4387382,
+        134.7703834
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "667-0003",
+        "short_name": "667-0003",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "青谿書院資料館",
+      "phone": "079-662-4378"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.3230886,
+        134.645199
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "667-0321",
+        "short_name": "667-0321",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "養父市立上垣守国養蚕記念館",
+      "phone": "079-669-1580"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.3820557,
+        134.7926002
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "667-0114",
+        "short_name": "667-0114",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "養父市立大庄屋記念館",
+      "phone": "079-664-1628"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.3763228,
+        134.6439318
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "667-1105",
+        "short_name": "667-1105",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "養父市立山田風太郎記念館",
+      "phone": "079-663-5522"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.4109903,
+        134.7003962
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "667-0051",
+        "short_name": "667-0051",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "妙見山資料宝物館",
+      "phone": "079-662-2817"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.2385312,
+        134.8299108
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-3423",
+        "short_name": "679-3423",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "あさご芸術の森美術館",
+      "phone": "079-670-4111"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.2385312,
+        134.8299108
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-3423",
+        "short_name": "679-3423",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "あさご芸術の森美術館 淀井敏夫記念館",
+      "phone": "079-670-4111"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.2444732,
+        134.7177269
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-3453",
+        "short_name": "679-3453",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "ムーセハウス写真館",
+      "phone": "079-677-1717"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.1669214,
+        134.7913783
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-3301",
+        "short_name": "679-3301",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "朝来市生野書院",
+      "phone": "079-679-4336"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.3632598,
+        134.8430677
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-5232",
+        "short_name": "669-5232",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "朝来市和田山郷土歴史館",
+      "phone": "079-675-2928"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.1668024,
+        134.7969774
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "679-3301",
+        "short_name": "679-3301",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "朝来市旧生野鉱山職員宿舎 （志村喬記念館）",
+      "phone": "079-670-5005"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.6484345,
+        134.6390924
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-6541",
+        "short_name": "669-6541",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "香美町立ジオパークと海の文化館",
+      "phone": "0796-36-4671"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.47194959999999,
+        134.5962306
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "667-1311",
+        "short_name": "667-1311",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "香美町立村岡民俗資料館「まほろば」",
+      "phone": "0796-98-1154"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.624913,
+        134.453719
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-6702",
+        "short_name": "669-6702",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "浜坂先人記念館以命亭",
+      "phone": "0796-82-4490"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.53031,
+        134.4406431
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-6943",
+        "short_name": "669-6943",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "おもしろ昆虫化石館",
+      "phone": "0796-93-0888"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.1285236,
+        135.0815611
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-3309",
+        "short_name": "669-3309",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "丹波市立柏原歴史民俗資料館",
+      "phone": "0795-73-0177"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.1731425,
+        135.039234
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-3603",
+        "short_name": "669-3603",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "丹波市立植野記念美術館",
+      "phone": "0795-82-5945"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.1501601,
+        135.0720741
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-3464",
+        "short_name": "669-3464",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "丹波市立水分れ資料館",
+      "phone": "0795-82-5911"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.2768285,
+        134.9991591
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-3833",
+        "short_name": "669-3833",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "丹波市立青垣いきものふれあいの里",
+      "phone": "0795-88-0888"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.241527,
+        135.0096332
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-3803",
+        "short_name": "669-3803",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "丹波市立丹波布伝承館",
+      "phone": "0795-80-5100"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        35.073967,
+        135.0354578
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "669-3131",
+        "short_name": "669-3131",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "丹波竜化石工房ちーたんの館",
+      "phone": "0795-77-1887"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.34044,
+        134.902125
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "656-0024",
+        "short_name": "656-0024",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "洲本市立淡路文化史料館",
+      "phone": "0799-24-3331"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.4135929,
+        134.7851209
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "656-1301",
+        "short_name": "656-1301",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "高田屋嘉兵衛翁記念館",
+      "phone": "0799-33-0464"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.3162523,
+        134.7341395
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "656-0314",
+        "short_name": "656-0314",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "南あわじ市滝川記念美術館玉青館",
+      "phone": "0799-36-2314"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.289617,
+        134.7678531
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "656-0475",
+        "short_name": "656-0475",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "南あわじ市淡路人形浄瑠璃資料館",
+      "phone": "0799-43-5037"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.53360110000001,
+        134.9138716
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "656-1741",
+        "short_name": "656-1741",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "淡路市北淡歴史民俗資料館",
+      "phone": "0799-82-2177"
+    },
+    "type": "Feature"
+  },
+  {
+    "geometry": {
+      "coordinates": [
+        34.537822,
+        134.993344
+      ],
+      "type": "Point"
+    },
+    "properties": {
+      "addr": {
+        "long_name": "656-2305",
+        "short_name": "656-2305",
+        "types": [
+          "postal_code"
+        ]
+      },
+      "name": "淡路市立中浜稔猫美術館",
+      "phone": "0799-75-2011"
+    },
+    "type": "Feature"
+  }
+]
