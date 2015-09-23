@@ -27,9 +27,6 @@ for row in csv.reader(codecs.open("kokoron.csv", encoding="UTF-8")):
 						posts.append(addr["short_name"])
 			if len(results) == 1 or len(set(posts)) == 1:
 				r = results[0]
-				if not addr:
-					addr = r["formatted_address"]
-				
 				rows.append({
 					"type":"Feature",
 					"geometry": {
@@ -39,7 +36,7 @@ for row in csv.reader(codecs.open("kokoron.csv", encoding="UTF-8")):
 					"properties":{
 						"name": name,
 						"phone": phone,
-						"addr": addr,
+						"addr": r["formatted_address"],
 					}
 				})
 			else:
