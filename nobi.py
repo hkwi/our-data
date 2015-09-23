@@ -30,7 +30,7 @@ for row in csv.DictReader(codecs.open("nobi.csv", encoding="UTF-8")):
 				"type":"Feature",
 				"geometry": {
 					"type": "Point",
-					"coordinates": [r["geometry"]["location"]["lat"], r["geometry"]["location"]["lng"]],
+					"coordinates": [r["geometry"]["location"]["lng"], r["geometry"]["location"]["lat"]],
 				},
 				"properties": row,
 			})
