@@ -20,7 +20,7 @@ for row in csv.DictReader(codecs.open("name2address.csv", encoding="UTF-8")):
 		name2pos[row["name"]] = (row["lng"], row["lat"])
 
 rows = []
-for row in csv.DictReader(codecs.open("kokoron.csv", encoding="UTF-8")):
+for row in csv.DictReader(codecs.open(sys.argv[1], encoding="UTF-8")):
 	name = row["name"]
 	addr = name2addr.get(name)
 	pos = name2pos.get(name)
