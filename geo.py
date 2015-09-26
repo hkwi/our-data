@@ -19,3 +19,27 @@ def geocode(addr):
 		geocode_db[addr] = gmaps.geocode(addr)
 	return geocode_db[addr]
 
+
+def resolved(results):
+	if not results:
+		return False
+	
+	postal_codes = [] # useful for variants
+	for r in results:
+		postal = False
+		for addr in r["address_components"]:
+			if "postal_code" in addr["types"]:
+				postal_codes.append(addr["short_name"])
+				postal = True
+		if not postal:
+			postal_codes.append(None)
+	
+	politicals = [] # useful for postal code updates
+	for r in results:
+		political = [addr for addr in r["address_components"] if "political" in addr["types"]]
+		politicals.append(json.dumps(political, sort_keys=True))
+	
+	if len(results) == 1 or len(set(postal_codes)) == 1 or len(set(politicals)) == 1:
+		return True
+	
+	return False

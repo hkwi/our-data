@@ -3,15 +3,15 @@
     {
       "geometry": {
         "coordinates": [
-          135.2181359,
-          34.6992155
+          135.2177693,
+          34.6992911
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒651-0073 Hyōgo-ken, Kōbe-shi, Chūō-ku, Wakinohamakaigandōri, 1 Chome−1 兵庫県立美術館",
-        "name": "兵庫県立美術館",
-        "phone": "078-262-0901"
+        "name": "県立美術館―「芸術の館」―",
+        "住所": "Japan, 〒651-0073 Hyōgo-ken, Kōbe-shi, Chūō-ku, Wakinohamakaigandōri, 1 Chome−1−1 兵庫県立美術館芸術の館",
+        "電話番号": "078-262-0901"
       },
       "type": "Feature"
     },
@@ -24,54 +24,54 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒657-0837 Hyōgo-ken, Kōbe-shi, Nada-ku, Haradadōri, 3 Chome−8−30 横尾忠則現代美術館",
         "name": "横尾忠則現代美術館",
-        "phone": "078-855-5607(総合案内)"
+        "住所": "Japan, 〒657-0837 Hyōgo-ken, Kōbe-shi, Nada-ku, Haradadōri, 3 Chome−8−30 横尾忠則現代美術館",
+        "電話番号": "078-855-5607(総合案内)"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.6968641,
-          34.8413587
+          134.692557,
+          34.8375909
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒670-0012 Hyōgo-ken, Himeji-shi, Honmachi, 68 兵庫県立歴史博物館",
-        "name": "兵庫県立歴史博物館",
-        "phone": "079-288-9011"
+        "name": "県立歴史博物館",
+        "住所": "〒670-0012　兵庫県姫路市本町68番地",
+        "電話番号": "079-288-9011"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          135.1990097,
-          34.8862437
+          135.1989972,
+          34.8861901
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-1546 Hyōgo-ken, Sanda-shi, Yayoigaoka, 6 Chome 兵庫県立人と自然の博物館",
-        "name": "兵庫県立人と自然の博物館",
-        "phone": "079-559-2001"
+        "name": "県立人と自然の博物館",
+        "住所": "Japan, 〒669-1546 Hyōgo-ken, Sanda-shi, Yayoigaoka, 6 Chome 県立人と自然の博物館",
+        "電話番号": "079-559-2001"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.8776615,
-          34.7254139
+          134.8773329,
+          34.7256094
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒675-0142 Hyōgo-ken, Kako-gun, Harima-chō, Ōnaka, 1 Chome−1−1 兵庫県立考古博物館",
-        "name": "兵庫県立考古博物館",
-        "phone": "079-437-5589"
+        "name": "県立考古博物館",
+        "住所": "〒675-0142 兵庫県加古郡播磨町大中1-1-1",
+        "電話番号": "079-437-5589"
       },
       "type": "Feature"
     },
@@ -84,9 +84,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-6123 Hyōgo-ken, Toyooka-shi, Oshima, 1163 県立円山川公苑美術館",
-        "name": "兵庫県立円山川公苑美術館",
-        "phone": "0796-28-3085"
+        "name": "県立円山川公苑美術館",
+        "住所": "Japan, 〒669-6123 Hyōgo-ken, Toyooka-shi, Oshima, 1163 県立円山川公苑美術館",
+        "電話番号": "0796-28-3085"
       },
       "type": "Feature"
     },
@@ -99,9 +99,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-2135 Hyōgo-ken, Sasayama-shi, Kondachō Kamitachikui, 4 兵庫陶芸美術館",
         "name": "兵庫陶芸美術館",
-        "phone": "079-597-3961"
+        "住所": "Japan, 〒669-2135 Hyōgo-ken, Sasayama-shi, Kondachō Kamitachikui, 4 兵庫陶芸美術館",
+        "電話番号": "079-597-3961"
       },
       "type": "Feature"
     },
@@ -114,24 +114,39 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Disaster Reduction and Human Renovation Institution, 1 Chome-5 Wakinohamakaigandōri, Chūō-ku, Kōbe-shi, Hyōgo-ken 651-0073, Japan",
         "name": "人と防災未来センター",
-        "phone": "078-262-5050(観覧案内・予約)"
+        "住所": "Disaster Reduction and Human Renovation Institution, 1 Chome-5 Wakinohamakaigandōri, Chūō-ku, Kōbe-shi, Hyōgo-ken 651-0073, Japan",
+        "電話番号": "078-262-5050(観覧案内・予約)"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.9411816,
-          34.9419483
+          "134.8593676",
+          "34.9077572"
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Harima Central Park, 1275-8 Shimotakino, Katō-shi, Hyōgo-ken 679-0212, Japan",
-        "name": "兵庫県立播磨中央公園 四季の庭",
-        "phone": "0795-48-5289"
+        "name": "県立フラワーセンター",
+        "住所": "〒679-0187 兵庫県加西市豊倉町飯森1282-1",
+        "電話番号": "0790-47-1182"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.9411621,
+          34.9416927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "県立播磨中央公園四季の庭",
+        "住所": "〒679-0212 兵庫県加東市下滝野 1275-8",
+        "電話番号": "0795-48-5289"
       },
       "type": "Feature"
     },
@@ -144,9 +159,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Maikokoen Station, Japan",
         "name": "舞子公園　舞子海上プロムナード",
-        "phone": "078-785-5090"
+        "住所": "Maikokoen Station, Japan",
+        "電話番号": "078-785-5090"
       },
       "type": "Feature"
     },
@@ -159,9 +174,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒656-2306 Hyōgo-ken, Awaji-shi, Yumebutai, 4 兵庫県立淡路夢舞台温室「奇跡の星の植物館」",
-        "name": "兵庫県立淡路夢舞台温室",
-        "phone": "0799-74-1200"
+        "name": "県立淡路夢舞台温室",
+        "住所": "Japan, 〒656-2306 Hyōgo-ken, Awaji-shi, Yumebutai, 4 兵庫県立淡路夢舞台温室「奇跡の星の植物館」",
+        "電話番号": "0799-74-1200"
       },
       "type": "Feature"
     },
@@ -174,9 +189,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒654-0009 Hyōgo-ken, Kōbe-shi, Suma-ku, Itayadochō, 2 Chome−2−1 武井報效会百耕資料館",
         "name": "武井報效会百耕資料館",
-        "phone": "078-733-2381"
+        "住所": "Japan, 〒654-0009 Hyōgo-ken, Kōbe-shi, Suma-ku, Itayadochō, 2 Chome−2−1 武井報效会百耕資料館",
+        "電話番号": "078-733-2381"
       },
       "type": "Feature"
     },
@@ -189,9 +204,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Hakutsuru Sake Brewery Museum, 4 Chome-4-5-5 Sumiyoshi Minamimachi, Higashinada-ku, Kōbe-shi, Hyōgo-ken 658-0041, Japan",
         "name": "白鶴酒造資料館",
-        "phone": "078-822-8907"
+        "住所": "Hakutsuru Sake Brewery Museum, 4 Chome-4-5-5 Sumiyoshi Minamimachi, Higashinada-ku, Kōbe-shi, Hyōgo-ken 658-0041, Japan",
+        "電話番号": "078-822-8907"
       },
       "type": "Feature"
     },
@@ -204,9 +219,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒658-0021 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Fukaehonmachi, 3 Chome−5−7 神戸深江生活文化史料館",
         "name": "神戸深江生活文化史料館",
-        "phone": "078-453-4980"
+        "住所": "Japan, 〒658-0021 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Fukaehonmachi, 3 Chome−5−7 神戸深江生活文化史料館",
+        "電話番号": "078-453-4980"
       },
       "type": "Feature"
     },
@@ -219,9 +234,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒658-0022 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Fukae Minamimachi, 5 Chome−1 神戸大学海事博物館",
         "name": "神戸大学海事博物館",
-        "phone": "078-431-3564"
+        "住所": "Japan, 〒658-0022 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Fukae Minamimachi, 5 Chome−1 神戸大学海事博物館",
+        "電話番号": "078-431-3564"
       },
       "type": "Feature"
     },
@@ -234,9 +249,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒658-0026 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Uozaki Nishimachi, 1 Chome−9−1 菊正宗酒造記念館",
         "name": "菊正宗酒造記念館",
-        "phone": "078-854-1029"
+        "住所": "Japan, 〒658-0026 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Uozaki Nishimachi, 1 Chome−9−1 菊正宗酒造記念館",
+        "電話番号": "078-854-1029"
       },
       "type": "Feature"
     },
@@ -249,9 +264,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒658-0044 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Mikagetsukamachi, 4 Chome−4−8 甲南漬資料館",
         "name": "甲南漬史料館",
-        "phone": "078-842-2508"
+        "住所": "Japan, 〒658-0044 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Mikagetsukamachi, 4 Chome−4−8 甲南漬資料館",
+        "電話番号": "078-842-2508"
       },
       "type": "Feature"
     },
@@ -264,9 +279,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒657-0852 Hyōgo-ken, Kōbe-shi, Nada-ku, Ōishi Minamimachi, 1 Chome 沢の鶴資料館",
         "name": "沢の鶴史料館",
-        "phone": "078-882-7788"
+        "住所": "Japan, 〒657-0852 Hyōgo-ken, Kōbe-shi, Nada-ku, Ōishi Minamimachi, 1 Chome 沢の鶴資料館",
+        "電話番号": "078-882-7788"
       },
       "type": "Feature"
     },
@@ -279,24 +294,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒657-0863 兵庫県神戸市灘区灘浜東町 灘浜サイエンススクエア",
         "name": "灘浜サイエンススクエア",
-        "phone": "078-882-8136"
+        "住所": "Japan, 〒657-0863 兵庫県神戸市灘区灘浜東町 灘浜サイエンススクエア",
+        "電話番号": "078-882-8136"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          135.1761703,
-          34.6808232
+          135.175863,
+          34.6814781
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒650-0015 Hyōgo-ken, Kōbe-shi, Chūō-ku, Tamondōri, 3 Chome−1 湊川神社（楠公さん）",
-        "name": "湊川神社 宝物殿",
-        "phone": "078-371-0001"
+        "name": "湊川神社宝物殿",
+        "住所": "〒650-0015　兵庫県神戸市中央区多聞通3-1-1",
+        "電話番号": "078-371-0001"
       },
       "type": "Feature"
     },
@@ -309,9 +324,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒650-0004 Hyōgo-ken, Kōbe-shi, Chūō-ku, Kumochichō, 7 Chome−5 竹中大工道具館",
         "name": "竹中大工道具館",
-        "phone": "078-242-0216"
+        "住所": "Japan, 〒650-0004 Hyōgo-ken, Kōbe-shi, Chūō-ku, Kumochichō, 7 Chome−5 竹中大工道具館",
+        "電話番号": "078-242-0216"
       },
       "type": "Feature"
     },
@@ -324,9 +339,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒650-0046 Hyōgo-ken, Kōbe-shi, Chūō-ku, Minatojima Nakamachi, 6 Chome−6−2 UCCコーヒー博物館",
-        "name": "UCCコーヒー博物館",
-        "phone": "078-302-8880"
+        "name": "ＵＣＣコーヒー博物館",
+        "住所": "Japan, 〒650-0046 Hyōgo-ken, Kōbe-shi, Chūō-ku, Minatojima Nakamachi, 6 Chome−6−2 UCCコーヒー博物館",
+        "電話番号": "078-302-8880"
       },
       "type": "Feature"
     },
@@ -339,9 +354,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒650-0034 兵庫県神戸市中央区京町 KOBEとんぼ玉ミュージアム",
-        "name": "KOBEとんぼ玉ミュージアム",
-        "phone": "078-393-8500"
+        "name": "ＫＯＢＥとんぼ玉ミュージアム",
+        "住所": "Japan, 〒650-0034 兵庫県神戸市中央区京町 KOBEとんぼ玉ミュージアム",
+        "電話番号": "078-393-8500"
       },
       "type": "Feature"
     },
@@ -354,9 +369,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒650-0002 Hyōgo-ken, Kōbe-shi, Chūō-ku, Kitanochō, 2 Chome−2−9−6 神戸北野美術館",
         "name": "神戸北野美術館",
-        "phone": "078-251-0581"
+        "住所": "Japan, 〒650-0002 Hyōgo-ken, Kōbe-shi, Chūō-ku, Kitanochō, 2 Chome−2−9−6 神戸北野美術館",
+        "電話番号": "078-251-0581"
       },
       "type": "Feature"
     },
@@ -369,24 +384,39 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒651-1401 Hyōgo-ken, Kōbe-shi, Kita-ku, Arimachō, 663−3 切手文化博物館",
         "name": "有馬切手文化博物館",
-        "phone": "078-904-0024"
+        "住所": "Japan, 〒651-1401 Hyōgo-ken, Kōbe-shi, Kita-ku, Arimachō, 663−3 切手文化博物館",
+        "電話番号": "078-904-0024"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          135.1149271,
-          34.6471391
+          135.1468708,
+          34.6714286
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Sumaderacho, Suma Ward, Kobe, Hyogo Prefecture 654-0071, Japan",
-        "name": "須磨寺 宝物館",
-        "phone": "078-731-0416"
+        "name": "長田神社宝物庫",
+        "住所": "〒653-0812　神戸市長田区長田町３丁目１－１",
+        "電話番号": "078-691-0333"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1117579,
+          34.6492472
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "須磨寺宝物館",
+        "住所": "〒654-0071 兵庫県神戸市須磨区須磨寺町4丁目6-8",
+        "電話番号": "078-731-0416"
       },
       "type": "Feature"
     },
@@ -399,24 +429,39 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒655-0047 Hyōgo-ken, Kōbe-shi, Tarumi-ku, Higashimaikochō, 4−114 橋の科学館",
         "name": "橋の科学館",
-        "phone": "078-784-3339"
+        "住所": "Japan, 〒655-0047 Hyōgo-ken, Kōbe-shi, Tarumi-ku, Higashimaikochō, 4−114 橋の科学館",
+        "電話番号": "078-784-3339"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          135.0343989,
-          34.6301543
+          135.0342008,
+          34.6309595
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒655-0047 兵庫県神戸市垂水区東舞子町 孫文記念館",
-        "name": "孫文記念館 （移情閣）",
-        "phone": "078-783-7172"
+        "name": "孫文記念館（移情閣）",
+        "住所": "〒655-0047 兵庫県神戸市垂水区東舞子町2051番地",
+        "電話番号": "078-783-7172"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.9915915,
+          34.7528428
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "最明寺郷土館",
+        "住所": "神戸市西区神出町東828",
+        "電話番号": "078-965-0067"
       },
       "type": "Feature"
     },
@@ -429,9 +474,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒651-2205 Hyōgo-ken, Kōbe-shi, Nishi-ku, Oshibedanichō Yōda, 369 長福寺霊園",
         "name": "長福寺考古資料館",
-        "phone": "078-994-0150"
+        "住所": "Japan, 〒651-2205 Hyōgo-ken, Kōbe-shi, Nishi-ku, Oshibedanichō Yōda, 369 長福寺霊園",
+        "電話番号": "078-994-0150"
       },
       "type": "Feature"
     },
@@ -444,9 +489,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒658-0048 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Mikagegunge, 2 Chome−2−12−1 香雪美術館",
         "name": "香雪美術館",
-        "phone": "078-841-0652"
+        "住所": "Japan, 〒658-0048 Hyōgo-ken, Kōbe-shi, Higashinada-ku, Mikagegunge, 2 Chome−2−12−1 香雪美術館",
+        "電話番号": "078-841-0652"
       },
       "type": "Feature"
     },
@@ -459,9 +504,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Kobe Fashion Museum, 2 Chome-2-9-1 Kōyōchōnaka, Higashinada-ku, Kōbe-shi, Hyōgo-ken 650-0032, Japan",
         "name": "神戸ファッション美術館",
-        "phone": "078-858-0050"
+        "住所": "Kobe Fashion Museum, 2 Chome-2-9-1 Kōyōchōnaka, Higashinada-ku, Kōbe-shi, Hyōgo-ken 650-0032, Japan",
+        "電話番号": "078-858-0050"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1462711,
+          34.6517498
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "神戸ロボット工房（ロボット展示室）",
+        "住所": "〒653-0042 神戸市長田区二葉町7丁目1番18号 地域人材支援センター１F",
+        "電話番号": "078-322-5333"
       },
       "type": "Feature"
     },
@@ -474,9 +534,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒657-0838 Hyōgo-ken, Kōbe-shi, Nada-ku, Ōjichō, 3 Chome−1−3−1 神戸市立王子動物園動物科学資料館",
-        "name": "神戸市王子動物園 動物科学資料館",
-        "phone": "078-861-5624"
+        "name": "神戸市王子動物園　動物科学資料館",
+        "住所": "Japan, 〒657-0838 Hyōgo-ken, Kōbe-shi, Nada-ku, Ōjichō, 3 Chome−1−3−1 神戸市立王子動物園動物科学資料館",
+        "電話番号": "078-861-5624"
       },
       "type": "Feature"
     },
@@ -489,9 +549,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒651-1242 兵庫県神戸市北区山田町上谷上 神戸市立森林植物園",
         "name": "神戸市立森林植物園",
-        "phone": "078-591-0253"
+        "住所": "Japan, 〒651-1242 兵庫県神戸市北区山田町上谷上 神戸市立森林植物園",
+        "電話番号": "078-591-0253"
       },
       "type": "Feature"
     },
@@ -504,9 +564,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒650-0024 Hyōgo-ken, Kōbe-shi, Chūō-ku, Kaigandōri, 3 Chome−1−1 神戸華僑歴史博物館",
         "name": "神戸華僑歴史博物館",
-        "phone": "078-331-3855"
+        "住所": "Japan, 〒650-0024 Hyōgo-ken, Kōbe-shi, Chūō-ku, Kaigandōri, 3 Chome−1−1 神戸華僑歴史博物館",
+        "電話番号": "078-331-3855"
       },
       "type": "Feature"
     },
@@ -519,9 +579,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒661-0951 Hyōgo-ken, Amagasaki-shi, Tanō, 6 Chome−5−1 尼崎市立田能資料館",
         "name": "尼崎市立田能資料館",
-        "phone": "06-6492-1777"
+        "住所": "Japan, 〒661-0951 Hyōgo-ken, Amagasaki-shi, Tanō, 6 Chome−5−1 尼崎市立田能資料館",
+        "電話番号": "06-6492-1777"
       },
       "type": "Feature"
     },
@@ -534,9 +594,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒660-0825 Hyōgo-ken, Amagasaki-shi, Minamijōnai, 10−2 市立文化財収蔵庫",
         "name": "尼崎市立文化財収蔵庫",
-        "phone": "06-6489-9801"
+        "住所": "Japan, 〒660-0825 Hyōgo-ken, Amagasaki-shi, Minamijōnai, 10−2 市立文化財収蔵庫",
+        "電話番号": "06-6489-9801"
       },
       "type": "Feature"
     },
@@ -549,24 +609,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒660-0863 Hyōgo-ken, Amagasaki-shi, Nishihonmachi Kitadōri, 3 Chome−93 尼崎信用金庫 世界の貯金箱博物館",
         "name": "尼崎信用金庫　世界の貯金箱博物館",
-        "phone": "06-6413-1163"
+        "住所": "Japan, 〒660-0863 Hyōgo-ken, Amagasaki-shi, Nishihonmachi Kitadōri, 3 Chome−93 尼崎信用金庫 世界の貯金箱博物館",
+        "電話番号": "06-6413-1163"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          135.4201322,
-          34.7206891
+          135.4204022,
+          34.7211132
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒660-0881 Hyōgo-ken, Amagasaki-shi, Shōwadōri, 2 Chome−7 尼崎市総合文化センター",
-        "name": "尼崎市総合文化センター 美術ホール",
-        "phone": "06-6487-0806"
+        "name": "尼崎市総合文化センター美術ホール",
+        "住所": "〒660-0881 兵庫県尼崎市昭和通2丁目7-16",
+        "電話番号": "06-6487-0806"
       },
       "type": "Feature"
     },
@@ -579,9 +639,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒660-0864 兵庫県尼崎市東桜木町 尼信会館",
         "name": "尼信会館",
-        "phone": "06-6413-1121"
+        "住所": "Japan, 〒660-0864 兵庫県尼崎市東桜木町 尼信会館",
+        "電話番号": "06-6413-1121"
       },
       "type": "Feature"
     },
@@ -594,9 +654,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒661-0977 Hyōgo-ken, Amagasaki-shi, Kukuchi, 1 Chome−4−38 近松記念館",
         "name": "近松記念館",
-        "phone": "06-6491-7555"
+        "住所": "Japan, 〒661-0977 Hyōgo-ken, Amagasaki-shi, Kukuchi, 1 Chome−4−38 近松記念館",
+        "電話番号": "06-6491-7555"
       },
       "type": "Feature"
     },
@@ -609,9 +669,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0934 Hyōgo-ken, Nishinomiya-shi, Nishinomiyahama, 4 Chome−13 貝類館",
         "name": "西宮市貝類館",
-        "phone": "0798-33-4888"
+        "住所": "Japan, 〒662-0934 Hyōgo-ken, Nishinomiya-shi, Nishinomiyahama, 4 Chome−13 貝類館",
+        "電話番号": "0798-33-4888"
       },
       "type": "Feature"
     },
@@ -624,9 +684,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0952 Hyōgo-ken, Nishinomiya-shi, Nakahamachō, 4−38 （財）西宮市大谷記念美術館",
         "name": "西宮市大谷記念美術館",
-        "phone": "0798-33-0164"
+        "住所": "Japan, 〒662-0952 Hyōgo-ken, Nishinomiya-shi, Nakahamachō, 4−38 （財）西宮市大谷記念美術館",
+        "電話番号": "0798-33-0164"
       },
       "type": "Feature"
     },
@@ -639,9 +699,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0944 Hyōgo-ken, Nishinomiya-shi, Kawazoechō, 15 西宮市立郷土資料館",
         "name": "西宮市立郷土資料館",
-        "phone": "0798-33-1298"
+        "住所": "Japan, 〒662-0944 Hyōgo-ken, Nishinomiya-shi, Kawazoechō, 15 西宮市立郷土資料館",
+        "電話番号": "0798-33-1298"
       },
       "type": "Feature"
     },
@@ -654,9 +714,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-1147 Hyōgo-ken, Nishinomiya-shi, Najio, 2 Chome−10 西宮市立郷土資料館分館名塩和紙学習館",
         "name": "西宮市立郷土資料館分館　名塩和紙学習館",
-        "phone": "0797-61-0880"
+        "住所": "Japan, 〒669-1147 Hyōgo-ken, Nishinomiya-shi, Najio, 2 Chome−10 西宮市立郷土資料館分館名塩和紙学習館",
+        "電話番号": "0797-61-0880"
       },
       "type": "Feature"
     },
@@ -669,9 +729,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0813 Hyōgo-ken, Nishinomiya-shi, Kamikōtōen, 1 Chome−1−10−40 頴川美術館",
         "name": "頴川美術館",
-        "phone": "0798-51-3915"
+        "住所": "Japan, 〒662-0813 Hyōgo-ken, Nishinomiya-shi, Kamikōtōen, 1 Chome−1−10−40 頴川美術館",
+        "電話番号": "0798-51-3915"
       },
       "type": "Feature"
     },
@@ -684,9 +744,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0962 Hyōgo-ken, Nishinomiya-shi, Matsushitachō, 2−23 辰馬考古資料館",
         "name": "辰馬考古資料館",
-        "phone": "0798-34-0130"
+        "住所": "Japan, 〒662-0962 Hyōgo-ken, Nishinomiya-shi, Matsushitachō, 2−23 辰馬考古資料館",
+        "電話番号": "0798-34-0130"
       },
       "type": "Feature"
     },
@@ -699,24 +759,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0926 Hyōgo-ken, Nishinomiya-shi, Kurakakechō, 8−21 辰馬本家酒造（株） 白鹿・酒ミュージアム",
         "name": "白鹿記念酒造博物館",
-        "phone": "0798-33-0008"
+        "住所": "Japan, 〒662-0926 Hyōgo-ken, Nishinomiya-shi, Kurakakechō, 8−21 辰馬本家酒造（株） 白鹿・酒ミュージアム",
+        "電話番号": "0798-33-0008"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          135.3387439,
-          34.7305315
+          135.3387341,
+          34.7305358
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0926 Hyōgo-ken, Nishinomiya-shi, Kurakakechō, 5−1 白鷹禄水苑",
-        "name": "白鷹禄水苑 （暮らしの展示室、白鷹集古館）",
-        "phone": "0798-39-0235"
+        "name": "白鷹禄水苑（暮らしの展示室、白鷹集古館）",
+        "住所": "〒662-0926 西宮市鞍掛町5-1",
+        "電話番号": "0798-39-0235"
       },
       "type": "Feature"
     },
@@ -729,9 +789,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0921 Hyōgo-ken, Nishinomiya-shi, Yōgaichō, 4−57 酒蔵通り煉瓦館",
         "name": "日本盛　酒蔵通り煉瓦館",
-        "phone": "0798-32-2525"
+        "住所": "Japan, 〒662-0921 Hyōgo-ken, Nishinomiya-shi, Yōgaichō, 4−57 酒蔵通り煉瓦館",
+        "電話番号": "0798-32-2525"
       },
       "type": "Feature"
     },
@@ -744,9 +804,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0081 Hyōgo-ken, Nishinomiya-shi, Kurakuen Sanbanchō, 14−50 黒川古文化研究所（公益（財））",
         "name": "黒川古文化研究所",
-        "phone": "0798-71-1205"
+        "住所": "Japan, 〒662-0081 Hyōgo-ken, Nishinomiya-shi, Kurakuen Sanbanchō, 14−50 黒川古文化研究所（公益（財））",
+        "電話番号": "0798-71-1205"
       },
       "type": "Feature"
     },
@@ -759,9 +819,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒662-0088 Hyōgo-ken, Nishinomiya-shi, Kurakuen Yonbanchō, 7−1 堀江オルゴール博物館",
         "name": "堀江オルゴール博物館",
-        "phone": "0798-70-0656"
+        "住所": "Japan, 〒662-0088 Hyōgo-ken, Nishinomiya-shi, Kurakuen Yonbanchō, 7−1 堀江オルゴール博物館",
+        "電話番号": "0798-70-0656"
       },
       "type": "Feature"
     },
@@ -774,9 +834,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒659-0052 Hyōgo-ken, Ashiya-shi, Isechō, 12−25 芦屋市立美術博物館",
         "name": "芦屋市立美術博物館",
-        "phone": "0797-38-5432"
+        "住所": "Japan, 〒659-0052 Hyōgo-ken, Ashiya-shi, Isechō, 12−25 芦屋市立美術博物館",
+        "電話番号": "0797-38-5432"
       },
       "type": "Feature"
     },
@@ -789,9 +849,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒659-0052 Hyōgo-ken, Ashiya-shi, Isechō, 12−15 芦屋市谷崎潤一郎記念館",
         "name": "芦屋市谷崎潤一郎記念館",
-        "phone": "0797-23-5852"
+        "住所": "Japan, 〒659-0052 Hyōgo-ken, Ashiya-shi, Isechō, 12−15 芦屋市谷崎潤一郎記念館",
+        "電話番号": "0797-23-5852"
       },
       "type": "Feature"
     },
@@ -804,9 +864,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒659-0003 Hyōgo-ken, Ashiya-shi, Okuikechō, 12−1 エンバ中国近代美術館",
         "name": "エンバ中国近代美術館",
-        "phone": "0797-38-0021"
+        "住所": "Japan, 〒659-0003 Hyōgo-ken, Ashiya-shi, Okuikechō, 12−1 エンバ中国近代美術館",
+        "電話番号": "0797-38-0021"
       },
       "type": "Feature"
     },
@@ -819,9 +879,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒659-0084 Hyōgo-ken, Ashiya-shi, Tsukiwakachō, 6−1 俵美術館",
         "name": "俵美術館",
-        "phone": "0797-23-2878"
+        "住所": "Japan, 〒659-0084 Hyōgo-ken, Ashiya-shi, Tsukiwakachō, 6−1 俵美術館",
+        "電話番号": "0797-23-2878"
       },
       "type": "Feature"
     },
@@ -834,9 +894,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒659-0082 Hyōgo-ken, Ashiya-shi, Yamaashiyachō, 13−3 滴翠美術館",
         "name": "滴翠美術館",
-        "phone": "0797-22-2228"
+        "住所": "Japan, 〒659-0082 Hyōgo-ken, Ashiya-shi, Yamaashiyachō, 13−3 滴翠美術館",
+        "電話番号": "0797-22-2228"
       },
       "type": "Feature"
     },
@@ -849,9 +909,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒664-0898 Hyōgo-ken, Itami-shi, Senzo, 1 Chome−1−1 伊丹市立博物館",
         "name": "伊丹市立博物館",
-        "phone": "072-783-0582"
+        "住所": "Japan, 〒664-0898 Hyōgo-ken, Itami-shi, Senzo, 1 Chome−1−1 伊丹市立博物館",
+        "電話番号": "072-783-0582"
       },
       "type": "Feature"
     },
@@ -864,9 +924,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒664-0895 Hyōgo-ken, Itami-shi, Miyanomae, 2 Chome−5−20 伊丹市立美術館",
         "name": "伊丹市立美術館",
-        "phone": "072-772-7447"
+        "住所": "Japan, 〒664-0895 Hyōgo-ken, Itami-shi, Miyanomae, 2 Chome−5−20 伊丹市立美術館",
+        "電話番号": "072-772-7447"
       },
       "type": "Feature"
     },
@@ -879,9 +939,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒664-0839 Hyōgo-ken, Itami-shi, Kuwazu, 3 Chome−1−36 伊丹市立こども文化科学館",
         "name": "伊丹市立こども文化科学館",
-        "phone": "072-784-1222"
+        "住所": "Japan, 〒664-0839 Hyōgo-ken, Itami-shi, Kuwazu, 3 Chome−1−36 伊丹市立こども文化科学館",
+        "電話番号": "072-784-1222"
       },
       "type": "Feature"
     },
@@ -894,9 +954,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒664-0895 Hyōgo-ken, Itami-shi, Miyanomae, 2 Chome−5−20 伊丹市立博物館・科学館柿衞文庫",
         "name": "柿衞文庫",
-        "phone": "072-782-0244"
+        "住所": "Japan, 〒664-0895 Hyōgo-ken, Itami-shi, Miyanomae, 2 Chome−5−20 伊丹市立博物館・科学館柿衞文庫",
+        "電話番号": "072-782-0244"
       },
       "type": "Feature"
     },
@@ -909,9 +969,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒665-0827 Hyōgo-ken, Takarazuka-shi, Kohama, 5 Chome−6−9 市立小浜宿資料館",
         "name": "宝塚市立小浜宿資料館",
-        "phone": "0797-81-3655"
+        "住所": "Japan, 〒665-0827 Hyōgo-ken, Takarazuka-shi, Kohama, 5 Chome−6−9 市立小浜宿資料館",
+        "電話番号": "0797-81-3655"
       },
       "type": "Feature"
     },
@@ -924,9 +984,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒665-0844 Hyōgo-ken, Takarazuka-shi, Mukogawachō, 7 宝塚市立手塚治虫記念館",
         "name": "宝塚市立手塚治虫記念館",
-        "phone": "0797-81-2970"
+        "住所": "Japan, 〒665-0844 Hyōgo-ken, Takarazuka-shi, Mukogawachō, 7 宝塚市立手塚治虫記念館",
+        "電話番号": "0797-81-2970"
       },
       "type": "Feature"
     },
@@ -939,9 +999,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒665-0831 Hyōgo-ken, Takarazuka-shi, Maitani, 1 Chome−8−26 宝塚市立博物館・科学館歴史民俗資料館旧和田家住宅",
         "name": "宝塚市立歴史民俗資料館　旧和田家住宅",
-        "phone": "0797-86-2752"
+        "住所": "Japan, 〒665-0831 Hyōgo-ken, Takarazuka-shi, Maitani, 1 Chome−8−26 宝塚市立博物館・科学館歴史民俗資料館旧和田家住宅",
+        "電話番号": "0797-86-2752"
       },
       "type": "Feature"
     },
@@ -954,24 +1014,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-1211 Hyōgo-ken, Takarazuka-shi, Ōharano, Matsuo 市立歴史民俗資料館旧東家住宅",
         "name": "宝塚市立歴史民俗資料館　旧東家住宅",
-        "phone": "0797-91-0314"
+        "住所": "Japan, 〒669-1211 Hyōgo-ken, Takarazuka-shi, Ōharano, Matsuo 市立歴史民俗資料館旧東家住宅",
+        "電話番号": "0797-91-0314"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          135.350121,
-          34.8077392
+          135.350154,
+          34.807744
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒665-0844 Hyōgo-ken, Takarazuka-shi, Mukogawachō, 6−12 宝塚文化創造館",
-        "name": "宝塚文化創造館 「すみれ♪ミュージアム」",
-        "phone": "0797-87-1136"
+        "name": "宝塚文化創造館「すみれ♪ミュージアム」",
+        "住所": "〒665-0844　宝塚市武庫川町6-12",
+        "電話番号": "0797-87-1136"
       },
       "type": "Feature"
     },
@@ -984,9 +1044,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒666-0026 Hyōgo-ken, Kawanishi-shi, Minamihanayashiki, 2 Chome−13−10 川西市文化財資料館",
         "name": "川西市文化財資料館",
-        "phone": "072-757-8624"
+        "住所": "Japan, 〒666-0026 Hyōgo-ken, Kawanishi-shi, Minamihanayashiki, 2 Chome−13−10 川西市文化財資料館",
+        "電話番号": "072-757-8624"
       },
       "type": "Feature"
     },
@@ -999,9 +1059,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒666-0107 Hyōgo-ken, Kawanishi-shi, Gezaichō, 4−1 川西市郷土館",
         "name": "川西市郷土館",
-        "phone": "072-794-3354"
+        "住所": "Japan, 〒666-0107 Hyōgo-ken, Kawanishi-shi, Gezaichō, 4−1 川西市郷土館",
+        "電話番号": "072-794-3354"
       },
       "type": "Feature"
     },
@@ -1014,9 +1074,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒666-0151 Hyōgo-ken, Kawanishi-shi, Miyamadai, 3 Chome 歴史民俗資料館",
         "name": "川西市歴史民俗資料館",
-        "phone": "072-740-1244(市教委)"
+        "住所": "Japan, 〒666-0151 Hyōgo-ken, Kawanishi-shi, Miyamadai, 3 Chome 歴史民俗資料館",
+        "電話番号": "072-740-1244(市教委)"
       },
       "type": "Feature"
     },
@@ -1029,9 +1089,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒666-0113 Hyōgo-ken, Kawanishi-shi, Nagaocho, 10−1 大阪青山歴史文学博物館",
         "name": "大阪青山歴史文学博物館",
-        "phone": "072-790-3535"
+        "住所": "Japan, 〒666-0113 Hyōgo-ken, Kawanishi-shi, Nagaocho, 10−1 大阪青山歴史文学博物館",
+        "電話番号": "072-790-3535"
       },
       "type": "Feature"
     },
@@ -1044,9 +1104,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-1313 Hyōgo-ken, Sanda-shi, Fukushima, 1091−2 三田市役所 まちづくり部生涯学習支援室有馬富士自然学習センター",
         "name": "三田市有馬富士自然学習センター",
-        "phone": "079-569-7727"
+        "住所": "Japan, 〒669-1313 Hyōgo-ken, Sanda-shi, Fukushima, 1091−2 三田市役所 まちづくり部生涯学習支援室有馬富士自然学習センター",
+        "電話番号": "079-569-7727"
       },
       "type": "Feature"
     },
@@ -1059,9 +1119,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-1513 兵庫県三田市三輪 三輪明神窯史跡園",
         "name": "三田市三輪明神窯史跡園",
-        "phone": "079-563-8211"
+        "住所": "Japan, 〒669-1513 兵庫県三田市三輪 三輪明神窯史跡園",
+        "電話番号": "079-563-8211"
       },
       "type": "Feature"
     },
@@ -1074,9 +1134,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-1532 Hyōgo-ken, Sanda-shi, Yashikimachi, 7−33 三田ふるさと学習館",
         "name": "三田ふるさと学習館",
-        "phone": "079-563-5587"
+        "住所": "Japan, 〒669-1532 Hyōgo-ken, Sanda-shi, Yashikimachi, 7−33 三田ふるさと学習館",
+        "電話番号": "079-563-5587"
       },
       "type": "Feature"
     },
@@ -1089,9 +1149,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-1532 Hyōgo-ken, Sanda-shi, Yashikimachi, 7−35 三田市旧九鬼家住宅資料館",
         "name": "三田市旧九鬼家住宅資料館",
-        "phone": "079-563-5587(三田ふるさと学習館)"
+        "住所": "Japan, 〒669-1532 Hyōgo-ken, Sanda-shi, Yashikimachi, 7−35 三田市旧九鬼家住宅資料館",
+        "電話番号": "079-563-5587(三田ふるさと学習館)"
       },
       "type": "Feature"
     },
@@ -1104,9 +1164,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒666-0225 Hyōgo-ken, Kawabe-gun, Inagawa-chō, Kizu, Yaso 猪名川町立ふるさと館",
         "name": "猪名川町立ふるさと館",
-        "phone": "072-768-0389"
+        "住所": "Japan, 〒666-0225 Hyōgo-ken, Kawabe-gun, Inagawa-chō, Kizu, Yaso 猪名川町立ふるさと館",
+        "電話番号": "072-768-0389"
       },
       "type": "Feature"
     },
@@ -1119,9 +1179,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒666-0256 Hyōgo-ken, Kawabe-gun, 川辺郡Ginzan, Nagayamae 多田銀銅山悠久の館",
         "name": "多田銀銅山　悠久の館",
-        "phone": "072-766-4800"
+        "住所": "Japan, 〒666-0256 Hyōgo-ken, Kawabe-gun, 川辺郡Ginzan, Nagayamae 多田銀銅山悠久の館",
+        "電話番号": "072-766-4800"
       },
       "type": "Feature"
     },
@@ -1134,9 +1194,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒673-0877 Hyōgo-ken, Akashi-shi, Hitomaruchō, 2−6 明石市立天文科学館",
         "name": "明石市立天文科学館",
-        "phone": "078-919-5000"
+        "住所": "Japan, 〒673-0877 Hyōgo-ken, Akashi-shi, Hitomaruchō, 2−6 明石市立天文科学館",
+        "電話番号": "078-919-5000"
       },
       "type": "Feature"
     },
@@ -1149,9 +1209,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒673-0846 Hyōgo-ken, Akashi-shi, Uenomaru, 2 Chome−13−1 明石市立文化博物館",
         "name": "明石市立文化博物館",
-        "phone": "078-918-5400"
+        "住所": "Japan, 〒673-0846 Hyōgo-ken, Akashi-shi, Uenomaru, 2 Chome−13−1 明石市立文化博物館",
+        "電話番号": "078-918-5400"
       },
       "type": "Feature"
     },
@@ -1164,9 +1224,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒675-0039 Hyōgo-ken, Kakogawa-shi, Kakogawachō Awazu, 805−3 （財）あかりの鹿児資料館",
         "name": "あかりの鹿児資料館",
-        "phone": "079-421-2191"
+        "住所": "Japan, 〒675-0039 Hyōgo-ken, Kakogawa-shi, Kakogawachō Awazu, 805−3 （財）あかりの鹿児資料館",
+        "電話番号": "079-421-2191"
       },
       "type": "Feature"
     },
@@ -1179,9 +1239,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒675-0031 Hyōgo-ken, Kakogawa-shi, Kakogawachō Kitazaike, 424 宝生院",
         "name": "鶴林寺宝物館",
-        "phone": "079-454-7053"
+        "住所": "Japan, 〒675-0031 Hyōgo-ken, Kakogawa-shi, Kakogawachō Kitazaike, 424 宝生院",
+        "電話番号": "079-454-7053"
       },
       "type": "Feature"
     },
@@ -1194,9 +1254,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒676-0082 兵庫県高砂市曽根町 歴史民俗資料室",
         "name": "高砂市歴史民俗資料室",
-        "phone": "079-448-8255"
+        "住所": "Japan, 〒676-0082 兵庫県高砂市曽根町 歴史民俗資料室",
+        "電話番号": "079-448-8255"
       },
       "type": "Feature"
     },
@@ -1209,9 +1269,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒675-1114 Hyōgo-ken, Kako-gun, Inami-chō, Kuniyasu, 1286−55 稲美町立郷土資料館",
         "name": "稲美町立郷土資料館",
-        "phone": "079-492-3770"
+        "住所": "Japan, 〒675-1114 Hyōgo-ken, Kako-gun, Inami-chō, Kuniyasu, 1286−55 稲美町立郷土資料館",
+        "電話番号": "079-492-3770"
       },
       "type": "Feature"
     },
@@ -1224,9 +1284,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒675-0142 Hyōgo-ken, Kako-gun, Harima-chō, Ōnaka, 1 Chome−1−2 播磨町立郷土資料館",
         "name": "播磨町郷土資料館",
-        "phone": "079-435-5000"
+        "住所": "Japan, 〒675-0142 Hyōgo-ken, Kako-gun, Harima-chō, Ōnaka, 1 Chome−1−2 播磨町立郷土資料館",
+        "電話番号": "079-435-5000"
       },
       "type": "Feature"
     },
@@ -1239,9 +1299,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒677-0039 Hyōgo-ken, Nishiwaki-shi, Kamihiechō, 334−2 にしわき経緯度地球科学館 テラ・ドーム",
         "name": "にしわき経緯度地球科学館「テラ・ドーム」",
-        "phone": "0795-23-2772"
+        "住所": "Japan, 〒677-0039 Hyōgo-ken, Nishiwaki-shi, Kamihiechō, 334−2 にしわき経緯度地球科学館 テラ・ドーム",
+        "電話番号": "0795-23-2772"
       },
       "type": "Feature"
     },
@@ -1254,9 +1314,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒677-0015 Hyōgo-ken, Nishiwaki-shi, Nishiwaki, 790−14 西脇市郷土資料館",
         "name": "西脇市郷土資料館",
-        "phone": "0795-23-5992"
+        "住所": "Japan, 〒677-0015 Hyōgo-ken, Nishiwaki-shi, Nishiwaki, 790−14 西脇市郷土資料館",
+        "電話番号": "0795-23-5992"
       },
       "type": "Feature"
     },
@@ -1269,9 +1329,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒677-0039 Hyōgo-ken, Nishiwaki-shi, Kamihiechō, 345−1 西脇市岡之山美術館",
         "name": "西脇市岡之山美術館",
-        "phone": "0795-23-6223"
+        "住所": "Japan, 〒677-0039 Hyōgo-ken, Nishiwaki-shi, Kamihiechō, 345−1 西脇市岡之山美術館",
+        "電話番号": "0795-23-6223"
       },
       "type": "Feature"
     },
@@ -1284,24 +1344,39 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒677-0054 Hyōgo-ken, Nishiwaki-shi, Nomurachō, 1813−11 市立緑風台古窯陶芸館",
         "name": "西脇市立緑風台古窯陶芸館",
-        "phone": "0795-22-3000"
+        "住所": "Japan, 〒677-0054 Hyōgo-ken, Nishiwaki-shi, Nomurachō, 1813−11 市立緑風台古窯陶芸館",
+        "電話番号": "0795-22-3000"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          137.2070102,
-          36.7288745
+          134.9543758,
+          35.013464
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒930-2211 Toyama-ken, Toyama-shi, Miyao, 903 内山邸豪農の館",
         "name": "豪農の館　コヤノ美術館（西脇館）",
-        "phone": "06-6358-4930(本館)"
+        "住所": "兵庫県西脇市市原町139番地",
+        "電話番号": "06-6358-4930(本館)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.030232,
+          34.7836619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "生活協同組合コープこうべ協同学苑史料館",
+        "住所": "〒673-0592　兵庫県三木市志染町青山7丁目1-4",
+        "電話番号": "0794-85-5500"
       },
       "type": "Feature"
     },
@@ -1314,9 +1389,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒673-0432 Hyōgo-ken, Miki-shi, Uenomaruchō, 4−5 三木市立堀光美術館",
         "name": "三木市立堀光美術館",
-        "phone": "0794-82-9945"
+        "住所": "Japan, 〒673-0432 Hyōgo-ken, Miki-shi, Uenomaruchō, 4−5 三木市立堀光美術館",
+        "電話番号": "0794-82-9945"
       },
       "type": "Feature"
     },
@@ -1329,9 +1404,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒673-0432 Hyōgo-ken, Miki-shi, Uenomaruchō, 5−43 三木市立金物資料館",
         "name": "三木市立金物資料館",
-        "phone": "0794-83-1780"
+        "住所": "Japan, 〒673-0432 Hyōgo-ken, Miki-shi, Uenomaruchō, 5−43 三木市立金物資料館",
+        "電話番号": "0794-83-1780"
       },
       "type": "Feature"
     },
@@ -1344,9 +1419,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒675-1375 Hyōgo-ken, Ono-shi, Nishihonmachi, 477 小野市立好古館",
         "name": "小野市立好古館",
-        "phone": "0794-63-3390"
+        "住所": "Japan, 〒675-1375 Hyōgo-ken, Ono-shi, Nishihonmachi, 477 小野市立好古館",
+        "電話番号": "0794-63-3390"
       },
       "type": "Feature"
     },
@@ -1359,9 +1434,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Huangpi Luohansi Street Luohan Community Discipline Inspection Team, 83 Long Xing Jie, Huangpi Qu, Wuhan Shi, Hubei Sheng, China, 430315",
         "name": "五百羅漢（羅漢寺）",
-        "phone": "0790-43-0580"
+        "住所": "Huangpi Luohansi Street Luohan Community Discipline Inspection Team, 83 Long Xing Jie, Huangpi Qu, Wuhan Shi, Hubei Sheng, China, 430315",
+        "電話番号": "0790-43-0580"
       },
       "type": "Feature"
     },
@@ -1374,24 +1449,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-0212 Hyōgo-ken, Katō-shi, Shimotakino, 1369 加古川流域滝野歴史民俗資料館",
         "name": "加古川流域滝野歴史民俗資料館",
-        "phone": "0795-48-3422"
+        "住所": "Japan, 〒679-0212 Hyōgo-ken, Katō-shi, Shimotakino, 1369 加古川流域滝野歴史民俗資料館",
+        "電話番号": "0795-48-3422"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          138.6399045,
-          35.2818719
+          134.9244558,
+          35.0511181
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒418-0111 静岡県富士宮市山宮 奇石博物館",
         "name": "石の博物館　松内ミネラルコレクション",
-        "phone": "0795-32-3626"
+        "住所": "多可郡多可町中区中村町260",
+        "電話番号": "0795-32-3626"
       },
       "type": "Feature"
     },
@@ -1404,9 +1479,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-1105 Hyōgo-ken, Taka-gun, Taka-chō, Nakakuhigashiyama, 539−3 那珂ふれあい館",
         "name": "那珂ふれあい館",
-        "phone": "0795-32-0685"
+        "住所": "Japan, 〒679-1105 Hyōgo-ken, Taka-gun, Taka-chō, Nakakuhigashiyama, 539−3 那珂ふれあい館",
+        "電話番号": "0795-32-0685"
       },
       "type": "Feature"
     },
@@ -1419,9 +1494,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-1322 Hyōgo-ken, Taka-gun, Taka-chō, Kamiku Torima, 768−46 杉原紙研究所",
         "name": "多可町立杉原紙研究所",
-        "phone": "0795-36-0080"
+        "住所": "Japan, 〒679-1322 Hyōgo-ken, Taka-gun, Taka-chō, Kamiku Torima, 768−46 杉原紙研究所",
+        "電話番号": "0795-36-0080"
       },
       "type": "Feature"
     },
@@ -1434,24 +1509,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-1322 兵庫県多可郡多可町加美区鳥羽 多可町和紙博物館寿岳文庫",
         "name": "多可町和紙博物館　寿岳文庫",
-        "phone": "0795-36-0080"
+        "住所": "Japan, 〒679-1322 兵庫県多可郡多可町加美区鳥羽 多可町和紙博物館寿岳文庫",
+        "電話番号": "0795-36-0080"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.696992,
-          34.839899
+          134.6964953,
+          34.8394742
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒670-0012 Hyōgo-ken, Himeji-shi, Honmachi, 68−25 姫路市立美術館",
-        "name": "姫路市立美術館 （常設展のみ対象）",
-        "phone": "079-222-2288"
+        "name": "姫路市立美術館（常設展のみ対象）",
+        "住所": "〒670-0012 姫路市本町68-25",
+        "電話番号": "079-222-2288"
       },
       "type": "Feature"
     },
@@ -1464,24 +1539,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒670-0971 Hyōgo-ken, Himeji-shi, Nishinobusue, 440 Himeji City Aquarium 姫路市立水族館",
         "name": "姫路市立水族館",
-        "phone": "079-297-0321"
+        "住所": "Japan, 〒670-0971 Hyōgo-ken, Himeji-shi, Nishinobusue, 440 Himeji City Aquarium 姫路市立水族館",
+        "電話番号": "079-297-0321"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.6876694,
-          34.8417552
+          134.6876352,
+          34.841821
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒670-0021 Hyōgo-ken, Himeji-shi, Yamanoichō, 84 姫路文学館",
-        "name": "姫路文学館 （常設展のみ対象）",
-        "phone": "079-293-8228"
+        "name": "姫路文学館（常設展のみ対象）",
+        "住所": "姫路市山野井町84",
+        "電話番号": "079-293-8228"
       },
       "type": "Feature"
     },
@@ -1494,9 +1569,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-2201 Hyōgo-ken, Himeji-shi, Shosha, 1223 姫路市書写の里・美術工芸館",
         "name": "姫路市書写の里・美術工芸館",
-        "phone": "079-267-0301"
+        "住所": "Japan, 〒671-2201 Hyōgo-ken, Himeji-shi, Shosha, 1223 姫路市書写の里・美術工芸館",
+        "電話番号": "079-267-0301"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.6752529,
+          34.842082
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "名古山霊園仏舎利塔",
+        "住所": "〒670-0051　兵庫県姫路市名古山町14番1号",
+        "電話番号": "079-297-5030"
       },
       "type": "Feature"
     },
@@ -1509,9 +1599,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒670-0971 Hyōgo-ken, Himeji-shi, Nishinobusue, 475 姫路市平和資料館",
         "name": "姫路市平和資料館",
-        "phone": "079-291-2525"
+        "住所": "Japan, 〒670-0971 Hyōgo-ken, Himeji-shi, Nishinobusue, 475 姫路市平和資料館",
+        "電話番号": "079-291-2525"
       },
       "type": "Feature"
     },
@@ -1524,9 +1614,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒670-0061 Hyōgo-ken, Himeji-shi, Nishiimajuku, 1 Chome−1−8 圓山記念日本工藝美術館",
         "name": "圓山記念日本工藝美術館",
-        "phone": "079-292-3433"
+        "住所": "Japan, 〒670-0061 Hyōgo-ken, Himeji-shi, Nishiimajuku, 1 Chome−1−8 圓山記念日本工藝美術館",
+        "電話番号": "079-292-3433"
       },
       "type": "Feature"
     },
@@ -1539,9 +1629,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒672-8024 兵庫県姫路市白浜町灘浜 大阪ガス 姫路ガスエネルギー館",
         "name": "大阪ガス　姫路ガスエネルギー館",
-        "phone": "079-246-1908"
+        "住所": "Japan, 〒672-8024 兵庫県姫路市白浜町灘浜 大阪ガス 姫路ガスエネルギー館",
+        "電話番号": "079-246-1908"
       },
       "type": "Feature"
     },
@@ -1554,24 +1644,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Himeji City Tegarayama Botanical Garden, 93 Tegara, Himeji-shi, Hyōgo-ken 670-0972, Japan",
         "name": "姫路市立手柄山温室植物園",
-        "phone": "079-296-4300"
+        "住所": "Himeji City Tegarayama Botanical Garden, 93 Tegara, Himeji-shi, Hyōgo-ken 670-0972, Japan",
+        "電話番号": "079-296-4300"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.628659,
-          34.8527556
+          134.6286818,
+          34.8527417
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-2222 Hyōgo-ken, Himeji-shi, Aoyama, 1470−24 姫路市宿泊型児童館",
-        "name": "姫路市宿泊型児童館 「星の子館」 （宿泊対象外）",
-        "phone": "079-267-3050"
+        "name": "姫路市宿泊型児童館「星の子館」（宿泊対象外）",
+        "住所": "〒671-2222 兵庫県姫路市青山1470-24",
+        "電話番号": "079-267-3050"
       },
       "type": "Feature"
     },
@@ -1584,9 +1674,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-2204 兵庫県神崎郡福崎町西田原 町立柳田國男・松岡家記念館",
         "name": "福崎町立柳田国男・松岡家記念館",
-        "phone": "0790-22-1000"
+        "住所": "Japan, 〒679-2204 兵庫県神崎郡福崎町西田原 町立柳田國男・松岡家記念館",
+        "電話番号": "0790-22-1000"
       },
       "type": "Feature"
     },
@@ -1599,9 +1689,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-2204 Hyōgo-ken, Kanzaki-gun, Fukusaki-chō, Nishitawara, 1038−12 神崎郡歴史民俗資料館",
         "name": "福崎町立神崎郡歴史民俗資料館",
-        "phone": "0790-22-5699"
+        "住所": "Japan, 〒679-2204 Hyōgo-ken, Kanzaki-gun, Fukusaki-chō, Nishitawara, 1038−12 神崎郡歴史民俗資料館",
+        "電話番号": "0790-22-5699"
       },
       "type": "Feature"
     },
@@ -1614,9 +1704,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒678-0053 Hyōgo-ken, Aioi-shi, Nabaminamihonmachi, 11−1 相生市立歴史民俗資料館",
         "name": "相生市立歴史民俗資料館",
-        "phone": "0791-23-2961"
+        "住所": "Japan, 〒678-0053 Hyōgo-ken, Aioi-shi, Nabaminamihonmachi, 11−1 相生市立歴史民俗資料館",
+        "電話番号": "0791-23-2961"
       },
       "type": "Feature"
     },
@@ -1629,9 +1719,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒678-0235 Hyōgo-ken, Akō-shi, Kamikariya, 916−1 赤穂市立歴史博物館",
         "name": "赤穂市立歴史博物館",
-        "phone": "0791-43-4600"
+        "住所": "Japan, 〒678-0235 Hyōgo-ken, Akō-shi, Kamikariya, 916−1 赤穂市立歴史博物館",
+        "電話番号": "0791-43-4600"
       },
       "type": "Feature"
     },
@@ -1644,9 +1734,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒678-0215 Hyōgo-ken, Akō-shi, Misaki, 314−10 赤穂市立田淵記念館",
         "name": "赤穂市立美術工芸館（田淵記念館）",
-        "phone": "0791-42-0520"
+        "住所": "Japan, 〒678-0215 Hyōgo-ken, Akō-shi, Misaki, 314−10 赤穂市立田淵記念館",
+        "電話番号": "0791-42-0520"
       },
       "type": "Feature"
     },
@@ -1659,9 +1749,54 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒678-0239 兵庫県赤穂市加里屋 赤穂市立民俗資料館",
         "name": "赤穂市立民俗資料館",
-        "phone": "0791-42-1361"
+        "住所": "Japan, 〒678-0239 兵庫県赤穂市加里屋 赤穂市立民俗資料館",
+        "電話番号": "0791-42-1361"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.3825516,
+          34.8352371
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "赤穂市立有年考古館",
+        "住所": "〒678-1181 赤穂市有年楢原1164番地1",
+        "電話番号": "0791-49-3488"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.3886596,
+          34.7473431
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "大石神社義士資料館",
+        "住所": "〒678-0235　兵庫県赤穂市上仮屋131-7",
+        "電話番号": "0791-42-2054"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.3908592,
+          34.7524566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "花岳寺宝物館・義士木像堂",
+        "住所": "〒678-0239 兵庫県赤穂市加里屋1992番地",
+        "電話番号": "0791-42-2068"
       },
       "type": "Feature"
     },
@@ -1674,9 +1809,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-2532 兵庫県宍粟市山崎町高所 播州山崎花菖蒲園",
         "name": "播州山崎花菖蒲園",
-        "phone": "0790-62-7727"
+        "住所": "Japan, 〒671-2532 兵庫県宍粟市山崎町高所 播州山崎花菖蒲園",
+        "電話番号": "0790-62-7727"
       },
       "type": "Feature"
     },
@@ -1689,9 +1824,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-3233 Hyōgo-ken, Shisō-shi, Chikusachō Nishigouchi, 1048−38 たたらの里学習館",
         "name": "たたらの里学習館",
-        "phone": "0790-76-3833"
+        "住所": "Japan, 〒671-3233 Hyōgo-ken, Shisō-shi, Chikusachō Nishigouchi, 1048−38 たたらの里学習館",
+        "電話番号": "0790-76-3833"
       },
       "type": "Feature"
     },
@@ -1704,9 +1839,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-4113 兵庫県宍粟市一宮町三方町 宍粟市歴史資料館",
         "name": "宍粟市歴史資料館",
-        "phone": "0790-74-8855"
+        "住所": "Japan, 〒671-4113 兵庫県宍粟市一宮町三方町 宍粟市歴史資料館",
+        "電話番号": "0790-74-8855"
       },
       "type": "Feature"
     },
@@ -1719,9 +1854,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-2576 Hyōgo-ken, Shisō-shi, Yamasakichō Shikazawa, 80 山崎歴史民俗資料館",
         "name": "山崎歴史民俗資料館",
-        "phone": "0790-74-8855(宍粟市歴史資料館)"
+        "住所": "Japan, 〒671-2576 Hyōgo-ken, Shisō-shi, Yamasakichō Shikazawa, 80 山崎歴史民俗資料館",
+        "電話番号": "0790-74-8855(宍粟市歴史資料館)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.5398349,
+          35.0033657
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "山崎歴史郷土館",
+        "住所": "〒671-2576 兵庫県宍粟市山崎町鹿沢81 市立図書館2階",
+        "電話番号": "0790-62-4620(図書館)"
       },
       "type": "Feature"
     },
@@ -1734,9 +1884,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-4178 Hyōgo-ken, Tatsuno-shi, Tatsunochō Ōte, 54−1 うすくち龍野醤油資料館",
         "name": "うすくち龍野醤油資料館",
-        "phone": "0791-63-2900"
+        "住所": "Japan, 〒679-4178 Hyōgo-ken, Tatsuno-shi, Tatsunochō Ōte, 54−1 うすくち龍野醤油資料館",
+        "電話番号": "0791-63-2900"
       },
       "type": "Feature"
     },
@@ -1749,9 +1899,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-4179 Hyōgo-ken, Tatsuno-shi, Tatsunochō Kamikajō, 30−3 霞城館",
         "name": "霞城館・矢野勘治記念館",
-        "phone": "0791-63-0907"
+        "住所": "Japan, 〒679-4179 Hyōgo-ken, Tatsuno-shi, Tatsunochō Kamikajō, 30−3 霞城館",
+        "電話番号": "0791-63-0907"
       },
       "type": "Feature"
     },
@@ -1764,9 +1914,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-4179 Hyōgo-ken, Tatsuno-shi, Tatsunochō Kamikajō, 128−3 たつの市立龍野歴史文化資料館",
         "name": "たつの市立龍野歴史文化資料館",
-        "phone": "0791-65-9000"
+        "住所": "Japan, 〒679-4179 Hyōgo-ken, Tatsuno-shi, Tatsunochō Kamikajō, 128−3 たつの市立龍野歴史文化資料館",
+        "電話番号": "0791-65-9000"
       },
       "type": "Feature"
     },
@@ -1779,9 +1929,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-4101 Hyōgo-ken, Tatsuno-shi, Kamiokachō Okumura, 56 揖保乃糸資料館そうめんの里",
         "name": "揖保乃糸資料館　そうめんの里",
-        "phone": "079-324-0595"
+        "住所": "Japan, 〒679-4101 Hyōgo-ken, Tatsuno-shi, Kamiokachō Okumura, 56 揖保乃糸資料館そうめんの里",
+        "電話番号": "079-324-0595"
       },
       "type": "Feature"
     },
@@ -1794,9 +1944,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-1332 Hyōgo-ken, Tatsuno-shi, Mitsuchō Murotsu, 457 室津海駅館",
         "name": "たつの市立室津海駅館",
-        "phone": "079-324-0650"
+        "住所": "Japan, 〒671-1332 Hyōgo-ken, Tatsuno-shi, Mitsuchō Murotsu, 457 室津海駅館",
+        "電話番号": "079-324-0650"
       },
       "type": "Feature"
     },
@@ -1809,9 +1959,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-1332 Hyōgo-ken, Tatsuno-shi, Mitsuchō Murotsu, 306 室津民俗館",
         "name": "たつの市立室津民俗館",
-        "phone": "0791-75-5450"
+        "住所": "Japan, 〒671-1332 Hyōgo-ken, Tatsuno-shi, Mitsuchō Murotsu, 306 室津民俗館",
+        "電話番号": "0791-75-5450"
       },
       "type": "Feature"
     },
@@ -1824,9 +1974,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-4311 Hyōgo-ken, Tatsuno-shi, Shingūchō Miyauchi, 16 埋蔵文化財センター",
         "name": "たつの市立埋蔵文化財センター",
-        "phone": "079-277-5100"
+        "住所": "Japan, 〒679-4311 Hyōgo-ken, Tatsuno-shi, Shingūchō Miyauchi, 16 埋蔵文化財センター",
+        "電話番号": "079-277-5100"
       },
       "type": "Feature"
     },
@@ -1839,9 +1989,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒671-1561 Hyōgo-ken, Ibo-gun, Taishi-chō, Ikaruga, 1310−1 太子町立歴史資料館",
         "name": "太子町立歴史資料館",
-        "phone": "0791-52-3737"
+        "住所": "Japan, 〒671-1561 Hyōgo-ken, Ibo-gun, Taishi-chō, Ikaruga, 1310−1 太子町立歴史資料館",
+        "電話番号": "0791-52-3737"
       },
       "type": "Feature"
     },
@@ -1854,9 +2004,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒678-1231 Hyōgo-ken, Akō-gun, Kamigōri-chō, Kamigōri, 500−5 上郡町役場 郷土資料館",
         "name": "上郡町郷土資料館",
-        "phone": "0790-83-2635"
+        "住所": "Japan, 〒678-1231 Hyōgo-ken, Akō-gun, Kamigōri-chō, Kamigōri, 500−5 上郡町役場 郷土資料館",
+        "電話番号": "0790-83-2635"
       },
       "type": "Feature"
     },
@@ -1869,9 +2019,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-5331 Hyōgo-ken, Sayō-gun, Sayō-chō, Hirafuku, 594 平福郷土館",
         "name": "佐用町立平福郷土館",
-        "phone": "0790-86-1616"
+        "住所": "Japan, 〒679-5331 Hyōgo-ken, Sayō-gun, Sayō-chō, Hirafuku, 594 平福郷土館",
+        "電話番号": "0790-86-1616"
       },
       "type": "Feature"
     },
@@ -1884,9 +2034,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-5523 Hyōgo-ken, Sayō-gun, Sayō-chō, Kōzuki, 373 佐用町立博物館・科学館上月歴史資料館",
         "name": "上月歴史資料館",
-        "phone": "0796-32-2575"
+        "住所": "Japan, 〒679-5523 Hyōgo-ken, Sayō-gun, Sayō-chō, Kōzuki, 373 佐用町立博物館・科学館上月歴史資料館",
+        "電話番号": "0796-32-2575"
       },
       "type": "Feature"
     },
@@ -1899,9 +2049,39 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-6101 Hyōgo-ken, Toyooka-shi, Kinosakichō Yushima, 357−1 城崎文芸館",
         "name": "豊岡市立城崎文芸館",
-        "phone": "0796-47-2020"
+        "住所": "Japan, 〒669-6101 Hyōgo-ken, Toyooka-shi, Kinosakichō Yushima, 357−1 城崎文芸館",
+        "電話番号": "0796-47-2020"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.7616791,
+          35.6623591
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "豊岡市立竹野北前館",
+        "住所": "兵庫県豊岡市竹野町竹野50-12",
+        "電話番号": "0796-47-1555"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.761843,
+          35.6586901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "豊岡市立住吉屋歴史資料館",
+        "住所": "豊岡市竹野町竹野４２２",
+        "電話番号": "0796-44-1515"
       },
       "type": "Feature"
     },
@@ -1914,9 +2094,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-5346 Hyōgo-ken, Toyooka-shi, Hidakachō Ibu, 785 植村直己冒険館",
         "name": "植村直己冒険館",
-        "phone": "0796-42-6111"
+        "住所": "Japan, 〒669-5346 Hyōgo-ken, Toyooka-shi, Hidakachō Ibu, 785 植村直己冒険館",
+        "電話番号": "0796-42-6111"
       },
       "type": "Feature"
     },
@@ -1929,9 +2109,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-5305 Hyōgo-ken, Toyooka-shi, Hidakachō Nyou, 808 但馬国府・国分寺館",
         "name": "但馬国府・国分寺館",
-        "phone": "0796-52-5456"
+        "住所": "Japan, 〒669-5305 Hyōgo-ken, Toyooka-shi, Hidakachō Nyou, 808 但馬国府・国分寺館",
+        "電話番号": "0796-52-5456"
       },
       "type": "Feature"
     },
@@ -1944,9 +2124,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0214 Hyōgo-ken, Toyooka-shi, Izushichō Uchimachi, 98 豊岡市立美術館「伊藤清永記念館」",
         "name": "豊岡市立美術館－伊藤清永記念館－",
-        "phone": "0796-52-6556"
+        "住所": "Japan, 〒668-0214 Hyōgo-ken, Toyooka-shi, Izushichō Uchimachi, 98 豊岡市立美術館「伊藤清永記念館」",
+        "電話番号": "0796-52-6556"
       },
       "type": "Feature"
     },
@@ -1959,9 +2139,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0232 兵庫県豊岡市出石町宵田 豊岡市立出石史料館",
         "name": "豊岡市立出石史料館",
-        "phone": "0796-52-2353"
+        "住所": "Japan, 〒668-0232 兵庫県豊岡市出石町宵田 豊岡市立出石史料館",
+        "電話番号": "0796-52-2353"
       },
       "type": "Feature"
     },
@@ -1974,9 +2154,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0215 Hyōgo-ken, Toyooka-shi, Izushichō Uoya, 50 出石明治館",
         "name": "豊岡市立出石明治館",
-        "phone": "0796-52-3416"
+        "住所": "Japan, 〒668-0215 Hyōgo-ken, Toyooka-shi, Izushichō Uoya, 50 出石明治館",
+        "電話番号": "0796-52-3416"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.881703,
+          35.460677
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "豊岡市立加藤弘之生家",
+        "住所": "豊岡市出石町下谷１０番地の１",
+        "電話番号": "0796-52-5456(伊藤清永美術館)"
       },
       "type": "Feature"
     },
@@ -1989,9 +2184,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0203 Hyōgo-ken, Toyooka-shi, Izushichō Hakaza, 380−1 豊岡市立博物館・科学館いずし古代学習館",
         "name": "豊岡市立いずし古代学習館",
-        "phone": "0796-52-7100"
+        "住所": "Japan, 〒668-0203 Hyōgo-ken, Toyooka-shi, Izushichō Hakaza, 380−1 豊岡市立博物館・科学館いずし古代学習館",
+        "電話番号": "0796-52-7100"
       },
       "type": "Feature"
     },
@@ -2004,9 +2199,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0345 Hyōgo-ken, Toyooka-shi, Tantōchō Nakayama, ７１１ 豊岡市立日本・モンゴル民族博物館",
         "name": "日本・モンゴル民族博物館",
-        "phone": "0796-56-1000"
+        "住所": "Japan, 〒668-0345 Hyōgo-ken, Toyooka-shi, Tantōchō Nakayama, ７１１ 豊岡市立日本・モンゴル民族博物館",
+        "電話番号": "0796-56-1000"
       },
       "type": "Feature"
     },
@@ -2019,9 +2214,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0814 兵庫県豊岡市 豊岡市立コウノトリ文化館",
         "name": "豊岡市立コウノトリ文化館",
-        "phone": "0796-23-7750"
+        "住所": "Japan, 〒668-0814 兵庫県豊岡市 豊岡市立コウノトリ文化館",
+        "電話番号": "0796-23-7750"
       },
       "type": "Feature"
     },
@@ -2034,9 +2229,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0234 Hyōgo-ken, Toyooka-shi, Izushichōyanagi, 17−2 永楽館",
         "name": "出石永楽館",
-        "phone": "0796-52-5300"
+        "住所": "Japan, 〒668-0234 Hyōgo-ken, Toyooka-shi, Izushichōyanagi, 17−2 永楽館",
+        "電話番号": "0796-52-5300"
       },
       "type": "Feature"
     },
@@ -2049,9 +2244,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒668-0801 Hyōgo-ken, Toyooka-shi, Akaishi, 1362 豊岡杞柳細工ミュージアム",
         "name": "玄武洞ミュージアム",
-        "phone": "0796-23-3821"
+        "住所": "Japan, 〒668-0801 Hyōgo-ken, Toyooka-shi, Akaishi, 1362 豊岡杞柳細工ミュージアム",
+        "電話番号": "0796-23-3821"
       },
       "type": "Feature"
     },
@@ -2064,9 +2259,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒667-0003 Hyōgo-ken, Yabu-shi, Yōkachō Shukunami, 171 青谿書院資料館",
         "name": "青谿書院資料館",
-        "phone": "079-662-4378"
+        "住所": "Japan, 〒667-0003 Hyōgo-ken, Yabu-shi, Yōkachō Shukunami, 171 青谿書院資料館",
+        "電話番号": "079-662-4378"
       },
       "type": "Feature"
     },
@@ -2079,9 +2274,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒667-0321 兵庫県養父市大屋町蔵垣 上垣守国養蚕記念館",
         "name": "養父市立上垣守国養蚕記念館",
-        "phone": "079-669-1580"
+        "住所": "Japan, 〒667-0321 兵庫県養父市大屋町蔵垣 上垣守国養蚕記念館",
+        "電話番号": "079-669-1580"
       },
       "type": "Feature"
     },
@@ -2094,9 +2289,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒667-0114 Hyōgo-ken, Yabu-shi, Kojō, 36 市立大庄屋記念館",
         "name": "養父市立大庄屋記念館",
-        "phone": "079-664-1628"
+        "住所": "Japan, 〒667-0114 Hyōgo-ken, Yabu-shi, Kojō, 36 市立大庄屋記念館",
+        "電話番号": "079-664-1628"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.652434,
+          35.331344
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "養父市立木彫展示館",
+        "住所": "兵庫県養父市大屋町大杉826",
+        "電話番号": "079-663-8070"
       },
       "type": "Feature"
     },
@@ -2109,9 +2319,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒667-1105 Hyōgo-ken, Yabu-shi, Sekinomiya, 605−1 養父市立博物館・科学館山田風太郎記念館",
         "name": "養父市立山田風太郎記念館",
-        "phone": "079-663-5522"
+        "住所": "Japan, 〒667-1105 Hyōgo-ken, Yabu-shi, Sekinomiya, 605−1 養父市立博物館・科学館山田風太郎記念館",
+        "電話番号": "079-663-5522"
       },
       "type": "Feature"
     },
@@ -2124,9 +2334,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒667-0051 兵庫県養父市八鹿町石原 妙見山資料宝物館",
         "name": "妙見山資料宝物館",
-        "phone": "079-662-2817"
+        "住所": "Japan, 〒667-0051 兵庫県養父市八鹿町石原 妙見山資料宝物館",
+        "電話番号": "079-662-2817"
       },
       "type": "Feature"
     },
@@ -2139,24 +2349,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-3423 兵庫県朝来市多々良木 あさご芸術の森美術館",
         "name": "あさご芸術の森美術館",
-        "phone": "079-670-4111"
+        "住所": "Japan, 〒679-3423 兵庫県朝来市多々良木 あさご芸術の森美術館",
+        "電話番号": "079-670-4111"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.8299108,
-          35.2385312
+          134.8304516,
+          35.2385276
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-3423 兵庫県朝来市多々良木 あさご芸術の森美術館",
-        "name": "あさご芸術の森美術館 淀井敏夫記念館",
-        "phone": "079-670-4111"
+        "name": "あさご芸術の森美術館―淀井敏夫記念館―",
+        "住所": "〒679－3423　兵庫県朝来市多々良木739－3",
+        "電話番号": "079-670-4111"
       },
       "type": "Feature"
     },
@@ -2169,9 +2379,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-3453 Hyōgo-ken, Asago-shi, Sanō, 1826−1 朝来市博物館・科学館旧神子畑鉱山事務舎ムーセハウス写真館",
         "name": "ムーセハウス写真館",
-        "phone": "079-677-1717"
+        "住所": "Japan, 〒679-3453 Hyōgo-ken, Asago-shi, Sanō, 1826−1 朝来市博物館・科学館旧神子畑鉱山事務舎ムーセハウス写真館",
+        "電話番号": "079-677-1717"
       },
       "type": "Feature"
     },
@@ -2184,9 +2394,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-3301 Hyōgo-ken, Asago-shi, Ikunochō Kuchiganaya, 356 生野書院",
         "name": "朝来市生野書院",
-        "phone": "079-679-4336"
+        "住所": "Japan, 〒679-3301 Hyōgo-ken, Asago-shi, Ikunochō Kuchiganaya, 356 生野書院",
+        "電話番号": "079-679-4336"
       },
       "type": "Feature"
     },
@@ -2199,24 +2409,54 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-5232 Hyōgo-ken, Asago-shi, Wadayamachō Terauchi, 123 和田山郷土歴史館",
         "name": "朝来市和田山郷土歴史館",
-        "phone": "079-675-2928"
+        "住所": "Japan, 〒669-5232 Hyōgo-ken, Asago-shi, Wadayamachō Terauchi, 123 和田山郷土歴史館",
+        "電話番号": "079-675-2928"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          134.7969774,
-          35.1668024
+          134.8697606,
+          35.3116443
         ],
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒679-3301 兵庫県朝来市生野町口銀谷 朝来市 旧生野鉱山職員宿舎",
-        "name": "朝来市旧生野鉱山職員宿舎 （志村喬記念館）",
-        "phone": "079-670-5005"
+        "name": "朝来市埋蔵文化財センター「古代あさご館」",
+        "住所": "〒669-5153　朝来市山東町大月91番地2",
+        "電話番号": "079-670-7330"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.8359861,
+          35.2978894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "朝来市情報館天空の城",
+        "住所": "兵庫県朝来市和田山町竹田363番地（旧木村酒造場EN内）",
+        "電話番号": "079-674-2120"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.7971501,
+          35.1666439
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "朝来市旧生野鉱山職員宿舎（志村喬記念館）",
+        "住所": "〒679-3301　兵庫県朝来市生野町口銀谷６９７番地１",
+        "電話番号": "079-670-5005"
       },
       "type": "Feature"
     },
@@ -2229,9 +2469,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-6541 Hyōgo-ken, Mikata-gun, Kami-chō, Kasumiku Sakae, 1113 町立ジオパークと海の文化館",
         "name": "香美町立ジオパークと海の文化館",
-        "phone": "0796-36-4671"
+        "住所": "Japan, 〒669-6541 Hyōgo-ken, Mikata-gun, Kami-chō, Kasumiku Sakae, 1113 町立ジオパークと海の文化館",
+        "電話番号": "0796-36-4671"
       },
       "type": "Feature"
     },
@@ -2244,9 +2484,24 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒667-1311 Hyōgo-ken, Mikata-gun, Kami-chō, Muraokaku Muraoka, 2324−1 香美町立博物館・科学館村岡民俗資料館・まほろば",
         "name": "香美町立村岡民俗資料館「まほろば」",
-        "phone": "0796-98-1154"
+        "住所": "Japan, 〒667-1311 Hyōgo-ken, Mikata-gun, Kami-chō, Muraokaku Muraoka, 2324−1 香美町立博物館・科学館村岡民俗資料館・まほろば",
+        "電話番号": "0796-98-1154"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          134.6291781,
+          35.6321859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "香美町立小代古代体験の森",
+        "住所": "香美町小代区広井８０４",
+        "電話番号": "0796-97-3966"
       },
       "type": "Feature"
     },
@@ -2259,9 +2514,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-6702 Hyōgo-ken, Mikata-gun, Shinonsen-chō, Hamasaka, 1208 浜坂先人記念館以命亭",
         "name": "浜坂先人記念館以命亭",
-        "phone": "0796-82-4490"
+        "住所": "Japan, 〒669-6702 Hyōgo-ken, Mikata-gun, Shinonsen-chō, Hamasaka, 1208 浜坂先人記念館以命亭",
+        "電話番号": "0796-82-4490"
       },
       "type": "Feature"
     },
@@ -2274,9 +2529,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-6943 兵庫県美方郡美方郡千谷 おもしろ昆虫化石館",
         "name": "おもしろ昆虫化石館",
-        "phone": "0796-93-0888"
+        "住所": "Japan, 〒669-6943 兵庫県美方郡美方郡千谷 おもしろ昆虫化石館",
+        "電話番号": "0796-93-0888"
       },
       "type": "Feature"
     },
@@ -2289,9 +2544,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-3309 Hyōgo-ken, Tanba-shi, Kaibarachō Kaibara, 672 市立柏原歴史民俗資料館",
         "name": "丹波市立柏原歴史民俗資料館",
-        "phone": "0795-73-0177"
+        "住所": "Japan, 〒669-3309 Hyōgo-ken, Tanba-shi, Kaibarachō Kaibara, 672 市立柏原歴史民俗資料館",
+        "電話番号": "0795-73-0177"
       },
       "type": "Feature"
     },
@@ -2304,9 +2559,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-3603 Hyōgo-ken, Tanba-shi, Hikamichō Nishinaka, 615−4 丹波市立植野記念美術館",
         "name": "丹波市立植野記念美術館",
-        "phone": "0795-82-5945"
+        "住所": "Japan, 〒669-3603 Hyōgo-ken, Tanba-shi, Hikamichō Nishinaka, 615−4 丹波市立植野記念美術館",
+        "電話番号": "0795-82-5945"
       },
       "type": "Feature"
     },
@@ -2319,9 +2574,54 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-3464 Hyōgo-ken, Tanba-shi, Hikamichō Isou, 1156 市立水分れ資料館",
         "name": "丹波市立水分れ資料館",
-        "phone": "0795-82-5911"
+        "住所": "Japan, 〒669-3464 Hyōgo-ken, Tanba-shi, Hikamichō Isou, 1156 市立水分れ資料館",
+        "電話番号": "0795-82-5911"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.0022528,
+          35.2486743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "丹波市立青垣歴史民俗資料館",
+        "住所": "〒669-3811 兵庫県丹波市青垣町佐治114",
+        "電話番号": "0795-70-0819(市教委)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1020012,
+          35.1680522
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "丹波市立春日歴史民俗資料館",
+        "住所": "兵庫県丹波市春日町黒井496-2",
+        "電話番号": "0795-70-0819(市教委)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1437862,
+          35.2110607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "丹波市立市島民俗資料館",
+        "住所": "〒669-4322 兵庫県丹波市市島町上田1134",
+        "電話番号": "0795-70-0819(市教委)"
       },
       "type": "Feature"
     },
@@ -2334,9 +2634,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-3833 Hyōgo-ken, Tanba-shi, Aogakichō Yamagai, 115−6 青垣いきものふれあいの里",
         "name": "丹波市立青垣いきものふれあいの里",
-        "phone": "0795-88-0888"
+        "住所": "Japan, 〒669-3833 Hyōgo-ken, Tanba-shi, Aogakichō Yamagai, 115−6 青垣いきものふれあいの里",
+        "電話番号": "0795-88-0888"
       },
       "type": "Feature"
     },
@@ -2349,9 +2649,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-3803 Hyōgo-ken, Tanba-shi, Aogakichō Nishiashida, 541−1 丹波布伝承館",
         "name": "丹波市立丹波布伝承館",
-        "phone": "0795-80-5100"
+        "住所": "Japan, 〒669-3803 Hyōgo-ken, Tanba-shi, Aogakichō Nishiashida, 541−1 丹波布伝承館",
+        "電話番号": "0795-80-5100"
       },
       "type": "Feature"
     },
@@ -2364,9 +2664,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒669-3131 兵庫県丹波市山南町谷川 市立丹波竜化石工房ちーたんの館",
         "name": "丹波竜化石工房ちーたんの館",
-        "phone": "0795-77-1887"
+        "住所": "Japan, 〒669-3131 兵庫県丹波市山南町谷川 市立丹波竜化石工房ちーたんの館",
+        "電話番号": "0795-77-1887"
       },
       "type": "Feature"
     },
@@ -2379,9 +2679,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒656-0024 Hyōgo-ken, Sumoto-shi, Yamate, 1 Chome−1−27 洲本市立淡路文化史料館",
         "name": "洲本市立淡路文化史料館",
-        "phone": "0799-24-3331"
+        "住所": "Japan, 〒656-0024 Hyōgo-ken, Sumoto-shi, Yamate, 1 Chome−1−27 洲本市立淡路文化史料館",
+        "電話番号": "0799-24-3331"
       },
       "type": "Feature"
     },
@@ -2394,9 +2694,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒656-1301 Hyōgo-ken, Sumoto-shi, Goshikichō Tsushi, 241 高田屋嘉兵衛翁記念館",
         "name": "高田屋嘉兵衛翁記念館",
-        "phone": "0799-33-0464"
+        "住所": "Japan, 〒656-1301 Hyōgo-ken, Sumoto-shi, Goshikichō Tsushi, 241 高田屋嘉兵衛翁記念館",
+        "電話番号": "0799-33-0464"
       },
       "type": "Feature"
     },
@@ -2409,9 +2709,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒656-0314 Hyōgo-ken, Minamiawaji-shi, Matsuhonishiji, 1137−1 南あわじ市滝川記念美術館玉青館",
         "name": "南あわじ市滝川記念美術館玉青館",
-        "phone": "0799-36-2314"
+        "住所": "Japan, 〒656-0314 Hyōgo-ken, Minamiawaji-shi, Matsuhonishiji, 1137−1 南あわじ市滝川記念美術館玉青館",
+        "電話番号": "0799-36-2314"
       },
       "type": "Feature"
     },
@@ -2424,9 +2724,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒656-0475 Hyōgo-ken, Minamiawaji-shi, Ichisanjō, 880 南あわじ市淡路人形浄瑠璃資料館",
         "name": "南あわじ市淡路人形浄瑠璃資料館",
-        "phone": "0799-43-5037"
+        "住所": "Japan, 〒656-0475 Hyōgo-ken, Minamiawaji-shi, Ichisanjō, 880 南あわじ市淡路人形浄瑠璃資料館",
+        "電話番号": "0799-43-5037"
       },
       "type": "Feature"
     },
@@ -2439,9 +2739,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒656-1741 Hyōgo-ken, Awaji-shi, Asanominami, 240 淡路市北淡歴史民俗資料館",
         "name": "淡路市北淡歴史民俗資料館",
-        "phone": "0799-82-2177"
+        "住所": "Japan, 〒656-1741 Hyōgo-ken, Awaji-shi, Asanominami, 240 淡路市北淡歴史民俗資料館",
+        "電話番号": "0799-82-2177"
       },
       "type": "Feature"
     },
@@ -2454,9 +2754,9 @@
         "type": "Point"
       },
       "properties": {
-        "addr": "Japan, 〒656-2305 Hyōgo-ken, Awaji-shi, Ura, 668−2 中浜稔猫美術館",
         "name": "淡路市立中浜稔猫美術館",
-        "phone": "0799-75-2011"
+        "住所": "Japan, 〒656-2305 Hyōgo-ken, Awaji-shi, Ura, 668−2 中浜稔猫美術館",
+        "電話番号": "0799-75-2011"
       },
       "type": "Feature"
     }
