@@ -1,4 +1,8 @@
 # coding: UTF-8
+#
+# のびのびパスポート施設データ
+# nobi.csv から geojson 形式のデータを生成します。
+#
 import logging
 import sys, os
 import geo

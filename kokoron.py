@@ -1,6 +1,8 @@
 # coding: UTF-8
-# kokoron.csv から「可能な限り」 geojson に変換するスクリプト。
-# 不完全です。
+#
+# ココロンカード施設データ
+# kokoron.csv から geojson 形式のデータを生成します。
+#
 import logging
 import sys, os
 import geo
