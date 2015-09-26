@@ -8,10 +8,10 @@ import json
 rows = []
 fields = None
 for row in csv.DictReader(codecs.open("nobi.csv", encoding="UTF-8")):
-	name = row["name"]
+	name = row["所在地"]
 	results = geo.geocode(name)
 	if len(results) > 0:
-		posts = []
+		posts = [] # useful for variants
 		for r in results:
 			postal = False
 			for addr in r["address_components"]:
@@ -21,7 +21,12 @@ for row in csv.DictReader(codecs.open("nobi.csv", encoding="UTF-8")):
 			if not postal:
 				posts.append(None)
 		
-		if len(results) == 1 or len(set(posts)) == 1:
+		politicals = [] # useful for postal code updates
+		for r in results:
+			political = [addr for addr in r["address_components"] if "political" in addr["types"]]
+			politicals.append(json.dumps(political, sort_keys=True))
+		
+		if len(results) == 1 or len(set(posts)) == 1 or len(set(politicals)) == 1:
 			r = results[0]
 			if not addr:
 				addr = r["formatted_address"]
