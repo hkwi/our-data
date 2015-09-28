@@ -16,9 +16,6 @@ for row in csv.DictReader(codecs.open("nobi.csv", encoding="UTF-8")):
 	results = geo.geocode(name)
 	if geo.resolved(results):
 		r = results[0]
-		if not addr:
-			addr = r["formatted_address"]
-		
 		rows.append({
 			"type":"Feature",
 			"geometry": {
