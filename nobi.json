@@ -116,7 +116,7 @@
       "properties": {
         "area": "神戸市灘区",
         "name": "王子動物園",
-        "url": "http://www.city.kobe.lg.jp/culture/leisure/ojizoo/index_old.html",
+        "url": "http://www.kobe-ojizoo.jp/",
         "交通機関": "JR「灘」駅から北へ徒歩約5分、阪急「王子公園」駅から西へ徒歩約3分、阪神「岩屋」駅から北へ徒歩約10分、市バス90・92系統「王子動物園前」下車すぐ",
         "休館日": "",
         "所在地": "神戸市灘区王子町3丁目1",
@@ -458,27 +458,6 @@
         "所在地": "神戸市北区大沢町上大沢2150番地",
         "開館時間": "",
         "電話": "078-954-1000",
-        "駐車場": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          135.1478434,
-          34.652622
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "area": "神戸市長田区",
-        "name": "KOBE三国志ガーデン",
-        "url": "http://www.kobe-tetsujin.com/index.html",
-        "交通機関": "JRまたは市営地下鉄「新長田駅」南へ徒歩9分、市営地下鉄海岸線「駒ヶ林駅」西へ徒歩2分",
-        "休館日": "",
-        "所在地": "神戸市長田区二葉町5丁目1番 アスタくにづか5番館南棟2階",
-        "開館時間": "",
-        "電話": "078-612-3594",
         "駐車場": ""
       },
       "type": "Feature"
@@ -906,27 +885,6 @@
     {
       "geometry": {
         "coordinates": [
-          135.3074998,
-          34.9060964
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "area": "宝塚市",
-        "name": "宝塚市立歴史民俗資料館 旧東家住宅",
-        "url": "http://www.city.takarazuka.hyogo.jp/kyoiku/rekishi/1001183.html",
-        "交通機関": "阪急「宝塚」駅から阪急田園バス波豆行きで「自然の家前」下車、北方へ徒歩約5分",
-        "休館日": "",
-        "所在地": "宝塚市大原野字松尾1 宝塚市立宝塚自然の家内",
-        "開館時間": "",
-        "電話": "0797-91-0314",
-        "駐車場": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           135.350154,
           34.807744
         ],
@@ -1001,7 +959,7 @@
         "url": "http://www.city.sanda.lg.jp/shisetsu/020.html",
         "交通機関": "JR「三田」駅から徒歩約10分",
         "休館日": "",
-        "所在地": "三田市三輪字宮ノ越858番地1",
+        "所在地": "三田市三輪857-1",
         "開館時間": "",
         "電話": "079-563-8211",
         "駐車場": ""
@@ -1347,27 +1305,6 @@
     {
       "geometry": {
         "coordinates": [
-          134.5377565,
-          34.0671534
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "area": "徳島市",
-        "name": "モラエス館",
-        "url": "http://www.city.tokushima.tokushima.jp/kankou/kankoushisetsu/moraesu.html",
-        "交通機関": "「阿波おどり会館」からロープウェイで約6分",
-        "休館日": "",
-        "所在地": "徳島市眉山町茂助ケ原・088-623-5342",
-        "開館時間": "",
-        "電話": "088-623-5342",
-        "駐車場": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           134.499067,
           34.1647063
         ],
@@ -1376,7 +1313,7 @@
       "properties": {
         "area": "鳴門市",
         "name": "鳴門市ドイツ館",
-        "url": "http://www.city.naruto.tokushima.jp/contents/germanhouse/index.html",
+        "url": "http://www.city.naruto.tokushima.jp/manabu/kanko/daiku/germanhouse/",
         "交通機関": "JR「鳴門」駅から市バスで25分「ドイツ館前」下車、JR高徳線「板東」駅から徒歩20分",
         "休館日": "",
         "所在地": "鳴門市大麻町桧字東山田55-2",
