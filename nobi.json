@@ -1343,6 +1343,111 @@
         "駐車場": ""
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.2199287,
+          35.0771466
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "area": "篠山市",
+        "name": "篠山市立歴史美術館",
+        "url": "http://www.withsasayama.jp/REKIBUN/rekibi_top.htm",
+        "交通機関": "JR福知山線「篠山口駅」から神姫グリーンバス篠山営業所行「春日神社前」バス停下車徒歩1分",
+        "休館日": "",
+        "所在地": "篠山市呉服町53番地",
+        "開館時間": "",
+        "電話": "079-552-0601",
+        "駐車場": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.2166982,
+          35.0759329
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "area": "篠山市",
+        "name": "篠山城大書院",
+        "url": "http://www.withsasayama.jp/REKIBUN/osyoin_top.htm",
+        "交通機関": "JR福知山線「篠山口駅」から神姫グリーンバス篠山営業所行「二階町」バス停下車徒歩5分",
+        "休館日": "",
+        "所在地": "篠山市北新町2-3史跡篠山城跡二の丸内",
+        "開館時間": "",
+        "電話": "079-552-4500",
+        "駐車場": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.1311126,
+          34.9809565
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "area": "篠山市",
+        "name": "丹波伝統工芸公園 立杭 陶の郷",
+        "url": "http://www.tanbayaki.com/index.html",
+        "交通機関": "JR福知山線「相野駅」より、「清水」「兵庫陶芸美術館」行き 神姫バス乗車10分「陶の郷前」下車すぐ",
+        "休館日": "",
+        "所在地": "篠山市今田町上立杭3",
+        "開館時間": "",
+        "電話": "079-597-2034",
+        "駐車場": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.214146,
+          35.0718259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "area": "篠山市",
+        "name": "篠山市立武家屋敷安間家資料館",
+        "url": "http://www.withsasayama.jp/REKIBUN/anma_top.htm",
+        "交通機関": "JR福知山線「篠山口駅」から新規グリーンバス篠山営業所行「二階町」バス停下車徒歩15分",
+        "休館日": "",
+        "所在地": "篠山市西新町95",
+        "開館時間": "",
+        "電話": "079-552-6933",
+        "駐車場": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.215565,
+          35.0755218
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "area": "篠山市",
+        "name": "篠山市立青山歴史村",
+        "url": "http://www.withsasayama.jp/REKIBUN/aoyama_top.htm",
+        "交通機関": "JR福知山線「篠山口駅」から神姫グリーンバス篠山営業所行「二階町」バス停下車徒歩5分",
+        "休館日": "",
+        "所在地": "篠山市北新町48",
+        "開館時間": "",
+        "電話": "079-552-0056",
+        "駐車場": ""
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"
