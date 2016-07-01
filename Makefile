@@ -11,6 +11,7 @@ nursery:
 	python3 nursery_urls.py | wget -x -N -i -
 	python nursery_pdftocsv.py
 	python3 nursery_reparse.py
+	python shinseido_pdftocsv.py
 
 .PHONY: infection
 infection:
