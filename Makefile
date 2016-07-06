@@ -12,6 +12,7 @@ nursery:
 	python nursery_pdftocsv.py
 	python3 nursery_reparse.py
 	python shinseido_pdftocsv.py
+	PYTHONIOENCODING=utf8 python3 shinseido_reparse.py > shinseido/all.csv
 
 .PHONY: infection
 infection:
