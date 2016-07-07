@@ -8,11 +8,7 @@ def remove_white(s):
 	return s.replace(" ", "").replace("　", "").strip()
 
 def proc(fn):
-	data = []
-	for row in csv.reader(open(fn, encoding="UTF-8")):
-		row = [remove_white(s) for s in row]
-		if "".join(row):
-			data.append(row)
+	data = [row for row in csv.reader(open(fn, encoding="UTF-8"))]
 	
 	idx0 = (-1, None)
 	idx1 = (-1, None)
@@ -29,20 +25,27 @@ def proc(fn):
 	idx = [" ".join(l).strip() for l in zip(idx0[1], idx1[1])]
 	idx_idx = [n for n,x in enumerate(idx) if x and x != "所在区"]
 	
-	bunrui = None
-	bunrui_idx = idx.index("分類")
+	prev = None
 	body = [[idx[n] for n in idx_idx]]
 	for rownum, l in enumerate(data):
 		if rownum > idx1[0]:
-			if not l[idx.index("施設名")]:
-				break
+			data = [l[n] for n in idx_idx]
+			if not "".join(data): # blank row
+				continue
 			
-			if l[bunrui_idx]:
-				bunrui = l[bunrui_idx]
-			else:
-				l[bunrui_idx] = bunrui
+			# 分類は前の行を引き継ぐ
+			for n in idx_idx:
+				if l[n]:
+					continue
+				if "一時保育" in idx[n]:
+					continue
+				if "園庭開放" in idx[n]:
+					continue
+				l[n] = prev[n]
 			
-			body.append([l[n] for n in idx_idx])
+			prev = l
+			
+			body.append([l[n].split("※")[0].strip() for n in idx_idx])
 	
 	csv.writer(sys.stdout).writerows(body)
 #	print(fn, idx_idx, )
