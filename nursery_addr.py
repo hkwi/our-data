@@ -1,3 +1,4 @@
+# coding: UTF-8
 import json
 import csv
 import unicodedata
@@ -52,16 +53,12 @@ for idx in idxtbl:
 	if k in geo:
 		pass
 	else:
-		g = geocoder.google(k)
+		k2 = "神戸市 %s %s" % (info["地区"], addr["所在地"])
+		g = geocoder.google(k2)
 		if g.ok:
 			geo[k] = g
 		else:
-			k2 = "神戸市 %s %s" % (info["地区"], addr["所在地"])
-			g = geocoder.google(k2)
-			if g.ok:
-				geo[k] = g
-			else:
-				print(addr, info)
+			print(addr, info)
 
 rows = []
 for idx in idxtbl:
