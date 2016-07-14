@@ -63,14 +63,28 @@ for idx in idxtbl:
 rows = []
 for idx in idxtbl:
 	addr = {k:v for k,v in shinseido[idx[1]].items() if k}
-	info = {k:v for k,v in status[idx[0]].items() if k}
-	k = addr["所在地"]
+	base = {k:v for k,v in status[idx[0]].items() if k}
+	a = addr["所在地"]
+	
+	info = {}
+	for k,v in base.items():
+		ks = k.split()
+		if len(ks) > 1:
+			if v:
+				for sub in ("入所の可能性", "申込児童数"):
+					if ks[0] != sub:
+						continue
+					if sub not in info:
+						info[sub] = {}
+					info[sub][ks[1]] = v
+		else:
+			info[k] = v
 
 	rows.append({
 		"type":"Feature",
 		"geometry": {
 			"type": "Point",
-			"coordinates": [ geo[k].lng, geo[k].lat ],
+			"coordinates": [ geo[a].lng, geo[a].lat ],
 		},
 		"properties": info,
 	})
