@@ -71,12 +71,17 @@ for idx in idxtbl:
 		ks = k.split()
 		if len(ks) > 1:
 			if v:
-				for sub in ("入所の可能性", "申込児童数"):
-					if ks[0] != sub:
-						continue
-					if sub not in info:
-						info[sub] = {}
-					info[sub][ks[1]] = v
+				if ks[0] == "申込児童数":
+					v = int(v)
+					sub = "申込児童数"
+				elif ks[0] == "入所の可能性":
+					sub = "入所の可能性"
+				else:
+					raise "Unknown key name"
+				
+				if sub not in info:
+					info[sub] = {}
+				info[sub][ks[1]] = v
 		else:
 			info[k] = v
 

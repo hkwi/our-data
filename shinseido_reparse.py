@@ -50,5 +50,5 @@ def proc(fn):
 	csv.writer(sys.stdout).writerows(body)
 #	print(fn, idx_idx, )
 
-for fn in glob.glob("shinseido/*.pdf.*.csv"):
+for fn in glob.glob("shinseido/*sisetuitiran23.pdf.*.csv"):
 	proc(fn)
