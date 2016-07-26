@@ -5,30 +5,48 @@
 #
 import logging
 import sys, os
-import geo
+import geocoder
 import csv, codecs
 import json
+import atexit
+import pickle
+
+GEO_FILE = "geo2.pkl"
+try:
+	geo = pickle.load(open(GEO_FILE, "rb"))
+except:
+	geo = {}
+
+def store_geo():
+	pickle.dump(geo, open(GEO_FILE, "wb"))
+
+atexit.register(store_geo)
 
 rows = []
 fields = None
 for row in csv.DictReader(codecs.open("nobi.csv", encoding="UTF-8")):
 	for key in ("所在地", "name"):
 		name = row[key]
-		results = geo.geocode(name)
-		if geo.resolved(results):
-			r = results[0]
+		
+		if name in geo:
+			r = geo[name]
+		else:
+			r = geocoder.google(name)
+			if r.ok:
+				geo[name] = r
+		
+		if r.ok:
 			rows.append({
 				"type":"Feature",
 				"geometry": {
 					"type": "Point",
-					"coordinates": [r["geometry"]["location"]["lng"], r["geometry"]["location"]["lat"]],
+					"coordinates": [r.lng, r.lat],
 				},
 				"properties": row,
 			})
 			break
-		
-		for r in results:
-			logging.error("resolve error for {0} : {1}".format(name, r["formatted_address"]))
+		else:
+			logging.error("resolve error for {0}: {1} {2}".format(name, r.error, r.address))
 
 os.environ["PYTHONIOENCODING"] = "UTF-8"
 json.dump({"type":"FeatureCollection","features": rows}, sys.stdout,
