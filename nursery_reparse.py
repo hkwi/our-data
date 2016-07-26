@@ -69,6 +69,13 @@ def proc(fn, out):
 			l = [ku[fn.split("/")[-1].split(".")[0]]]+l
 			if tail:
 				l = l[:len(idx)-1]+[tail[ct]]
+			
+			if len(l) > len(idx):
+				if "".join(l[len(idx):]):
+					raise ValueError("Value index error")
+				else:
+					l = l[:len(idx)]
+			
 			if out:
 				out.writerow(l)
 			ct += 1
