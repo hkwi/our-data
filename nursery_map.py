@@ -50,10 +50,10 @@ def location_normalize(s):
 
 data = dict()
 seido = [
-	("n00", "nursery/all.csv"),
-	("s23", "shinseido/all23.csv"),
-	("s1e", "shinseido/all1.csv"),
-	("s1p", "shinseido/all1p.csv"),
+	("状況", "nursery/all.csv"),
+	("２号３号", "shinseido/all23.csv"),
+	("１号", "shinseido/all1.csv"),
+	("公立幼稚園", "shinseido/all1p.csv"),
 	]
 
 for s_idx,s_fname in seido:
@@ -73,7 +73,7 @@ for s_idx,s_fname in seido:
 		
 		data[key].append((s_idx, d))
 
-assert "夢遊喜分園" not in data
+assert "夢遊喜分園" not in data, "例外処理の確認"
 
 GEO_FILE = "geo.pkl"
 try:
@@ -187,9 +187,11 @@ for p in pdata:
 		continue
 	
 	info = dict()
-	for k,_ in seido:
-		if k in p:
-			info.update(p[k])
+	for cat,_ in seido:
+		if cat in p:
+			for k,v in p[cat].items():
+				if k:
+					info["%s,%s" % (cat,k)] = v
 	
 	rows.append({
 		"type":"Feature",
@@ -200,59 +202,6 @@ for p in pdata:
 		"properties": info,
 	})
 
-json.dump({"type":"FeatureCollection","features": rows}, sys.stdout, ensure_ascii=False, indent=2, sort_keys=True)
+json.dump({"type":"FeatureCollection","features": rows}, sys.stdout,
+	ensure_ascii=False, indent=2, sort_keys=True)
 
-
-sys.exit()
-
-for idx in idxtbl:
-	addr = {k:v for k,v in shinseido[idx[1]].items() if k}
-	info = {k:v for k,v in status[idx[0]].items() if k}
-	k = addr["所在地"]
-	if k in geo:
-		pass
-	else:
-		k2 = "神戸市 %s %s" % (info["地区"], addr["所在地"])
-		g = geocoder.google(k2)
-		if g.ok:
-			geo[k] = g
-		else:
-			print(addr, info)
-
-rows = []
-for idx in idxtbl:
-	addr = {k:v for k,v in shinseido[idx[1]].items() if k}
-	base = {k:v for k,v in status[idx[0]].items() if k}
-	a = addr["所在地"]
-	
-	info = {}
-	for k,v in base.items():
-		ks = k.split()
-		if len(ks) > 1:
-			if v:
-				if ks[0] == "申込児童数":
-					v = int(v)
-					sub = "申込児童数"
-				elif ks[0] == "入所の可能性":
-					sub = "入所の可能性"
-				else:
-					raise "Unknown key name"
-				
-				if sub not in info:
-					info[sub] = {}
-				info[sub][ks[1]] = v
-		else:
-			info[k] = v
-
-	rows.append({
-		"type":"Feature",
-		"geometry": {
-			"type": "Point",
-			"coordinates": [ geo[a].lng, geo[a].lat ],
-		},
-		"properties": info,
-	})
-
-json.dump({"type":"FeatureCollection","features": rows},
-	open("nursery.json", "w"),
-	indent=2, ensure_ascii=False, sort_keys=True)
