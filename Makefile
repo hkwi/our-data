@@ -1,9 +1,9 @@
 all: nursery infection nobi.json
 
-nobi.csv:
+nobi:
 	PYTHONIOENCODING=utf8 python3 nobi_fetch.py > nobi.csv
 
-nobi.json: nobi.csv
+nobi.json: nobi
 	PYTHONIOENCODING=utf8 python3 nobi.py > nobi.json
 
 .PHONY: nursery
