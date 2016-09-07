@@ -1,4 +1,4 @@
-all: nursery infection nobi.json
+all: nursery infection nobi.json repo
 
 nobi:
 	PYTHONIOENCODING=utf8 python3 nobi_fetch.py > nobi.csv
@@ -22,3 +22,6 @@ infection:
 	python infection_pdftocsv.py
 	python3 infection_reparse.py
 
+.PHONY: repo
+	git add infection
+	git add www.city.kobe.lg.jp
