@@ -7,14 +7,29 @@ import geocoder
 import pickle
 import atexit
 import re
+import zenhan
+
+name_rename = {a["旧"]:a["新"] for a
+	in csv.DictReader(open("shinseido_rename.csv", encoding="UTF-8"))}
 
 def name_normalize(s):
+	def norm(s):
+		s = s.split("※",1)[0]
+		s = s.replace("　", " ")
+		s = s.replace("－", "-")
+		s = zenhan.z2h(s, mode=7)
+		s = zenhan.h2z(s, mode=4)
+		s = s.strip()
+		return s
+	s = name_rename.get(norm(s), s)
+	
 	o = s
 	ext = None
 	s = s.split("※")[0]
 	s = s.split("＊")[0]
 	s = s.replace("―", "ー")
 	s = s.replace("（仮称）", "")
+	s = s.replace("(仮称)", "")
 	m = re.match("^(幼保連携型)?(認定)?(こども園)?(?P<name>.*)$", s)
 	if m:
 		s = m.group("name")
@@ -48,7 +63,7 @@ def location_normalize(s):
 	s = unicodedata.normalize("NFKC", s)
 	return s
 
-data = dict()
+data = dict() # 基本名 => [(制度, 該当行), ...]
 seido = [
 	("状況", "nursery/all.csv"),
 	("２号３号", "shinseido/all23.csv"),
@@ -61,14 +76,8 @@ for s_idx,s_fname in seido:
 		if d["施設名"] == "施設名":
 			continue
 		
-		key = None
-		for k,v in data.items():
-			if name_normalize(k)[0] == name_normalize(d["施設名"])[0]:
-				key = k
-				break
-		
-		if key is None:
-			key = name_normalize(d["施設名"])[0]
+		key = name_normalize(d["施設名"])[0]
+		if key not in data:
 			data[key] = []
 		
 		data[key].append((s_idx, d))
@@ -106,6 +115,7 @@ for k,v in data.items():
 		
 		# print(repr((k,ldic)))
 
+# geocoder にかける前に位置情報だけを抽出する
 pdata = []
 for k,v in data.items():
 	# 分園も含む
@@ -118,21 +128,29 @@ for k,v in data.items():
 	for p in places:
 		p["name"] = name
 	
+	# これで places は dict(name=基本名, ext=分園名) の配列になる
+	
 	for sendi,d in v:
 		name = d["施設名"]
 		_,ext = name_normalize(name)
 		if ext:
 			for p in places:
 				if p["ext"] == ext:
-					assert sendi not in p, "?"
+					assert sendi not in p, repr(["?", sendi, name, ext, p])
 					p[sendi] = d
+	
+	for sendi,d in v:
+		name = d["施設名"]
+		_,ext = name_normalize(name)
+		if ext:
+			pass
 		elif "分園" in name and "含む" in name:
 			for p in places:
-				assert sendi not in p
-				p[sendi] = d
+				if sendi not in p:
+					p[sendi] = d
 		elif len(places) == 1:
 			for p in places:
-				assert sendi not in p
+				assert sendi not in p, repr(["?", sendi, name])
 				p[sendi] = d
 		else:
 			for p in places:
