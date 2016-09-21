@@ -38,5 +38,5 @@ def proc(fn):
 	csv.writer(sys.stdout).writerows(body)
 #	print(fn, idx_idx, )
 
-for fn in glob.glob("shinseido/*sisetuitiran1gou.pdf.p*.csv"):
+for fn in glob.glob("shinseido/*sisetuitiran1.p*.csv"):
 	proc(fn)
