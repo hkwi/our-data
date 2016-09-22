@@ -8,6 +8,7 @@ import pickle
 import atexit
 import re
 import zenhan
+import collections
 
 name_rename = {a["旧"]:a["新"] for a
 	in csv.DictReader(open("shinseido_rename.csv", encoding="UTF-8"))}
@@ -63,7 +64,7 @@ def location_normalize(s):
 	s = unicodedata.normalize("NFKC", s)
 	return s
 
-data = dict() # 基本名 => [(制度, 該当行), ...]
+data = collections.OrderedDict() # 基本名 => [(制度, 該当行), ...]
 seido = [
 	("状況", "nursery/all.csv"),
 	("２号３号", "shinseido/all23.csv"),
