@@ -17,6 +17,10 @@ nursery:
 	PYTHONIOENCODING=utf8 python3 shinseido_reparse1p.py > shinseido/all1p.csv
 	PYTHONIOENCODING=utf8 python3 nursery_map.py > shinseido.json
 
+.PHONY: carenet
+carenet:
+	wget -x -N -i carenet.txt
+
 .PHONY: infection
 infection:
 	python3 infection_urls.py | wget -x -N -i -
