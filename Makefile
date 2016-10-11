@@ -19,7 +19,7 @@ nursery:
 
 .PHONY: carenet
 carenet:
-	wget -x -N -i carenet.txt
+	wget -N -np -r http://www.city.kobe.lg.jp/life/support/carenet/shisetsu/index.html
 
 .PHONY: infection
 infection:
