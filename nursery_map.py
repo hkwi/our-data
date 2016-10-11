@@ -148,7 +148,12 @@ for k,v in data.items():
 		elif "分園" in name and "含む" in name:
 			for p in places:
 				if sendi not in p:
-					p[sendi] = d
+					if p["ext"] is not None:
+						d2 = dict(d)
+						d2["参照"] = "本園"
+						p[sendi] = d2
+					else:
+						p[sendi] = d
 		elif len(places) == 1:
 			for p in places:
 				assert sendi not in p, repr(["?", sendi, name])
