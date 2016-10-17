@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="plus" content="900" />
+<meta name="keywords" content="大阪市港区,保育所,空き,平成28年,小規模保育" />
+<title>大阪市　港区　港区内保育施設（保育所）・小規模保育事業所の空き情報を公表します</title>
+<base href="http://www.city.osaka.lg.jp/minato/" />
+
+<script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="/js/fontsize2.js"></script>
+<script type="text/javascript" src="/js/color.js"></script>
+<script type="text/javascript" src="css/img/objects.js"></script>
+<link rel="stylesheet" type="text/css" href="css2/cms.css" media="screen,print" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie60_all.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie60.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="css/ie60.css" media="screen,print" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie70_all.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie70.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="css/ie70.css" media="screen,print" />
+<![endif]-->
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie80_all.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie80.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="css/ie80.css" media="screen,print" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie90_all.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/ie90.css" media="screen,print" />
+<link rel="stylesheet" type="text/css" href="css/ie90.css" media="screen,print" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/print_all.css" media="print" />
+<link rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+<link id="changecss" rel="stylesheet" type="text/css" href="http://www.city.osaka.lg.jp/css/color01.css" media="screen,print" />
+<script type="text/javascript" src="http://www.city.osaka.lg.jp/js/sns.js"></script>
+
+<script type="text/javascript">
+var title = encodeURIComponent(document.title);
+var url = encodeURIComponent(document.URL);
+var wwwurl = "http://www.city.osaka.lg.jp/";
+</script>
+
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68277760-1', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['sc.city.osaka.lg.jp','spwww.city.osaka.lg.jp']);
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body id="body" class="ku inbody" onload="getColorCookie(); getCookie();">
+<a name="TOPPAGE" id="TOPPAGE" class="anchor"><img src="images/clearspacer.gif" alt="ページの先頭です" width="1" height="1" /></a>
+<div class="all">
+<div id="kukyoku">
+<div class="design">
+<!-- ▼▼▼▼▼ヘッダー▼▼▼▼▼ -->
+
+<div id="head_bg2">
+<div id="head">
+<div id="head_upper" class="clear">
+
+<div id="head_bottom" class="clear">
+<div class="h1"><a href="./"><img src="http://www.city.osaka.lg.jp/minato/design_img/head_id.gif" alt="大阪市港区" /></a></div>
+
+<div id="bottom_right" class="clear">
+<ul id="head_links"><li class="menu_img"><a href="http://www.city.osaka.lg.jp/minato/page/0000310879.html#HONBUN"><img src="css/img/head_to.gif" alt="本文へ" width="58" height="16" /></a></li><li class="menu_img"><a href="/"><img src="css/img/head_osk.gif" alt="大阪市ホームページへ" width="134" height="16" /></a></li><li class="menu_img" lang="en" xml:lang="en"><a href="/contents/wdu020/minato/english/"><img src="css/img/head_en.gif" alt="English" width="69" height="16" /></a></li><li class="menu_img" lang="ko" xml:lang="ko"><a href="/contents/wdu020/minato/korean/"><img src="css/img/head_ko.gif" alt="한국어" width="55" height="16" /></a></li><li class="menu_img" lang="zh-CN" xml:lang="zh-CN"><a href="/contents/wdu020/minato/chinese/"><img src="css/img/head_cn.gif" alt="中文" width="46" height="16" /></a></li></ul>
+<ul id="head_links2"><li class="menu_img"><a href="sitemap.html"><img src="css/img/head_map.gif" alt="サイトマップ" width="90" height="16" /></a></li><li class="menu_img"><a href="site_policy/0000000021.html"><img src="css/img/head_for.gif" alt="お問合せ" width="69" height="16" /></a></li><li class="menu_img"><a href="page/0000001034.html"><img src="css/img/head_acs.gif" alt="区役所へのアクセス" width="125" height="16" /></a></li><li class="menu_img"><a href="/mobile/minato/"><img src="css/img/head_mob.gif" alt="携帯版サイト" width="90" height="16" /></a></li></ul>
+</div>
+<div id="bottom_right2" class="clear">
+<div id="src_box">
+<form method="get" id="cse-search-box" name="cse-search-box" action="http://google.com/cse"><input type="text" id="q" name="q" value="" title="検索キーワード" /><input type="image" src="css/img/search_btn.gif" id="search_button" name="search_button" alt="サイト内検索" /><input type="hidden" name="cx" value="000245616995763389932:0sdizlyc5tm" /><input type="hidden" name="ie" value="UTF-8" /><p id="abt"><a href="/main/site_policy/0000000118.html">検索ヘルプ</a></p><script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=ja"></script></form>
+</div>
+<div class="button">
+<p><a href="/main/site_policy/0000000114.html"><img src="css/img/head_red.gif" alt="読上げ・ふりがな" width="73" height="59" /></a></p>
+</div>
+<div class="color_bg">
+<ul class="color"><li><p class="color"><img src="css/img/color.gif" alt="背景色" width="58" height="24" /></p></li><li><a href="javascript:changeCSS('color01.css');"><img src="css/img/color_def.gif" alt="標準の文字色、背景色に戻すための画像ボタン" width="78" height="24" /></a></li><li><a href="javascript:changeCSS('color02.css');"><img src="css/img/color_blu.gif" alt="背景色を青色に、文字色を黄色にする画像ボタン" width="44" height="28" /></a></li><li><a href="javascript:changeCSS('color03.css');"><img src="css/img/color_yel.gif" alt="背景色を黄色に、文字色を黒にする画像ボタン" width="44" height="28" /></a></li><li><a href="javascript:changeCSS('color04.css');"><img src="css/img/color_bla.gif" alt="背景色を黒色に、文字色を白色にする画像ボタン" width="44" height="28" /></a></li></ul>
+</div>
+
+<div id="font_size">
+<p><img src="css/img/font_size.gif" alt="文字サイズ" width="138" height="18" /></p><ul><li><a href="javascript:textSizeReset();"><img src="css/img/font_def.gif" alt="標準"  width="51" height="38" /></a></li><li><a href="javascript:textSizeUp();"><img src="css/img/font_big.gif" alt="拡大" width="82" height="38" /></a></li></ul>
+</div>
+
+</div>
+
+<div id="bottom_right3">
+<p id="top_add">〒552-8510 大阪市港区市岡1丁目15番25号</p>
+</div>
+
+</div>
+
+
+</div>
+<noscript>
+<p class="noscript">文字サイズ変更機能を利用するにはJavaScript（アクティブスクリプト）を有効にしてください。JavaScript（アクティブスクリプト） を無効のまま文字サイズを変更する場合には，ご利用のブラウザの表示メニューから文字サイズを変更してください。文字サイズ変更以外にも，操作性向上の目的でJavaScript（アクティブスクリプト）を用いた機能を提供しています。可能であればJavaScript（アクティブスクリプト）を有効にしてください。</p>
+</noscript>
+</div>
+</div>
+
+<div class="site_change_bg clear" style="display:none"><div class="site_change_foot01"><p><a href="page/0000001034.html">アクセス・開庁時間</a></p></div><div class="site_change_foot02"><p><a href="soshiki_list.html">お問合せ</a></p></div></div>
+
+<div id="navi_bg">
+<div id="navi"><ul class="clear">
+<li class="cat_hom"><a href="./" onmouseover="change_image('menu901',902)" onfocus="change_image('menu901',902)" onmouseout="change_image('menu901',901)" onblur="change_image('menu901',901)"><img src="css/img/menu_top.gif" alt="トップページ" name="menu901" id="menu901" width="144" height="65" /></a></li><li class="menu_lst"><a href="category/145-0-0-0-0.html" onmouseover="change_image('menu903',904)" onfocus="change_image('menu903',904)" onmouseout="change_image('menu903',903)" onblur="change_image('menu903',903)"><img src="css/img/menu_lif.gif" alt="くらし・手続き" name="menu903" id="menu903" width="142" height="65" /></a>
+</li><li class="menu_lst"><a href="category/2492-0-0-0-0.html" onmouseover="change_image('menu905',906)" onfocus="change_image('menu905',906)" onmouseout="change_image('menu905',905)" onblur="change_image('menu905',905)"><img src="css/img/menu_saf.gif" alt="防災・防犯" name="menu905" id="menu905" width="142" height="65" /></a>
+</li><li class="menu_lst"><a href="category/1200-0-0-0-0.html" onmouseover="change_image('menu907',908)" onfocus="change_image('menu907',908)" onmouseout="change_image('menu907',907)" onblur="change_image('menu907',907)"><img src="css/img/menu_hls.gif" alt="健康・福祉" name="menu907" id="menu907" width="142" height="65" /></a>
+</li><li class="menu_lst"><a href="category/155-0-0-0-0.html" onmouseover="change_image('menu909',910)" onfocus="change_image('menu909',910)" onmouseout="change_image('menu909',909)" onblur="change_image('menu909',909)"><img src="css/img/menu_kid.gif" alt="子ども・教育" name="menu909" id="menu909" width="142" height="65" /></a>
+</li><li class="menu_lst"><a href="category/2490-0-0-0-0.html" onmouseover="change_image('menu911',912)" onfocus="change_image('menu911',912)" onmouseout="change_image('menu911',911)" onblur="change_image('menu911',911)"><img src="css/img/menu_ind.gif" alt="産業・文化・観光" name="menu911" id="menu911" width="142" height="65" /></a>
+</li><li class="menu_lst"><a href="category/1185-0-0-0-0.html" onmouseover="change_image('menu913',914)" onfocus="change_image('menu913',914)" onmouseout="change_image('menu913',913)" onblur="change_image('menu913',913)"><img src="css/img/menu_inf.gif" alt="区政情報" name="menu913" id="menu913" width="142" height="65" /></a>
+</li></ul></div>
+</div>
+<div id="HONBUN" class="anchor"><img src="images/clearspacer.gif" alt="メニューの終端です。" width="1" height="1" /></div><!-- ▲▲▲▲▲ヘッダー▲▲▲▲▲ -->
+<!-- ▼▼▼▼▼メイン▼▼▼▼▼ -->
+</div>
+<div class="naka_waku">
+<div class="design">
+<ul id="pankuzu" class="clear">
+<li><a href="http://www.city.osaka.lg.jp/">大阪市総合トップ</a></li>
+<li><a href="http://www.city.osaka.lg.jp/main/soshiki_list.html">組織一覧</a></li>
+<li><a href="http://www.city.osaka.lg.jp/minato/index.html">港区</a></li>
+<li><a href="http://www.city.osaka.lg.jp/minato/category/1200-0-0-0-0.html">健康・福祉</a></li>
+<li><a href="http://www.city.osaka.lg.jp/minato/category/1200-16-0-0-0.html">子育て情報</a></li>
+<li><a href="http://www.city.osaka.lg.jp/minato/category/1200-16-2-0-0.html">子育て支援</a></li>
+<li>港区内保育施設（保育所）・小規模保育事業所の空き情報を公表します</li>
+</ul>
+
+<div class="main_naka">
+<h1 id="kiji_h1">港区内保育施設（保育所）・小規模保育事業所の空き情報を公表します</h1>
+<p class="syosai_hiduke">[2016年10月1日]</p>
+<div class="sns_box clear">
+<p class="sns_btn"><span class="small">SNSリンクは別ウィンドウで開きます</span></p>
+<ul class="sns_lst">
+<li class="sns_btn"><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.city.osaka.lg.jp%2Fminato%2Fpage%2F0000310879.html&amp;t=%E6%B8%AF%E5%8C%BA%E5%86%85%E4%BF%9D%E8%82%B2%E6%96%BD%E8%A8%AD%EF%BC%88%E4%BF%9D%E8%82%B2%E6%89%80%EF%BC%89%E3%83%BB%E5%B0%8F%E8%A6%8F%E6%A8%A1%E4%BF%9D%E8%82%B2%E4%BA%8B%E6%A5%AD%E6%89%80%E3%81%AE%E7%A9%BA%E3%81%8D%E6%83%85%E5%A0%B1%E3%82%92%E5%85%AC%E8%A1%A8%E3%81%97%E3%81%BE%E3%81%99" target="_blank"><img src="/css/img/fce_btn.gif" width="61" height="18" alt="Facebookでシェア" /></a></li>
+<li class="sns_btn"><a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.city.osaka.lg.jp%2Fminato%2Fpage%2F0000310879.html&amp;source=tweetbutton&amp;text=%E6%B8%AF%E5%8C%BA%E5%86%85%E4%BF%9D%E8%82%B2%E6%96%BD%E8%A8%AD%EF%BC%88%E4%BF%9D%E8%82%B2%E6%89%80%EF%BC%89%E3%83%BB%E5%B0%8F%E8%A6%8F%E6%A8%A1%E4%BF%9D%E8%82%B2%E4%BA%8B%E6%A5%AD%E6%89%80%E3%81%AE%E7%A9%BA%E3%81%8D%E6%83%85%E5%A0%B1%E3%82%92%E5%85%AC%E8%A1%A8%E3%81%97%E3%81%BE%E3%81%99&amp;url=http%3A%2F%2Fwww.city.osaka.lg.jp%2Fminato%2Fpage%2F0000310879.html" target="_blank"><img src="/css/img/twe_btn.gif" width="67" height="20" alt="twitterでツイートする" /></a></li>
+<li class="sns_btn"><a href="http://b.hatena.ne.jp/add?mode=confirm&amp;url=http%3A%2F%2Fwww.city.osaka.lg.jp%2Fminato%2Fpage%2F0000310879.html&amp;title=%E6%B8%AF%E5%8C%BA%E5%86%85%E4%BF%9D%E8%82%B2%E6%96%BD%E8%A8%AD%EF%BC%88%E4%BF%9D%E8%82%B2%E6%89%80%EF%BC%89%E3%83%BB%E5%B0%8F%E8%A6%8F%E6%A8%A1%E4%BF%9D%E8%82%B2%E4%BA%8B%E6%A5%AD%E6%89%80%E3%81%AE%E7%A9%BA%E3%81%8D%E6%83%85%E5%A0%B1%E3%82%92%E5%85%AC%E8%A1%A8%E3%81%97%E3%81%BE%E3%81%99" target="_blank"><img src="/css/img/htb_btn.gif" width="80" height="20" alt="このエントリーをはてなブックマークに追加" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="main_naka_kiji">
+<div id="mol_contents" class="mol_contents"><h2>港区内保育施設（保育所）・小規模保育事業所の空き情報（平成28年11月1日受入可能数）を公表します</h2><div class="mol_textblock"><p><font color="#ee0000"><strong>※この空き情報は、平成28年10月1日現在の状況です。</strong></font></p><p><font color="#ee0000"><strong>児童の退所や保育施設等の事情等により、変更となる場合がありますので、予めご了承ください。</strong></font></p></div><div class="mol_tableblock"><table cellpadding="0" cellspacing="0" border="1" width="100%" summary="空き情報"><caption>港区保育施設等の空き情報（平成28年11月1日受入可能数）</caption>
+
+ <colgroup><col width="93" />
+ <col width="190" />
+ <col width="55" span="6" />
+ </colgroup><tbody><tr>
+  <th scope="col" colspan="1" rowspan="1" align="center">種別</th>
+  <th scope="col" colspan="1" rowspan="1" align="center">名称</th>
+  <th scope="col" colspan="1" rowspan="1" align="center">0歳</th>
+  <th scope="col" colspan="1" rowspan="1" align="center">1歳</th>
+  <th scope="col" colspan="1" rowspan="1" align="center">2歳</th>
+  <th scope="col" colspan="1" rowspan="1" align="center">3歳</th>
+  <th scope="col" colspan="1" rowspan="1" align="center">4歳</th>
+  <th scope="col" colspan="1" rowspan="1" align="center">5歳</th>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="3" align="center">民間</th>
+  <th scope="row" colspan="1" rowspan="1" align="left">　安治川保育園</th>
+  <td colspan="1" rowspan="1" align="right"><p>0　</p></td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">5　</td>
+  <td colspan="1" rowspan="1" align="right">4</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　アソカ学園</th>
+  <td colspan="1" rowspan="1" align="right">0 </td>
+  <td colspan="1" rowspan="1" align="right">0 </td>
+  <td colspan="1" rowspan="1" align="right">0 </td>
+  <td colspan="1" rowspan="1" align="right">0 </td>
+  <td colspan="1" rowspan="1" align="right">0</td><td colspan="1" rowspan="1" align="right">0 </td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　池島保育園</th>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0</td><td colspan="1" rowspan="1" align="right">4</td>
+  <td align="right">1</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="center">公立</th>
+  <th scope="row" colspan="1" rowspan="1" align="left">　大阪市立磯路保育所</th>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0</td>
+  <td align="right">1</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="center">公設置民営</th>
+  <th scope="row" colspan="1" rowspan="1" align="left">　大阪市立田中保育所</th>
+  <td align="right">0 </td>
+  <td align="right">1</td>
+  <td align="right">0 </td>
+  <td align="right">0</td><td align="right"> 4</td>
+  <td align="right">5</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="center">公立</th>
+  <th scope="row" colspan="1" rowspan="1" align="left">　大阪市立八幡屋保育所</th>
+  <td align="right">0</td><td align="right">1</td><td align="right">1</td>
+  <td align="right">2</td><td align="right">6</td><td align="right">4</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="7" align="center">民間</th>
+  <th scope="row" colspan="1" rowspan="1" align="left">　善児園</th>
+  <td align="right">0</td><td align="right">0 </td>
+  <td align="right">0</td><td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　第2善児園</th>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right"><p>0</p></td><td colspan="1" rowspan="1" align="right">1　</td>
+  <td colspan="1" rowspan="1" align="right"><p>1　</p></td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　築港保育園</th>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">1</td><td align="right">0 </td>
+  <td align="right">1</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　波除学園</th>
+  <td align="right">0</td><td align="right">0 </td>
+  <td align="right">0</td><td align="right">0</td><td align="right">0 </td>
+  <td align="right">0</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　日輪学園</th>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">0　</td>
+  <td colspan="1" rowspan="1" align="right">3　</td>
+  <td colspan="1" rowspan="1" align="right">2　</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　港乳児保育センター</th>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　港保育所</th>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td align="right">1</td><td align="right">1 </td>
+  <td align="right">0 </td>
+  <td align="right">3</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="5" align="center">小規模保育事業所</th>
+  <th scope="row" colspan="1" rowspan="1" align="left">　風の丘保育園</th>
+  <td align="right">0</td>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　きらら　もとまち保育園</th>
+  <td colspan="1" rowspan="1" align="right">　0</td>
+  <td colspan="1" rowspan="1" align="right">0</td>
+  <td colspan="1" rowspan="1" align="right">0</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　キングダム・キッズ　磯路</th>
+  <td align="right">0 </td>
+  <td align="right">0 </td>
+  <td align="right">1</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">　はらっぱ舎AIAI</th>
+  <td align="right">0</td>
+  <td align="right">0</td>
+  <td colspan="1" rowspan="1" align="right">0</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+ </tr>
+ <tr>
+  <th scope="row" colspan="1" rowspan="1" align="left">  バンビ保育所</th>
+  <td colspan="1" rowspan="1" align="right">　0</td>
+  <td colspan="1" rowspan="1" align="right">0</td><td colspan="1" rowspan="1" align="right"><p>0</p></td><td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+  <td colspan="1" rowspan="1" align="center">―</td>
+ </tr>
+
+</tbody></table></div><div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>【印刷用】港区保育施設等の空き情報（平成28年11月1日受入可能数）</strong></p><ul><li><a href="./cmsfiles/contents/0000310/310879/minatokuakijyouhouH28.10.1gennzai.pdf"><img class="icon" src="images/pdf.gif" alt="" />【印刷用】港区保育施設等の空き情報（平成28年11月1日受入可能数）<span class="data"> (pdf, 73.48KB)</span></a></li></ul><dl class="mol_attachfileblock_adobe clearfix"><dt><a href="http://www.adobe.com/jp/products/acrobat/readstep2.html"><img src="images/get_adobe_reader.gif" alt="Adobe Readerの入手" /></a></dt><dd>PDFファイルの閲覧には Adobe Reader が必要です。同ソフトがインストールされていない場合には、<a href="http://www.adobe.com/jp/products/acrobat/readstep2.html">Adobe 社のサイトから Adobe Reader をダウンロード（無償）してください。</a></dd></dl></div><div class="mol_textblock"><p>他区の空き情報については<a href="http://www.city.osaka.lg.jp/kodomo/page/0000293428.html">こども青少年局ホームページ</a>よりご確認いただけます。</p><p><br /></p></div><h3>地図情報を利用した保育施設等空き情報の提供について</h3><div class="mol_textblock"><p>大阪市では、スマートフォン等で活用していただくことを目的として、保育施設等の空き情報をウェブサイト上の地図情報を利用して提供しています。 </p><p>詳しくは「<a href="http://www.city.osaka.lg.jp/contents/wdu110/sukusuku/map.html">地図情報に掲載された保育所空き情報</a>」よりご確認ください。 </p><p>※Internet Explorerの場合、バージョン8以前のブラウザでは正しく表示することができません。</p><p>※更新日は毎月1日を予定しておりますが、1日が土日祝日の場合は、翌開庁日の更新となります。</p><p>そのため、ホームページ掲載の内容とは相違することがありますのでご注意ください。</p><p> </p></div><h3>利用申込み方法と利用調整について</h3><div class="mol_textblock"><p>保育施設等の利用を希望される場合は、お住まいの区の保健福祉センターで利用申込みを行い、利用調整（選考）を受ける必要があります。</p><p>平成<font>28</font>年度途中の利用申込み期限は、<strong>利用開始希望月の前月<font>5</font>日</strong>（閉庁日の場合は翌開庁日）です。</p><p>利用申込書一式については<a href="http://www.city.osaka.lg.jp/kodomo/page/0000317621.html">こども青少年局ホームページ</a>からダウンロードいただけます。</p><p>また、すでに利用申込み中であり、年度途中で希望保育施設等を変更される場合は、<strong>利用開始希望月の前月<font>5</font>日まで</strong>に「保育施設・事業所利用申込変更等届出書」をご提出ください。</p><p>なお、利用調整（選考）では、保育要件の高い方から順に利用決定を行いますので、ご希望の保育施設等に空きがあっても、利用できない場合があります。</p><p>※利用申込みは毎年度必要となるため、今年度申込みをされた方も改めて平成29年度の申込みが必要となりますのでご注意ください。</p><p> </p></div><div class="mol_attachfileblock"><p class="mol_attachfileblock_title"><strong>保育施設・事業所利用申込変更等届出書</strong></p><ul><li><a href="./cmsfiles/contents/0000310/310879/28kibouhennkoutodokedeshonomi.xls"><img class="icon" src="images/xls.gif" alt="" />保育施設・事業所利用申込変更等届出書<span class="data"> (xls, 34.50KB)</span></a></li><li><a href="./cmsfiles/contents/0000310/310879/28kibouhennkoutodokedesho.pdf"><img class="icon" src="images/pdf.gif" alt="" />保育施設・事業所利用申込変更等届出書<span class="data"> (pdf, 100.53KB)</span></a></li><li><a href="./cmsfiles/contents/0000310/310879/28kibouhennkoutodokedeshokinyuurei.pdf"><img class="icon" src="images/pdf.gif" alt="" />【記入例】保育施設・事業所利用申込変更等届出書<span class="data"> (pdf, 275.80KB)</span></a></li></ul><dl class="mol_attachfileblock_adobe clearfix"><dt><a href="http://www.adobe.com/jp/products/acrobat/readstep2.html"><img src="images/get_adobe_reader.gif" alt="Adobe Readerの入手" /></a></dt><dd>PDFファイルの閲覧には Adobe Reader が必要です。同ソフトがインストールされていない場合には、<a href="http://www.adobe.com/jp/products/acrobat/readstep2.html">Adobe 社のサイトから Adobe Reader をダウンロード（無償）してください。</a></dd></dl></div><h3>クラス年齢について</h3><div class="mol_textblock"><p>クラス年齢は、平成<font>28</font>年<font>4</font>月<font>1</font>日時点の満年齢<font>(0</font>歳児は生後<font>6</font>か月以上<font>)（※）</font>です。</p><p><font>0</font>歳は平成<font>27</font>年<font>4</font>月<font>2</font>日生まれから</p><p><font>1</font>歳は平成<font>26</font>年<font>4</font>月<font>2</font>日生まれから平成<font>27</font>年<font>4</font>月<font>1</font>日生まれまで</p><p><font>2</font>歳は平成<font>25</font>年<font>4</font>月<font>2</font>日生まれから平成<font>26</font>年<font>4</font>月<font>1</font>日生まれまで</p><p><font>3</font>歳は平成<font>24</font>年<font>4</font>月<font>2</font>日生まれから平成<font>25</font>年<font>4</font>月<font>1</font>日生まれまで</p><p><font>4</font>歳は平成<font>23</font>年<font>4</font>月<font>2</font>日生まれから平成<font>24</font>年<font>4</font>月<font>1</font>日生まれまで</p><p><font>5</font>歳は平成<font>22</font>年<font>4</font>月<font>2</font>日生まれから平成<font>23</font>年<font>4</font>月<font>1</font>日生まれまで</p><p>（※）善児園と第2善児園については生後7か月以上からの受入れとなります。</p><p> </p></div></div>
+</div>
+<div class="design">
+<div class="main_naka">
+
+
+<!-- ▼▼▼▼▼アンケート領域▼▼▼▼▼ -->
+<div class="syosai_qa">
+<div class="syosai_qa2">
+<form class="form" name="mdb" action="https://sc.city.osaka.lg.jp/evaluation/evaluation.cgi" method="post">
+<h2>このページについてご意見をお聞かせください</h2>
+<div>
+
+<ul>
+<li><fieldset><legend><span class="mol_mailformblock_form_title">このページは役に立ちましたか</span></legend><p>
+<input type="radio" name="ans1" id="ans11" value="1" /><label for="ans11">役に立った</label><input type="radio" name="ans1" id="ans10" value="0" checked="checked" /><label for="ans10">どちらとも言えない</label><input type="radio" name="ans1" id="ans1-1" value="-1" /><label for="ans1-1">役に立たなかった</label>
+</p></fieldset></li>
+<li><fieldset><legend><span class="mol_mailformblock_form_title">このページの内容は分かりやすかったですか</span></legend><p>
+<input type="radio" name="ans2" id="ans21" value="1" /><label for="ans21">分かりやすかった</label><input type="radio" name="ans2" id="ans20" value="0" checked="checked" /><label for="ans20">どちらとも言えない</label><input type="radio" name="ans2" id="ans2-1" value="-1" /><label for="ans2-1">分かりにくかった</label>
+</p></fieldset></li>
+<li><fieldset><legend><span class="mol_mailformblock_form_title">このページは見つけやすかったですか</span></legend><p>
+<input type="radio" name="ans3" id="ans31" value="1" /><label for="ans31">見つけやすかった</label><input type="radio" name="ans3" id="ans30" value="0" checked="checked" /><label for="ans30">どちらとも言えない</label><input type="radio" name="ans3" id="ans3-1" value="-1" /><label for="ans3-1">見つけにくかった</label>
+</p></fieldset></li>
+</ul>
+
+</div>
+
+
+<p class="qa_button">
+<input type="hidden" name="mode" value="check" />
+<input type="hidden" name="con" value="310879" />
+<input type="hidden" name="eval_kbn" value="1" />
+<input type="hidden" name="con_title" value="港区内保育施設（保育所）・小規模保育事業所の空き情報を公表します" />
+
+<input type="hidden" name="so" value="港区役所 保健福祉課" />
+<input  type="button" value="送信" onclick="this.form.submit();" />
+</p>
+</form>
+</div>
+</div>
+<!-- ▲▲▲▲▲アンケート領域▲▲▲▲▲ -->
+
+
+<div class="syosai_sonota">
+<h2>このページの作成者・問合せ先</h2>
+港区役所   保健福祉課<br />
+電話: 06-6576-9857 ファックス: 06-6572-9514<br />
+住所: 〒552-8510　大阪市港区市岡1丁目15番25号（港区役所3階）
+</div>
+
+</div>
+</div>
+</div>
+<!-- ▲▲▲▲▲メイン▲▲▲▲▲ -->
+<div class="design">
+<!-- ▼▼▼▼▼フッター▼▼▼▼▼ -->
+<div id="foot_bg">
+<div id="foot">
+<p id="foot_modori"><a href="http://www.city.osaka.lg.jp/minato/page/0000310879.html#TOPPAGE"><img src="css/img/page_top.gif" alt="ページの先頭へ戻る" width="150" height="25" /></a></p>
+<ul id="foot_link"><li><a href="http://www.city.osaka.lg.jp/main/site_policy/0000000115.html">サイトの使い方</a></li>
+<li><a href="http://www.city.osaka.lg.jp/main/site_policy/0000000120.html">サイトの考え方</a></li>
+<li><a href="http://www.city.osaka.lg.jp/main/site_policy/0000000123.html">個人情報の取り扱い</a></li>
+<li><a href="http://www.city.osaka.lg.jp/main/site_policy/0000000124.html">著作権・免責</a></li>
+</ul><div id="foot_id">
+<address><strong>大阪市港区役所</strong>　<span class="small">〒552-8510 大阪市港区市岡1丁目15番25号</span></address>
+<address><span class="small">電話: 06-6576-9986　ファックス: 06-6572-9511</span></address></div>
+
+<div class="dami"><img src="images/clearspacer.gif" alt="" width="1" height="1" /></div>
+<address id="foot_copy" lang="en" xml:lang="en">Copyright (C) City of Osaka All rights reserved.</address>
+</div>
+</div><!-- ▲▲▲▲▲フッター▲▲▲▲▲ -->
+</div>
+</div>
+</div>
+<div id="splink"></div><script type="text/javascript" src="/css/img/splink.js"></script>
+</body>
+</html>
