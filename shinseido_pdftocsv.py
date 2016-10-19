@@ -8,7 +8,7 @@ import glob
 base = json.load(open("shinseido_base.json"))
 for f in glob.glob("www.city.kobe.lg.jp/child/grow/shinseido/img/*.pdf"):
 	fn = os.path.basename(f)
-	out = "shinseido/%s" % fn
+	out = "shinseido/%s.csv" % fn
 	if os.path.exists(out) and os.stat(out).st_mtime > os.stat(f).st_mtime:
 		continue
 	
