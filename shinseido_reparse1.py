@@ -3,11 +3,13 @@ import csv
 import glob
 import os.path
 import sys
+import json
+import re
 
 def remove_white(s):
 	return s.replace(" ", "").replace("　", "").strip()
 
-def proc(fn):
+def proc(fn, out):
 	data = [row for row in csv.reader(open(fn, encoding="UTF-8"))]
 	
 	idx_num = -1
@@ -26,17 +28,36 @@ def proc(fn):
 				slot = slot[:i] + [v]
 		idx.append(" ".join(slot))
 	
-	body = [idx]
+	if not out:
+		return idx
+	
+	body = []
 	for rownum, l in enumerate(data[idx_num+3:]):
 		if not "".join(l):
 			continue
 		if "".join(l).startswith("※"):
 			break
+		if "".join(l).startswith("備考："):
+			break
 		
 		body.append(l)
 	
-	csv.writer(sys.stdout).writerows(body)
+	csv.writer(out).writerows(body)
 #	print(fn, idx_idx, )
 
-for fn in glob.glob("shinseido/*sisetuitiran1.p*.csv"):
-	proc(fn)
+for f in json.load(open("shinseido_base.json")):
+	fn = f["file"]
+	if not re.match(".*sisetuitiran1.*", fn):
+		continue
+	
+	idx = None
+	for f in glob.glob("shinseido/%s.p*.csv" % fn):
+		if idx is None:
+			idx = proc(f, None)
+		else:
+			assert len(idx) == len(proc(f, None))
+	
+	fp = open("shinseido/%s.csv" % fn, "w", encoding="UTF-8")
+	csv.writer(fp).writerow(idx)
+	for f in glob.glob("shinseido/%s.p*.csv" % fn):
+		proc(f, fp)

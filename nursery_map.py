@@ -59,18 +59,28 @@ def name_normalize(s):
 	return s, ext
 
 def location_normalize(s):
-	s = s.replace("ヶ丘","が丘").replace("名谷町乙","名谷町").replace("丁目","-")
+	s = s.replace("ヶ丘","が丘").replace("名谷町乙","名谷町").replace("丁目ー","-").replace("丁目","-").replace("−","-")
 	s = s.strip().strip("　")
 	s = unicodedata.normalize("NFKC", s)
 	return s
 
 data = collections.OrderedDict() # 基本名 => [(制度, 該当行), ...]
-seido = [
-	("状況", "nursery/all.csv"),
-	("２号３号", "shinseido/all23.csv"),
-	("１号", "shinseido/all1.csv"),
-	("公立幼稚園", "shinseido/all1p.csv"),
-	]
+lock = {}
+seido = [("状況", "nursery/all.csv")]
+for f in json.load(open("shinseido_base.json")):
+	if "plan" in f:
+		continue
+	
+	fn = f["file"]
+	if re.match(".*sisetuitiran23.*", fn) and "２号３号" not in lock:
+		seido += [("２号３号", "shinseido/%s.csv" % fn)]
+		lock["２号３号"] = f
+	elif re.match(".*sisetuitiran1.*", fn) and "１号" not in lock:
+		seido += [("１号", "shinseido/%s.csv" % fn)]
+		lock["１号"] = f
+	elif re.match(".*kourituyoutien.*", fn) and "公立幼稚園" not in lock:
+		seido += [("公立幼稚園", "shinseido/%s.csv" % fn)]
+		lock["公立幼稚園"] = f
 
 for s_idx,s_fname in seido:
 	for d in csv.DictReader(open(s_fname, encoding="UTF-8")):
@@ -84,6 +94,10 @@ for s_idx,s_fname in seido:
 		data[key].append((s_idx, d))
 
 assert "夢遊喜分園" not in data, "例外処理の確認"
+data["天隣乳児保育園"].append(("補遺", {
+	"注":"平成２９年４月より神視保育園と統合します",
+	"施設名":"天隣乳児保育園",
+	"施設所在地":"三番町４－８"}))
 
 GEO_FILE = "geo.pkl"
 try:
@@ -169,7 +183,7 @@ for k,v in data.items():
 for p in pdata:
 	ku = set()
 	ls = set()
-	for k,_ in seido:
+	for k in [s for s,_ in seido]+["補遺"]:
 		if k in p:
 			l = p[k].get("所在地", p[k].get("施設所在地"))
 			if l:
@@ -184,10 +198,13 @@ for p in pdata:
 				
 				ku.add(kk.split("（")[0].split("(")[0])
 	
-	assert len(ls) == 1, repr(p)
-	assert len(ku) == 1, repr(p)
+	assert len(ls) == 1, repr([ls,p])
 	
-	l = "神戸市 %s %s" % (ku.pop(), ls.pop())
+	if ku:
+		l = "神戸市 %s %s" % (ku.pop(), ls.pop())
+	else:
+		l = "神戸市 %s" % (ls.pop(),)
+	
 	if l not in geo:
 		g = geocoder.google(l)
 		if g.ok:
