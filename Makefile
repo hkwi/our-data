@@ -1,4 +1,4 @@
-all: nursery infection nobi.json repo
+all: nursery infection nobi.json osk carenet repo
 
 nobi:
 	PYTHONIOENCODING=utf8 python3 nobi_fetch.py > nobi.csv
