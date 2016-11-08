@@ -13,9 +13,7 @@ nursery:
 	python3 nursery_reparse.py
 	python shinseido_pdftocsv.py
 	python3 shinseido_reparse.py
-	python3 shinseido_reparse1.py
-	python3 shinseido_reparse1p.py
-	PYTHONIOENCODING=utf8 python3 nursery_map.py > shinseido.json
+	#PYTHONIOENCODING=utf8 python3 nursery_map.py > shinseido.json
 
 .PHONY: carenet
 carenet:
