@@ -8,7 +8,7 @@ nobi.json: nobi
 
 .PHONY: nursery
 nursery:
-	python3 nursery_urls.py | wget -x -N -i -
+	python3 nursery_urls.py | wget -q -x -N -i -
 	python nursery_pdftocsv.py
 	python3 nursery_reparse.py
 	python shinseido_pdftocsv.py
@@ -17,17 +17,17 @@ nursery:
 
 .PHONY: carenet
 carenet:
-	wget -N -np -r http://www.city.kobe.lg.jp/life/support/carenet/shisetsu/index.html
+	wget -q -N -np -r http://www.city.kobe.lg.jp/life/support/carenet/shisetsu/index.html
 
 .PHONY: infection
 infection:
-	python3 infection_urls.py | wget -x -N -i -
+	python3 infection_urls.py | wget -q -x -N -i -
 	python infection_pdftocsv.py
 	python3 infection_reparse.py
 
 osk:
-	python3 osk_urls.py | wget -x -N -i -
-	python3 himeji_urls.py | wget -x -N -i -
+	python3 osk_urls.py | wget -q -x -N -i -
+	python3 himeji_urls.py | wget -q -x -N -i -
 
 .PHONY: repo
 	git add infection
