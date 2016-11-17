@@ -52,7 +52,8 @@ def capture(g, page, idx, data, info):
 						g.add((R, NS1[k+"_備考"], Literal(n)))
 					else:
 						raise ValueError(v)
-				v = jaconv.normalize(v).replace(" ","")
+				if k != "所在地":
+					v = jaconv.normalize(v).replace(" ","")
 				g.add((R, NS1[k], Literal(v)))
 			elif k == "分類":
 				m = re.match("^(?P<institute>.*?)([\(（](?P<finance>.*)[\)）])?$", v)
