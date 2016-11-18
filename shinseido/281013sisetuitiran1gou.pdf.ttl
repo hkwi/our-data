@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> dcterms:issued "2016-10-13"^^xsd:date ;
-    dcterms:title "私立幼稚園・認定こども園 H29年度施設一覧（予定）（１号認定子ども等用）" .
+    dcterms:title "私立幼稚園・認定こども園 H29年度施設一覧（予定） （１号認定子ども等用）" .
 
 [] ns1:service [ ns1:name "園バス" ],
         [ ns1:name "園庭開放" ],

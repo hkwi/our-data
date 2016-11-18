@@ -14,7 +14,8 @@ NS1 = Namespace("http://hkwi.github.io/y0t5/terms#")
 
 def capture(g, page, idx, data, info):
 	try:
-		notes = info["page"][str(page)]["notes"]
+		notes = {p["key"]:p["value"] for p in info
+			if int(p["page"])==page and p["key"].startswith("※")}
 	except:
 		notes = {}
 	

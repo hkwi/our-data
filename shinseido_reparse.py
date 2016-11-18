@@ -1,4 +1,5 @@
 import re
+import os.path
 import json
 import glob
 import csv
@@ -9,10 +10,6 @@ import csv2rdf.kouritu
 import csv2rdf.itiran1
 import csv2rdf.itiran23
 
-base = None
-with open("shinseido_base.json", encoding="UTF-8") as f:
-	base = json.load(f)
-
 fs = {}
 for f in glob.glob("shinseido/*.pdf.p*.csv"):
 	d,b,e,p = re.match("^(.*/)?(.*?)(\.p(\d+)\.csv)$", f).groups()
@@ -21,17 +18,29 @@ for f in glob.glob("shinseido/*.pdf.p*.csv"):
 		fs[k] = []
 	fs[k].append((int(p),e))
 
+info = [r for r in 
+	csv.DictReader(open("shinseido_meta/index.csv", encoding="UTF-8"))]
+
 for d,b in fs.keys():
 	g = rdflib.Graph()
 	g.bind("dcterms", DCTERMS)
 	
-	info = [i for i in base if i["file"]==b][0]
-	if "title" in info:
+	csvfile = "shinseido_meta/%s" % b.replace(".pdf",".csv")
+	if os.path.exists(csvfile):
+		pinfo = [r for r in 
+			csv.DictReader(open(csvfile, encoding="UTF-8"))]
+	else:
+		pinfo = []
+	
+	title = " ".join([p["value"] for p in pinfo if p["key"]=="title"])
+	if title:
 		g.add((rdflib.URIRef(""), DCTERMS["title"],
-			rdflib.Literal(info["title"])))
-	if "date" in info:
+			rdflib.Literal(title)))
+	
+	date = "".join([p["date"] for p in info if p["file"]==b])
+	if date:
 		g.add((rdflib.URIRef(""), DCTERMS["issued"],
-			rdflib.Literal(info["date"], datatype=XSD.date)))
+			rdflib.Literal(date, datatype=XSD.date)))
 	
 	page_idx = None
 	for p,e in sorted(fs[(d,b)]):
@@ -57,7 +66,8 @@ for d,b in fs.keys():
 		
 		override = {}
 		try:
-			override = info["page"][str(p)]["fields"]
+			override = {i["key"]:i["value"] for i in pinfo
+				if int(i["page"])==p and not i["key"].startswith("※")}
 		except:
 			pass
 		
@@ -92,16 +102,16 @@ for d,b in fs.keys():
 		if re.search("kouritu", b):
 			idx, data = drain(bulk[s:s+2], bulk[s+2:])
 			assert page_idx is None or len(page_idx) == len(idx)
-			csv2rdf.kouritu.capture(g, p, idx, data, info)
+			csv2rdf.kouritu.capture(g, p, idx, data, pinfo)
 		elif re.search("itiran1", b):
 			idx, data = drain(bulk[s:s+3], bulk[s+3:])
 			assert page_idx is None or len(page_idx) == len(idx)
-			csv2rdf.itiran1.capture(g, p, idx, data, info)
+			csv2rdf.itiran1.capture(g, p, idx, data, pinfo)
 		elif re.search("itiran23", b):
 			end = find_header_end()
 			idx, data = drain(bulk[s:end+1], bulk[end+1:])
 			assert page_idx is None or len(page_idx) == len(idx)
-			csv2rdf.itiran23.capture(g, p, idx, data, info)
+			csv2rdf.itiran23.capture(g, p, idx, data, pinfo)
 		else:
 			raise ValueError(b)
 		

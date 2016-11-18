@@ -5,6 +5,8 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<> dcterms:issued "2015-09-30"^^xsd:date .
+
 [] ns1:service [ ns1:name "預かり保育" ;
             ns1:回数 "週2～3回" ;
             ns1:夕_終了時刻 "16:00" ] ;
