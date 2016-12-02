@@ -11,7 +11,7 @@ for f in glob.glob("www.city.kobe.lg.jp/child/grow/shinseido/img/*.pdf"):
 	if os.path.exists(out) and os.stat(out).st_mtime >= os.stat(f).st_mtime:
 		continue
 	
-	info = [r for r in csv.DictReader(open("shinseido_meta/index.csv"), encoding="UTF-8")
+	info = [r for r in csv.DictReader(open("shinseido_meta/index.csv", encoding="UTF-8"))
 		if r["file"] == fn]
 	assert info, fn
 	

@@ -9,9 +9,9 @@ nobi.json: nobi
 .PHONY: nursery
 nursery:
 	python3 nursery_urls.py | wget -q -x -N -i -
-	python nursery_pdftocsv.py
+	python3 nursery_pdftocsv.py
 	python3 nursery_reparse.py
-	python shinseido_pdftocsv.py
+	python3 shinseido_pdftocsv.py
 	python3 shinseido_reparse.py
 	#PYTHONIOENCODING=utf8 python3 nursery_map.py > shinseido.json
 
