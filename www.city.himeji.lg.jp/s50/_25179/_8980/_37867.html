@@ -152,7 +152,7 @@ type="text/javascript"></script>
 <table align="left" style="width: 600px; margin-left: auto">
 <tbody>
 <tr>
-<td style="vertical-align: top"><input alt="サイト内検索" src="/library/bg/bg_side_search_init.gif" type="image" width="35" align="left" value="" /><input onfocus="SogoSearchHideFormGuide(this);" onblur="SogoSearchShowFormGuide(this);" class="hmInputForm" size="28" value="" name="q" label="検索文字を入力" /> <input class="hmSearchBt" alt="検索" src="/library/bt/bt_side_search.gif" type="image" width="65" value="" name="search" heigth="65" /></td>
+<td style="vertical-align: top"><input id="gkensaku" alt="サイト内検索" src="/library/bg/bg_side_search_init.gif" type="image" width="35" align="left" value="" /><input onfocus="SogoSearchHideFormGuide(this);" onblur="SogoSearchShowFormGuide(this);" id="SearchBox" class="hmInputForm" size="28" value="" name="q" label="検索文字を入力" /> <input id="searchB" class="hmSearchBt" alt="検索" src="/library/bt/bt_side_search.gif" type="image" width="65" value="" name="search" heigth="65" /></td>
 </tr>
 <tr>
 <td style="width: 10%; vertical-align: top; white-space: nowrap">
@@ -218,8 +218,8 @@ type="text/javascript"></script>
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div style="display: none">
-<form id="internetSearch" method="get" name="internetSearch" action="http://www.google.co.jp/search"><input type="hidden" value="google-coop-np" name="client" /> <input type="hidden" value="AH%3Aleft%3BCX%3Awww%252Ecity%252Ehimeji%252Elg%252Ejp%3BL%3Ahttp%3A%2F%2Fwww.google.com%2Fcoop%2Fintl%2Fja%2Fimages%2Fcustom_search_sm.gif%3BLH%3A65%3BLP%3A1%3BGFNT%3A%23666666%3BDIV%3A%23cccccc%3B" name="cof" /> <input type="hidden" value="AELymgW_1JYn-omR3rKnfwcxUDMc-dCjs83S8n6CznNC-szBSa_Aw6jexvAtzBhRXX3dhyiKME8LkLr_v9bJ1Dr40DTTeLAumhd9i0bPN3KiOc4XhDVm0uI" name="adkw" /> <input type="hidden" value="%21013857332154742418927%3Ak9229ixpwyg" name="cx" /> <input type="hidden" value="ja" name="hl" /> <input type="hidden" value="www.city.himeji.lg.jp" name="domains" /> <input type="hidden" value="" name="q" /></form>
-<form id="internalSearch" method="get" name="internalSearch" action="/view.php"><input type="hidden" value="18774" name="pageId" /> <input type="hidden" value="" name="q" /></form>
+<form id="internetSearch" method="get" name="internetSearch" action="http://www.google.co.jp/search"><input id="col1" type="hidden" value="google-coop-np" name="client" /> <input id="col2" type="hidden" value="AH%3Aleft%3BCX%3Awww%252Ecity%252Ehimeji%252Elg%252Ejp%3BL%3Ahttp%3A%2F%2Fwww.google.com%2Fcoop%2Fintl%2Fja%2Fimages%2Fcustom_search_sm.gif%3BLH%3A65%3BLP%3A1%3BGFNT%3A%23666666%3BDIV%3A%23cccccc%3B" name="cof" /> <input id="col3" type="hidden" value="AELymgW_1JYn-omR3rKnfwcxUDMc-dCjs83S8n6CznNC-szBSa_Aw6jexvAtzBhRXX3dhyiKME8LkLr_v9bJ1Dr40DTTeLAumhd9i0bPN3KiOc4XhDVm0uI" name="adkw" /> <input id="col4" type="hidden" value="%21013857332154742418927%3Ak9229ixpwyg" name="cx" /> <input id="col5" type="hidden" value="ja" name="hl" /> <input id="col6" type="hidden" value="www.city.himeji.lg.jp" name="domains" /> <input id="col7" type="hidden" value="" name="q" /></form>
+<form id="internalSearch" method="get" name="internalSearch" action="/view.php"><input id="col8" type="hidden" value="18774" name="pageId" /> <input id="col9" type="hidden" value="" name="q" /></form>
 </div>
 </div>
 </div>
@@ -258,7 +258,9 @@ type="text/javascript"></script>
 					
 					<div id="pbNestDiv2005444" style="margin:0;padding:0;border-width:0;line-height:normal;text-indent:0;">
 <div class="pbBlock pbBlockBase">
-<div class="hm-HdCont-Reader"><span id="readspeaker_button1" class="rs_skip"><a onclick="readpage(this.href, 'xp1'); return false;" accesskey="L" href="http://app.as.readspeaker.com/cgi-bin/rsent?customerid=7395&amp;lang=ja_jp&amp;readid=mainArea&amp;url=" target="_blank"><img title="音声で読み上げる" alt="音声で読み上げる" src="/library/ic/ic_volume_up.gif" style="border-top-style: none; vertical-align: middle; border-bottom-style: none; border-right-style: none; border-left-style: none" /> 読み上げる</a></span></div>
+<div class="hm-HdCont-Reader">
+<div id="xp1" class="rs_preserve"><span id="rsbtn " class="rs_skip"><img title="音声で読み上げる" alt="音声で読み上げる" src="/library/ic/ic_volume_up.gif" style="border-top-style: none; vertical-align: middle; border-bottom-style: none; border-right-style: none; border-left-style: none" /> <a href="http://app.as.readspeaker.com/cgi-bin/rsent?customerid=7395&amp;lang=ja_jp&amp;readid=mainArea&amp;url=">読み上げる</a></span></div>
+</div>
 </div>
 </div>
 
@@ -267,7 +269,7 @@ type="text/javascript"></script>
 					
 					<div id="pbNestDiv2005445" style="margin:0;padding:0;border-width:0;line-height:normal;text-indent:0;">
 <div class="pbBlock pbBlockBase">
-<div class="hm-HdCont-Language"><img alt="他の言語を選択する" src="/library/ic/ic_earth.gif" style="vertical-align: middle" /> <strong>Foreign Language</strong> <a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=en&amp;XMODE=0" target="_blank">English</a>|<a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=zh&amp;XMODE=0" target="_blank">中文</a>|<a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=ko&amp;XMODE=0" target="_blank">한국어</a>|<a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=fr&amp;XMODE=0" target="_blank">Français</a>|<a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=es&amp;XMODE=0" target="_blank">Español</a>|<a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=pt&amp;XMODE=0" target="_blank">Português</a>|<a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=de&amp;XMODE=0" target="_blank">Deutsch</a>|<a class="transLng" href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=vi&amp;XMODE=0" target="_blank">Việt Nam</a></div>
+<div class="hm-HdCont-Language"><img alt="他の言語を選択する" src="/library/ic/ic_earth.gif" style="vertical-align: middle" /> <strong>Foreign Language</strong> <a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=en&amp;XMODE=0">English</a>|<a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=zh&amp;XMODE=0">中文</a>|<a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=ko&amp;XMODE=0">한국어</a>|<a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=fr&amp;XMODE=0">Français</a>|<a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=es&amp;XMODE=0">Español</a>|<a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=pt&amp;XMODE=0">Português</a>|<a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=de&amp;XMODE=0">Deutsch</a>|<a href="http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/tl_ex.cgi?SURL=http://translate.city.himeji.lg.jp/LUCHIMEJI/ns/warning_mess3.cgi%3furl=http://www.city.himeji.lg.jp/%26target=_top&amp;SLANG=ja&amp;TLANG=vi&amp;XMODE=0">Việt Nam</a></div>
 </div>
 </div>
 
@@ -303,6 +305,8 @@ type="text/javascript"></script>
 <ul class="hm-GrobalNavi">
 <li><a href="/guide/castle.html">姫路城大図鑑</a></li>
 <li><a class="pbOpenNewWindow" href="http://www.himejicastle.jp/">姫路城大入実況</a></li>
+<li><a class="pbOpenNewWindow" href="http://www.himejicastle-kirameki.jp/">世界文化遺産　姫路城<br />
+　ナイトアドベンチャー　～煌～</a>&nbsp;</li>
 <li><a href="/topic/letter.html">お城からの手紙</a></li>
 <li><a href="/topic/photobank.html">姫路フォトバンク</a></li>
 <li><a href="/topic/_16175.html">姫路フィルムコミッション</a></li>
@@ -557,11 +561,11 @@ type="text/javascript"></script>
 					</div>					<div class="pbBlock pbBlockMenu ">
 						<span><a href="/s50/_25179/_8980/_37281.html" >寡婦（夫）控除のみなし適用について</a></span>
 					</div>					<div class="pbBlock pbBlockMenu ">
-						<span><a href="/s50/_25179/_8980/_17860.html" >平成28年度　姫路市教育・保育施設一覧(順不同)</a></span>
-					</div>					<div class="pbBlock pbBlockMenu ">
 						<span><a href="/s50/_25179/_8980/_37867.html" >平成29年度　姫路市教育保育施設一覧（順不同）</a></span>
 					</div>					<div class="pbBlock pbBlockMenu ">
 						<span><a href="/s50/_25179/_8980/_37871.html" >平成29年度　教育・保育施設に関する申請書等ダウンロードサービス</a></span>
+					</div>					<div class="pbBlock pbBlockMenu ">
+						<span><a href="/s50/_25179/_8980/_17860.html" >平成28年度　姫路市教育・保育施設一覧(順不同)</a></span>
 					</div>
 			</div>
 		</div>
@@ -5627,7 +5631,7 @@ type="text/javascript"></script>
 <div class="pbBlock pbBlockBase">
 <div class="hmFooterLinkBox">
 <ul>
-<li><a href="/sub/about.html">このサイトについて</a>&nbsp;&nbsp;</li>
+<li><a href="/sub/about.html">このサイトについて</a></li>
 <li><a href="/sub/privacy.html">プライバシーポリシー</a></li>
 <li><a href="/sub/copy.html">著作権・リンク・免責事項</a></li>
 </ul>
@@ -5700,4 +5704,4 @@ pageTracker._trackPageview();
 </body>
 </html>
 
-<!-- static作成日時 2016/11/15 17:14:07 ,staticファイル名 s50/_25179/_8980/_37867.html (from:php) --> 
+<!-- static作成日時 2016/12/02 10:32:49 ,staticファイル名 s50/_25179/_8980/_37867.html (from:php) --> 

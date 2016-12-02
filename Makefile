@@ -27,7 +27,6 @@ infection:
 
 osk:
 	python3 osk_urls.py | wget -q -x -N -i -
-	python3 himeji_urls.py | wget -q -x -N -i -
 
 .PHONY: repo
 	git add infection

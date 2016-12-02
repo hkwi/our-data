@@ -16,7 +16,9 @@ def is_tate(s):
 		return False
 	return True
 
-r = lxml.html.parse("http://www.city.himeji.lg.jp/s50/_25179/_8980.html").getroot()
+url = "http://www.city.himeji.lg.jp/s50/_25179/_8980.html"
+print(url)
+r = lxml.html.parse(url).getroot()
 r.make_links_absolute()
 for anchor in r.xpath('//*[@id="mainArea"]//a'):
 	if "施設一覧" in anchor.text:
