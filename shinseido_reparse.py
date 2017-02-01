@@ -103,7 +103,7 @@ for d,b in fs.keys():
 			idx, data = drain(bulk[s:s+2], bulk[s+2:])
 			assert page_idx is None or len(page_idx) == len(idx)
 			csv2rdf.kouritu.capture(g, p, idx, data, pinfo)
-		elif re.search("itiran1", b):
+		elif re.search("itiran(\d+nendo)?1", b):
 			idx, data = drain(bulk[s:s+3], bulk[s+3:])
 			assert page_idx is None or len(page_idx) == len(idx)
 			csv2rdf.itiran1.capture(g, p, idx, data, pinfo)
