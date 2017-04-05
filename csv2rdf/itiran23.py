@@ -76,7 +76,7 @@ def capture(g, page, idx, data, info):
 						g.add((R, NS1["電話番号"], Literal("078-"+v)))
 				elif v == "開設予定":
 					g.add((R, NS1["電話番号_備考"], Literal(v)))
-				elif v == "※" and obj["分類"] == "家庭的保育事業":
+				elif v == "※":
 					g.add((R, NS1["電話番号_備考"], Literal("相談時にお知らせいたします")))
 				else:
 					raise ValueError(json.dumps(v))

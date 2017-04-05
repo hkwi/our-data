@@ -87,16 +87,48 @@ for d,b in fs.keys():
 				idx.append(" ".join(slot))
 				idx_idx.append(ci)
 			
-			data = []
-			for d in data_rows:
-				if not "".join([d[i] for i in idx_idx]):
-					continue
-				
-				dr = []
-				for i in idx_idx:
-					dr.append(override.get(idx[len(dr)], d[i]))
-				data.append(dr)
-			return idx, data
+			auto = [x in override for x in idx]
+			
+			def remove_dup(data_rows):
+				prev = None
+				data = []
+				for ri,dx in enumerate(data_rows):
+					if not "".join([dx[i] for i in idx_idx]):
+						prev = None
+						continue
+					
+					dr = []
+					for i in idx_idx:
+						dr.append(override.get(idx[len(dr)], dx[i]))
+					
+					if prev:
+						p2 = list(prev)
+						for i,r in enumerate(dr):
+							if auto[i]:
+								continue
+							if len(prev[i])==0 and len(r)>0:
+								prev[i] = r
+							elif len(prev[i])>0 and len(r)==0:
+								pass
+							elif len(prev[i])>0 and len(r)>0:
+								prev = None
+								break
+					
+					# ct = sum([1 for x in dr if x])
+					# if ct < 3:
+					# 	print(ri, dr, p2)
+					
+					if prev is None:
+						data.append(dr)
+						prev = list(dr)
+					else:
+						# MERGE into previous line
+						# print(d, b, p2, dr)
+						data[-1] = prev
+						prev = None
+				return data
+			
+			return idx, remove_dup(data_rows)
 		
 		s = find_header_start()
 		if re.search("kouritu", b):
