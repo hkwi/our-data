@@ -89,6 +89,8 @@ locations = [
 	("明石市", "http://www.city.kobe.lg.jp/child/education/program/nobi-akashi.html"),
 	("淡路島（淡路市・洲本市・南あわじ市）・徳島市・鳴門市", "http://www.city.kobe.lg.jp/child/education/program/nobi-awajishima_naruto_tokushima.html"),
 	("篠山市", "http://www.city.kobe.lg.jp/child/education/program/nobi-sasayama.html"),
+	("堺市", "http://www.city.kobe.lg.jp/child/education/program/nobi-sakai.html"),
+	("岸和田市", "http://www.city.kobe.lg.jp/child/education/program/nobi-kishiwada.html"),
 ]
 
 data = []
