@@ -1700,6 +1700,27 @@
         "駐車場": ""
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          135.4417553,
+          34.2807411
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "area": "紀の川市",
+        "name": "青洲の里・春林軒",
+        "url": "http://seishu.sakura.ne.jp/",
+        "交通機関": "JR和歌山線 名手駅(徒歩20分)",
+        "休館日": "",
+        "所在地": "紀の川市西野山473番地",
+        "開館時間": "",
+        "電話": "0736-75-6008",
+        "駐車場": ""
+      },
+      "type": "Feature"
     }
   ],
   "type": "FeatureCollection"

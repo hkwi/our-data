@@ -91,6 +91,7 @@ locations = [
 	("篠山市", "http://www.city.kobe.lg.jp/child/education/program/nobi-sasayama.html"),
 	("堺市", "http://www.city.kobe.lg.jp/child/education/program/nobi-sakai.html"),
 	("岸和田市", "http://www.city.kobe.lg.jp/child/education/program/nobi-kishiwada.html"),
+	("紀の川市", "http://www.city.kobe.lg.jp/child/education/program/nobi-kinokawa.html"),
 ]
 
 data = []
