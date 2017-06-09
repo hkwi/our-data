@@ -31,7 +31,7 @@ def name_normalize(s):
 	s = s.replace("―", "ー")
 	s = s.replace("（仮称）", "")
 	s = s.replace("(仮称)", "")
-	m = re.match("^(幼保連携型)?(認定)?(こども園)?(?P<name>.*)$", s)
+	m = re.match("^(幼保連携型)?((園\s*)?認定)?(こども園)?(?P<name>.*)$", s)
 	if m:
 		s = m.group("name")
 	
@@ -94,6 +94,8 @@ for s_idx,s_fname in seido:
 		data[key].append((s_idx, d))
 
 assert "夢遊喜分園" not in data, "例外処理の確認"
+if data.get("天隣乳児保育園") is None:
+	data["天隣乳児保育園"] = []
 data["天隣乳児保育園"].append(("補遺", {
 	"注":"平成２９年４月より神視保育園と統合します",
 	"施設名":"天隣乳児保育園",

@@ -3,10 +3,10 @@ import csv
 import glob
 
 def proc(fn, out):
-	w = csv.writer(open(out, "w"))
+	w = csv.writer(open(out, "w", encoding="UTF-8"))
 	idx = []
 	subindex = False
-	for l in csv.reader(open(fn)):
+	for l in csv.reader(open(fn, encoding="UTF-8")):
 		if l[0] == "疾病名称":
 			for i,r in reversed(list(enumerate(l))):
 				if r.find("～") >= 0:

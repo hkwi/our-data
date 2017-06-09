@@ -21,6 +21,6 @@ for f in glob.glob("www.city.kobe.lg.jp/child/grow/shinseido/img/*.pdf"):
 	for page in range(*pages):
 		a = pte.process_page(f, str(page))
 		x = pte.table_to_list(a, page)
-		with open("shinseido/%s.p%02d.csv" % (fn, page), "w") as o:
+		with open("shinseido/%s.p%02d.csv" % (fn, page), "w", encoding="UTF-8") as o:
 			w = csv.writer(o)
 			w.writerows(x[-1])

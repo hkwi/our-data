@@ -23,7 +23,7 @@ def proc(fn, out):
 	subindex = False
 	tail = None
 	ct = 0
-	for l in csv.reader(open(fn)):
+	for l in csv.reader(open(fn, encoding="UTF-8")):
 		if l[0] == "分類":
 			idx_one = l
 		elif idx_one:
@@ -91,7 +91,7 @@ for f in glob.glob("nursery/*.pdf.csv"):
 	else:
 		assert idx == proc(f, None), f
 
-w = csv.writer(open("nursery/all.csv", "w"))
+w = csv.writer(open("nursery/all.csv", "w", encoding="UTF-8"))
 w.writerow(idx)
 for f in glob.glob("nursery/*.pdf.csv"):
 	proc(f, w)

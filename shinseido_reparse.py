@@ -45,8 +45,12 @@ for d,b in fs.keys():
 	page_idx = None
 	for p,e in sorted(fs[(d,b)]):
 		bulk = []
-		with open(d+b+e, encoding="UTF-8") as r:
-			bulk = [l for l in csv.reader(r)]
+		try:
+			with open(d+b+e, encoding="UTF-8") as r:
+				bulk = [l for l in csv.reader(r)]
+		except UnicodeDecodeError:
+			with open(d+b+e, encoding="CP932") as r:
+				bulk = [l for l in csv.reader(r)]
 		
 		def find_header_start():
 			for ri, r in enumerate(bulk):
