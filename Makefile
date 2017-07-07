@@ -22,7 +22,7 @@ carenet:
 .PHONY: infection
 infection:
 	python3 infection_urls.py | wget -q -x -N -i -
-	python infection_pdftocsv.py
+	python3 infection_pdftocsv.py
 	python3 infection_reparse.py
 
 osk:
