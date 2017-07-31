@@ -13,5 +13,6 @@ def proc(input, output):
 files = glob.glob("www.city.kobe.lg.jp/life/health/infection/sh*.pdf")
 files += glob.glob("www.city.kobe.lg.jp/life/health/infection/trend/sh*.pdf")
 files += glob.glob("www.city.kobe.lg.jp/life/health/infection/trend/*/sh*.pdf")
+files += glob.glob("www.city.kobe.lg.jp/life/health/infection/*/sh*.pdf")
 for f in files:
 	proc(f, "infection/"+os.path.basename(f)+".csv")
