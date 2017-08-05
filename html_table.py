@@ -1,3 +1,8 @@
+# HTML5 spec table parsing function
+# In html table, the number of elements varies 
+# by colspan & rowspan.
+# pandas.read_html does not handle this, for example.
+
 class Cell(object):
 	def __init__(self, x, y, col, row, e):
 		self.x = x
