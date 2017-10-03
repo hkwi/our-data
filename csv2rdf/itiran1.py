@@ -116,7 +116,7 @@ def capture(g, page, idx, data, info):
 					g.add((S, NS1["name"], Literal("園バス")))
 			elif k == "給食":
 				v = jaconv.normalize(v)
-				m = re.match("週\d日", v)
+				m = re.match("週\d(日|回)", v)
 				if m:
 					S = BNode(obj["施設名"]+"給食")
 					g.add((R, NS1["service"], S))
