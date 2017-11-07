@@ -143,7 +143,7 @@ for d,b in fs.keys():
 			idx, data = drain(bulk[s:s+3], bulk[s+3:])
 			assert page_idx is None or len(page_idx) == len(idx)
 			csv2rdf.itiran1.capture(g, p, idx, data, pinfo)
-		elif re.search("itiran23", b):
+		elif re.search("itiran23", b) or b == "291013saisyuuitiran.pdf":
 			end = find_header_end()
 			idx, data = drain(bulk[s:end+1], bulk[end+1:])
 			assert page_idx is None or len(page_idx) == len(idx)
