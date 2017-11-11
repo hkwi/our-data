@@ -89,7 +89,9 @@ for f in glob.glob("nursery/*.pdf.csv"):
 	if idx is None:
 		idx = proc(f, None)
 	else:
-		assert idx == proc(f, None), f
+		fs = proc(f, None)
+		if idx != fs:
+			print(f,idx,fs)
 
 w = csv.writer(open("nursery/all.csv", "w", encoding="UTF-8"))
 w.writerow(idx)
