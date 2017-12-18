@@ -55,7 +55,7 @@ def capture(g, page, idx, data, info):
 					if n:
 						g.add((R, NS1[k+"_備考"], Literal(n)))
 					else:
-						raise ValueError(v)
+						raise ValueError(repr(m.groups()))
 				if k != "所在地":
 					v = jaconv.normalize(v).replace(" ","")
 				g.add((R, NS1[k], Literal(v)))
@@ -77,7 +77,7 @@ def capture(g, page, idx, data, info):
 						g.add((R, NS1["電話番号"], Literal(v)))
 					else:
 						g.add((R, NS1["電話番号"], Literal("078-"+v)))
-				elif "予定" in v:
+				elif "予定" in v or "未定" in v:
 					g.add((R, NS1["電話番号_備考"], Literal(v)))
 				elif v == "※":
 					g.add((R, NS1["電話番号_備考"], Literal("相談時にお知らせいたします")))
